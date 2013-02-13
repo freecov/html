@@ -322,7 +322,10 @@
   }
 }
 // Menu position and menu caret support for dropups via extra dropup class
-.navbar-fixed-bottom .nav > li > .dropdown-menu {
+.navbar .nav > .dropup > .dropdown-menu {
+  margin-bottom: 7px;
+}
+.navbar .nav > .dropup > .dropdown-menu, .navbar-fixed-bottom .nav > li > .dropdown-menu {
   &:before {
     border-top: 7px solid #ccc;
     border-top-color: @dropdownBorder;
