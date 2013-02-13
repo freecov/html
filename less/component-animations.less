@@ -2,21 +2,20 @@
 // Component animations
 // --------------------------------------------------
 
-
 .fade {
-  opacity: 0;
+  opacity : 0;
   .transition(opacity .15s linear);
   &.in {
-    opacity: 1;
+    opacity : 1;
   }
 }
 
 .collapse {
-  position: relative;
-  height: 0;
-  overflow: hidden;
+  position : relative;
+  height   : 0;
+  overflow : hidden;
   .transition(height .35s ease);
   &.in {
-    height: auto;
+    height : auto;
   }
 }

@@ -3,213 +3,177 @@
 // --------------------------------------------------
 
 .widget-box {
+  background : #FFFFFF;
+  border     : 1px solid #CDCDCD;
+  clear      : both;
+  margin     : 16px 0;
+  position   : relative;
 
- 	background: #FFFFFF;
-    border: 1px solid #CDCDCD;
-    clear: both;
-    margin: 16px 0;
-    position: relative;
+  .accordion & {
+    .border-radius(0);
+    margin : -2px 0 0;
+  }
+  .sale {
+    background : #F9F9F9;
+  }
+  .tabbable { //background: #FFFFFF;
+  }
+  .tab-content {
+    overflow : inherit;
+  }
 
-    .accordion & {
-        .border-radius(0);
-        margin: -2px 0 0;
-    }
-	.sale {
-	
-	background: #F9F9F9;
-	
-	}
-	.tabbable{
-	
-	 //background: #FFFFFF;
-	
-	
-	 }
-	 .tab-content {
-	 overflow: inherit;
-	 
-	 }
-	 
-	 
 }
-
 
 .widget-addnew {
 
-   
-   .well{
-   height:145px;
-   padding-top:200px;
-   text-align: center;
-   
-   }
-   .btn
-   {
-   
-   background-image: none;
-   color: #A2A2A2;
-   
-   
-   
-   }
-   
-	height: 420px;
-    margin: 16px 0;
-	
-	position: relative;
-	a {
-	
-	  display: block;
-	}
+  .well {
+    height      : 145px;
+    padding-top : 200px;
+    text-align  : center;
+  }
+  .btn {
+    background-image : none;
+    color            : #A2A2A2;
+  }
 
+  height   : 420px;
+  margin   : 16px 0;
+  position : relative;
+  a {
+    display : block;
+  }
 
 }
 
-
 .widget-box-sale {
-	
-	  background: #F9F9F9;
-	
-	}
-
-
+  background : #F9F9F9;
+}
 
 .widget-title, .modal-header, .table th, .dataTables_wrapper .ui-widget-header {
-    #gradient > .vertical(#fdfdfd, #efefef);
-    border-bottom: 1px solid #CDCDCD;
-	//.border-radius(@baseBorderRadius @baseBorderRadius 0 0);
-    
+  #gradient > .vertical(#fdfdfd, #efefef);
+  border-bottom : 1px solid #CDCDCD; //.border-radius(@baseBorderRadius @baseBorderRadius 0 0);
 }
 
 .widget-title {
+  padding-right : 140px;
 
-     padding-right: 140px;
+  .navs-title {
+    width : 400px;
+    float : left;
+  }
 
-    .navs-title{
-	
-	width:400px;
-	float:left;
-	
-	}
-	
-    .nav-tabs {
-        border-bottom: 0;
-		float: right;
-	  
-    	
+  .nav-tabs {
+    border-bottom : 0;
+    float         : right;
 
-        li  {
-            a {
-                border: 1px solid #ddd;
-                border-width: 0 1px;
-                .border-radius(0);
-                color: #999999;
-                margin: 0;
-                outline: none;
-                padding: 9px 10px 8px;
-                text-shadow: 0 1px 0 #FFFFFF;
+    li {
+      a {
+        border       : 1px solid #ddd;
+        border-width : 0 1px;
+        .border-radius(0);
+        color        : #999999;
+        margin       : 0;
+        outline      : none;
+        padding      : 9px 10px 8px;
+        text-shadow  : 0 1px 0 #FFFFFF;
 
-                &:hover {
-                    background-color: transparent;
-                    border-color: #D6D6D6;
-                    border-width: 0 1px;
-                    color: #666666;
-                }
-            }
-
-            &.active a {
-                background-color: #F9F9F9;
-                color: #444444;                        
-            }
+        &:hover {
+          background-color : transparent;
+          border-color     : #D6D6D6;
+          border-width     : 0 1px;
+          color            : #666666;
         }
-    }
+      }
 
-    .title-icon  {
-    	border-right: 1px solid #cdcdcd;
-        line-height: 36px;
-    	padding: 0 10px;
-    	float: left;
-    	.opacity(70);
+      &.active a {
+        background-color : #F9F9F9;
+        color            : #444444;
+      }
     }
+  }
 
-    h5 {
-        color: #666;
-        display: inline-block;
-        font-size: 12px;
-        line-height: 36px;
-        margin: 0;
-        padding: 0 12px;
-    	text-shadow: 0 1px 0 #ffffff;
-    }
+  .title-icon {
+    border-right : 1px solid #cdcdcd;
+    line-height  : 36px;
+    padding      : 0 10px;
+    float        : left;
+    .opacity(70);
+  }
 
-    .buttons {
-    	float: right;
-	  
-    	margin: 8px -130px 0 0;
-    }
+  h5 {
+    color       : #666;
+    display     : inline-block;
+    font-size   : 12px;
+    line-height : 36px;
+    margin      : 0;
+    padding     : 0 12px;
+    text-shadow : 0 1px 0 #ffffff;
+  }
 
-    .label, .badge {
-    	.box-shadow(~"inset 0 1px 2px rgba(0,0,0,0.3), 0 1px 0 #ffffff");
-        margin: 9px 15px 0 0;
-        padding: 3px 5px 2px;
-    }
+  .buttons {
+    float  : right;
+    margin : 8px -130px 0 0;
+  }
+
+  .label, .badge {
+    .box-shadow(~"inset 0 1px 2px rgba(0,0,0,0.3), 0 1px 0 #ffffff");
+    margin  : 9px 15px 0 0;
+    padding : 3px 5px 2px;
+  }
 }
 
 .widget-content {
-    padding: 10px;
-     .collapse.in & {
-        border-bottom: 1px solid #CDCDCD;
-    }
+  padding : 10px;
+  .collapse.in & {
+    border-bottom : 1px solid #CDCDCD;
+  }
 
-    .tab-content {
-      overflow: hidden;
-	   
-    }
+  .tab-content {
+    overflow : hidden;
+  }
 
 }
 
 .widget-table {
-    padding: 0px;
-     .collapse.in & {
-        border-bottom: 1px solid #CDCDCD;
-    }
-    .tab-content {
-      overflow: hidden;
-    }
-	.pagination{
-		padding: 0 10px;
-		margin: 5px 0px 10px 0px;
-		text-align: center;
-	}
-	.table{
-	margin-bottom: 15px;
-	}
-	.table td{
-	border-bottom: 1px solid #DDDDDD;
-	}
+  padding : 0px;
+  .collapse.in & {
+    border-bottom : 1px solid #CDCDCD;
+  }
+  .tab-content {
+    overflow : hidden;
+  }
+  .pagination {
+    padding    : 0 10px;
+    margin     : 5px 0px 10px 0px;
+    text-align : center;
+  }
+  .table {
+    margin-bottom : 15px;
+  }
+  .table td {
+    border-bottom : 1px solid #DDDDDD;
+  }
 }
 
-
 .widget-plain {
-    background: transparent;
-    border: none;
-    margin: 0;
-	
-	.widget-content {
-	padding: 12px 0 0;
-	}
-}    
+  background : transparent;
+  border     : none;
+  margin     : 0;
+
+  .widget-content {
+    padding : 12px 0 0;
+  }
+}
 
 .widget-calendar, .widget-chat {
-    overflow:hidden !important;
+  overflow : hidden !important;
 }
 
 .widget-calendar {
-    .label {
+  .label {
+  }
 
-    }
-
-    .badge {
-    	/*margin-right: 190px;*/
-    }
+  .badge {
+  /*margin-right: 190px;*/
+  }
 }

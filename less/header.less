@@ -2,58 +2,44 @@
 // Header
 // --------------------------------------------------
 
-
 // Base class
 .header {
-  min-height: 10px;
-  padding: 5px 15px 5px 15px;
-  margin-bottom: 20px;
-  //background-color: darken(@wellBackground, 7%);
-  background-color: #FFF;
-  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.067);
-// background-image: url(@bgurllightgray2);
+  min-height       : 10px;
+  padding          : 5px 15px 5px 15px;
+  margin-bottom    : 20px; //background-color: darken(@wellBackground, 7%);
+  background-color : #FFF;
+  box-shadow       : 0 0px 4px rgba(0, 0, 0, 0.067); // background-image: url(@bgurllightgray2);
+//border: 1px solid darken(@wellBackground, 7%);
+  .border-radius(@baseBorderRadius); // .box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
 
-
-  //border: 1px solid darken(@wellBackground, 7%);
-  .border-radius(@baseBorderRadius);
- // .box-shadow(inset 0 1px 1px rgba(0,0,0,.05));
- 
   blockquote {
-    border-color: #ddd;
-    border-color: rgba(0,0,0,.15);
+    border-color : #ddd;
+    border-color : rgba(0, 0, 0, .15);
   }
   .search {
-  
-  padding-top: 22px;
-  
+    padding-top : 22px;
   }
   form {
-  
-  margin:0;
+    margin : 0;
   }
-  .logo
-  {
-  min-width: 201px;
-  min-height: 69px;
-  padding-top: 10px;
-  
+  .logo {
+    min-width   : 201px;
+    min-height  : 69px;
+    padding-top : 10px;
   }
-  
-  .buttons-header{
-    width: 390px;
+
+  .buttons-header {
+    width : 390px;
   }
-  
-  .buttons{
-  float: left;
-  width: 260px;
-  
-  padding-top: 23px;
+
+  .buttons {
+    float       : left;
+    width       : 260px;
+    padding-top : 23px;
   }
-  small{
-  
-  font-size: 75%;
+  small {
+    font-size : 75%;
   }
-  
-  
+
 }
 

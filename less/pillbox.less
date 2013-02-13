@@ -1,74 +1,64 @@
 .pillbox {
+  padding : 3px;
 
-	padding: 3px;
+  ul {
+    display : inline-block;
+    margin  : 0;
+  }
 
-	ul {
-		display: inline-block;
-		margin: 0;
-	}
+  li { // Begin Bootstrap .label
+    font-size        : @baseFontSize * .846;
+    font-weight      : bold;
+    line-height      : 21px; // modified
+    color            : @white;
+    vertical-align   : baseline; //white-space: nowrap; //removed
+    text-shadow      : 0 -1px 0 rgba(0, 0, 0, .25);
+    background-color : @grayLight;
+    padding          : 1px 4px 2px;
+    .border-radius(3px); // End Bootstrap .label
+    display          : inline-block;
+    margin           : 2px;
+    cursor           : pointer;
+    float            : left;
 
-	li {
+    &:after { // Begin Bootstrap .close
+      float        : right;
+      font-size    : 20px;
+      font-weight  : bold;
+      line-height  : @baseLineHeight;
+      color        : @black;
+      text-shadow  : 0 1px 0 rgba(255, 255, 255, 1);
+      .opacity(20); // End Bootstrap .close
+      padding-left : 4px;
+      position     : relative;
+      top          : -2px;
+      content      : " \00D7"
+    }
 
-		// Begin Bootstrap .label
-		font-size: @baseFontSize * .846;
-		font-weight: bold;
-		line-height: 21px; // modified
-		color: @white;
-		vertical-align: baseline;
-		//white-space: nowrap; //removed
-		text-shadow: 0 -1px 0 rgba(0,0,0,.25);
-		background-color: @grayLight;
-		padding: 1px 4px 2px;
-		.border-radius(3px);
-		// End Bootstrap .label
+    &:hover {
+      &:after {
+        .opacity(40);
+      }
+    }
 
-		display: inline-block;
-		margin: 2px;
-		cursor: pointer;
-		float:left;
+    &.status {
+      &-important {
+        background-color : @errorText;
+      }
 
-		&:after {
+      &-warning {
+        background-color : @orange;
+      }
 
-			// Begin Bootstrap .close
-			float: right;
-			font-size: 20px;
-			font-weight: bold;
-			line-height: @baseLineHeight;
-			color: @black;
-			text-shadow: 0 1px 0 rgba(255,255,255,1);
-			.opacity(20);
-			// End Bootstrap .close
+      &-success {
+        background-color : @successText;
+      }
 
-			padding-left: 4px;
-			position: relative;
-			top: -2px;
-			content: " \00D7"
-		}
+      &-info {
+        background-color : @infoText;
+      }
+    }
 
-		&:hover {
-			&:after {
-				.opacity(40);
-			}
-		}
-
-		&.status {
-			&-important {
-				background-color: @errorText;
-			}
-
-			&-warning {
-				background-color: @orange;
-			}
-
-			&-success {
-				background-color: @successText;
-			}
-
-			&-info {
-				background-color: @infoText;
-			}
-		}
-
-	}
+  }
 
 }

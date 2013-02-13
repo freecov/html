@@ -2,60 +2,56 @@
 // Tables
 // --------------------------------------------------
 
-
 // BASE TABLES
 // -----------------
 
 table {
-  max-width: 100%;
-  background-color: @tableBackground;
-  border-collapse: collapse;
-  border-spacing: 0;
+  max-width        : 100%;
+  background-color : @tableBackground;
+  border-collapse  : collapse;
+  border-spacing   : 0;
 }
 
 // BASELINE STYLES
 // ---------------
 
 .table {
-  width: 100%;
-  margin-bottom: @baseLineHeight;
-  // Cells
+  width         : 100%;
+  margin-bottom : @baseLineHeight; // Cells
   th,
   td {
-    padding: 8px;
-    line-height: @baseLineHeight;
-    text-align: left;
-    vertical-align: top;
-    border-top: 1px solid @tableBorder;
+    padding        : 8px;
+    line-height    : @baseLineHeight;
+    text-align     : left;
+    vertical-align : top;
+    border-top     : 1px solid @tableBorder;
   }
   th {
-    font-weight: bold;
+    font-weight : bold;
   }
-  // Bottom align for column headings
+// Bottom align for column headings
   thead th {
-    vertical-align: bottom;
+    vertical-align : bottom;
   }
-  // Remove top border from thead by default
+// Remove top border from thead by default
   caption + thead tr:first-child th,
   caption + thead tr:first-child td,
   colgroup + thead tr:first-child th,
   colgroup + thead tr:first-child td,
   thead:first-child tr:first-child th,
   thead:first-child tr:first-child td {
-    border-top: 0;
+    border-top : 0;
   }
-  // Account for multiple tbody instances
+// Account for multiple tbody instances
   tbody + tbody {
-    border-top: 2px solid @tableBorder;
+    border-top : 2px solid @tableBorder;
   }
 
-  // Nesting
+// Nesting
   .table {
-    background-color: @bodyBackground;
+    background-color : @bodyBackground;
   }
 }
-
-
 
 // CONDENSED TABLE W/ HALF PADDING
 // -------------------------------
@@ -63,25 +59,24 @@ table {
 .table-condensed {
   th,
   td {
-    padding: 4px 5px;
+    padding : 4px 5px;
   }
 }
-
 
 // BORDERED VERSION
 // ----------------
 
 .table-bordered {
-  border: 1px solid @tableBorder;
-  border-collapse: separate; // Done so we can round those corners!
-  *border-collapse: collapse; // IE7 can't round corners anyway
-  border-left: 0;
+  border           : 1px solid @tableBorder;
+  border-collapse  : separate; // Done so we can round those corners!
+  *border-collapse : collapse; // IE7 can't round corners anyway
+  border-left      : 0;
   .border-radius(@baseBorderRadius);
   th,
   td {
-    border-left: 1px solid @tableBorder;
+    border-left : 1px solid @tableBorder;
   }
-  // Prevent a double border
+// Prevent a double border
   caption + thead tr:first-child th,
   caption + tbody tr:first-child th,
   caption + tbody tr:first-child td,
@@ -91,21 +86,21 @@ table {
   thead:first-child tr:first-child th,
   tbody:first-child tr:first-child th,
   tbody:first-child tr:first-child td {
-    border-top: 0;
+    border-top : 0;
   }
-  // For first th/td in the first row in the first thead or tbody
+// For first th/td in the first row in the first thead or tbody
   thead:first-child tr:first-child > th:first-child,
   tbody:first-child tr:first-child > td:first-child,
   tbody:first-child tr:first-child > th:first-child {
     .border-top-left-radius(@baseBorderRadius);
   }
-  // For last th/td in the first row in the first thead or tbody
+// For last th/td in the first row in the first thead or tbody
   thead:first-child tr:first-child > th:last-child,
   tbody:first-child tr:first-child > td:last-child,
   tbody:first-child tr:first-child > th:last-child {
     .border-top-right-radius(@baseBorderRadius);
   }
-  // For first th/td (can be either) in the last row in the last thead, tbody, and tfoot
+// For first th/td (can be either) in the last row in the last thead, tbody, and tfoot
   thead:last-child tr:last-child > th:first-child,
   tbody:last-child tr:last-child > td:first-child,
   tbody:last-child tr:last-child > th:first-child,
@@ -113,7 +108,7 @@ table {
   tfoot:last-child tr:last-child > th:first-child {
     .border-bottom-left-radius(@baseBorderRadius);
   }
-  // For last th/td (can be either) in the last row in the last thead, tbody, and tfoot
+// For last th/td (can be either) in the last row in the last thead, tbody, and tfoot
   thead:last-child tr:last-child > th:last-child,
   tbody:last-child tr:last-child > td:last-child,
   tbody:last-child tr:last-child > th:last-child,
@@ -122,7 +117,7 @@ table {
     .border-bottom-right-radius(@baseBorderRadius);
   }
 
-  // Clear border-radius for first and last td in the last row in the last tbody for table with tfoot
+// Clear border-radius for first and last td in the last row in the last tbody for table with tfoot
   tfoot + tbody:last-child tr:last-child td:first-child {
     .border-bottom-left-radius(0);
   }
@@ -130,7 +125,7 @@ table {
     .border-bottom-right-radius(0);
   }
 
-  // Special fixes to round the left border on the first td/th
+// Special fixes to round the left border on the first td/th
   caption + thead tr:first-child th:first-child,
   caption + tbody tr:first-child td:first-child,
   colgroup + thead tr:first-child th:first-child,
@@ -146,9 +141,6 @@ table {
 
 }
 
-
-
-
 // ZEBRA-STRIPING
 // --------------
 
@@ -157,11 +149,10 @@ table {
   tbody {
     > tr:nth-child(odd) > td,
     > tr:nth-child(odd) > th {
-      background-color: @tableBackgroundAccent;
+      background-color : @tableBackgroundAccent;
     }
   }
 }
-
 
 // HOVER EFFECT
 // ------------
@@ -170,11 +161,10 @@ table {
   tbody {
     tr:hover > td,
     tr:hover > th {
-      background-color: @tableBackgroundHover;
+      background-color : @tableBackgroundHover;
     }
   }
 }
-
 
 // TABLE CELL SIZING
 // -----------------
@@ -184,29 +174,27 @@ table td[class*="span"],
 table th[class*="span"],
 .row-fluid table td[class*="span"],
 .row-fluid table th[class*="span"] {
-  display: table-cell;
-  float: none; // undo default grid column styles
-  margin-left: 0; // undo default grid column styles
+  display     : table-cell;
+  float       : none; // undo default grid column styles
+  margin-left : 0; // undo default grid column styles
 }
 
 // Change the column widths to account for td/th padding
 .table td,
 .table th {
-  &.span1     { .tableColumns(1); }
-  &.span2     { .tableColumns(2); }
-  &.span3     { .tableColumns(3); }
-  &.span4     { .tableColumns(4); }
-  &.span5     { .tableColumns(5); }
-  &.span6     { .tableColumns(6); }
-  &.span7     { .tableColumns(7); }
-  &.span8     { .tableColumns(8); }
-  &.span9     { .tableColumns(9); }
-  &.span10    { .tableColumns(10); }
-  &.span11    { .tableColumns(11); }
-  &.span12    { .tableColumns(12); }
+  &.span1 { .tableColumns(1); }
+  &.span2 { .tableColumns(2); }
+  &.span3 { .tableColumns(3); }
+  &.span4 { .tableColumns(4); }
+  &.span5 { .tableColumns(5); }
+  &.span6 { .tableColumns(6); }
+  &.span7 { .tableColumns(7); }
+  &.span8 { .tableColumns(8); }
+  &.span9 { .tableColumns(9); }
+  &.span10 { .tableColumns(10); }
+  &.span11 { .tableColumns(11); }
+  &.span12 { .tableColumns(12); }
 }
-
-
 
 // TABLE BACKGROUNDS
 // -----------------
@@ -214,31 +202,31 @@ table th[class*="span"],
 
 .table tbody tr {
   &.success > td {
-    background-color: @successBackground;
+    background-color : @successBackground;
   }
   &.error > td {
-    background-color: @errorBackground;
+    background-color : @errorBackground;
   }
   &.warning > td {
-    background-color: @warningBackground;
+    background-color : @warningBackground;
   }
   &.info > td {
-    background-color: @infoBackground;
+    background-color : @infoBackground;
   }
 }
 
 // Hover states for .table-hover
 .table-hover tbody tr {
   &.success:hover > td {
-    background-color: darken(@successBackground, 5%);
+    background-color : darken(@successBackground, 5%);
   }
   &.error:hover > td {
-    background-color: darken(@errorBackground, 5%);
+    background-color : darken(@errorBackground, 5%);
   }
   &.warning:hover > td {
-    background-color: darken(@warningBackground, 5%);
+    background-color : darken(@warningBackground, 5%);
   }
   &.info:hover > td {
-    background-color: darken(@infoBackground, 5%);
+    background-color : darken(@infoBackground, 5%);
   }
 }
