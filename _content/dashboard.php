@@ -1,6 +1,6 @@
 <div class="row-fluid">
     <div class="span10 title-page">
-        <h1>Dashboard</h1>
+        <h2>Dashboard</h2>
     </div>
     <div class="span2 title-button">
         <div class="btn-group pull-right">

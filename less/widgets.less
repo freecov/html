@@ -68,27 +68,38 @@
   .nav-tabs {
     border-bottom : 0;
     float         : right;
+	li:first-child {
+      a {
+        border-width : 0 1px 1px 1px;
+      }
 
+      &.active a {
+	    border-width : 0 1px 1px 1px;
+      }
+    }
     li {
       a {
-        border       : 1px solid #ddd;
-        border-width : 0 1px;
-        .border-radius(0);
+        border-width : 0 1px 1px 0px;
+		border-color     : #D6D6D6;
+		.border-radius(0);
         color        : #999999;
-        margin       : 0;
+		background : #EAEAEA;
+        margin       : 0 auto;
         outline      : none;
         padding      : 9px 10px 8px;
         text-shadow  : 0 1px 0 #FFFFFF;
 
         &:hover {
-          background-color : transparent;
-          border-color     : #D6D6D6;
-          border-width     : 0 1px;
+          //background-color : transparent;
+          //border-color     : #D6D6D6;
+          //border-width     : 0x 1px;
           color            : #666666;
         }
       }
 
       &.active a {
+	    border-width : 0 1px 1px 0px;
+	    border-bottom: 1px solid #F9F9F9;
         background-color : #F9F9F9;
         color            : #444444;
       }
