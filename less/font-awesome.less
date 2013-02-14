@@ -252,33 +252,17 @@ ul.icons {
   100% { -o-transform : rotate(359deg); }
 }
 
-@-ms-keyframes
-spin {
-
-0
-%
-{
-  -ms-transform : rotate(0deg)
-;
-}
-100
-%
-{
-  -ms-transform : rotate(359deg)
-;
-}
-  }
+@-ms-keyframes spin {
+  0% { -ms-transform : rotate(0deg); }
+  100% { -ms-transform : rotate(359deg); }
+} 
 
 @keyframes spin {
   0% { transform : rotate(0deg); }
   100% { transform : rotate(359deg); }
 }
 
-@-moz-document
-url-prefix
-(
-)
-{
+@-moz-document url-prefix () {
 .icon-spin { height : .9em; }
 
 .btn .icon-spin { height : auto; }
