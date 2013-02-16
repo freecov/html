@@ -1,9 +1,15 @@
 <div class="row-fluid">
-    <div class="span10 title-page">
+    <div class="span8 title-page">
         <h2>Dashboard</h2>
     </div>
-    <div class="span2 title-button">
-        <div class="btn-group pull-right">
+    <div class="span4 title-button pull-right">
+ 		<div class="btn-group pull-right" data-toggle="buttons-radio">
+            <button class="btn size-small">A</button>
+			<button class="btn active">A</button>
+			<button class="btn size-big">A</button>
+        </div>
+		
+		<div class="btn-group pull-right">
             <button class="btn"><i class="icon-plus"></i> Add widget</button>
             <button class="btn dropdown-toggle" data-toggle="dropdown">
                 <span class="caret"></span>
@@ -15,6 +21,7 @@
                 <li><a href="#">To do's</a></li>
             </ul>
         </div>
+
     </div>
 </div>
 
@@ -34,8 +41,28 @@
         <div class="widget-box">
             <div class="widget-title">
                 <i class="title-icon icon-envelope-alt"></i>
-                <h5>Email</h5> <span rel="tooltip" title="4 unread emails"
-                                     class="label label-important tip-left"> 4 / 9 </span>
+                <h5>Email<span rel="tooltip" title="4 unread emails" class="label label-important tip-left"> 9 </span></h5>
+				    <div class="btn-group">
+						<a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
+							<i class="icon-folder-close"></i> Inbox <span rel="tooltip" title="4 unread emails" class="label tip-left"> 4 / 9 </span>
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li>
+								<a href="#">Important <span rel="tooltip" title="4 unread emails" class="label tip-left"> 2 </span></a>
+							</li>
+							<li>
+								<a href="#">Inbox <span rel="tooltip" title="4 unread emails" class="label tip-left"> 4 </span></a>
+							</li>
+							<li>
+								<a href="#">Folder </a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<a href="#">Spam <span rel="tooltip" title="4 unread emails" class="label tip-left"> 3 </span></a>
+							</li>
+						</ul>
+					</div>
 
                 <div class="buttons">
                     <a rel="tooltip" title="refresh" class="btn btn-mini" href="#">
@@ -60,7 +87,7 @@
                     <tbody>
                     <tr>
 
-                        <td>Larry@gmail.com</td>
+                        <td><b>Larry@gmail.com</b></td>
                         <td>
                             <div class="btn-group">
                                 <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
@@ -72,12 +99,12 @@
                                 </ul>
                             </div>
                         </td>
-                        <td>Suspendisse cursus justo in dolor euismod interdum</td>
-                        <td>24.02.2013</td>
+                        <td><b>Suspendisse cursus justo in dolor euismod interdum</b></td>
+                        <td><b>24.02.2013</b></td>
                     </tr>
                     <tr>
 
-                        <td>Mauris@gmail.com</td>
+                        <td><b>Mauris@gmail.com</b></td>
                         <td>
                             <div class="btn-group">
                                 <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
@@ -89,8 +116,8 @@
                                 </ul>
                             </div>
                         </td>
-                        <td>In vel gravida urna. Aenean non justo</td>
-                        <td>23.02.2013</td>
+                        <td><b>In vel gravida urna. Aenean non justo</b></td>
+                        <td><b>23.02.2013</b></td>
                     </tr>
                     <tr>
 
@@ -128,7 +155,7 @@
                     </tr>
                     <tr>
 
-                        <td>Etiam@gmail.com</td>
+                        <td><b>Etiam@gmail.com</b></td>
                         <td>
                             <div class="btn-group">
                                 <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
@@ -140,8 +167,8 @@
                                 </ul>
                             </div>
                         </td>
-                        <td>Aenean non justo</td>
-                        <td>21.02.2013</td>
+                        <td><b>Aenean non justo</b></td>
+                        <td><b>21.02.2013</b></td>
                     </tr>
                     <tr>
                         <td>Duis@gmail.com</td>
@@ -180,7 +207,7 @@
         <div class="widget-box">
         <div class="widget-title">
             <i class="title-icon icon-check"></i>
-            <h5>To do's</h5> <span rel="tooltip" data-original-title="6 todo's" class="label label-info">6</span>
+            <h5>To do's <span rel="tooltip" data-original-title="6 todo's" class="label label-info">6</span></h5>
 
             <div class="buttons">
                 <a rel="tooltip" data-original-title="refresh" class="btn btn-mini" href="#">
@@ -464,8 +491,7 @@
         <div class="widget-box">
             <div class="widget-title">
                 <i class="title-icon icon-list"></i>
-                <h5>Notes</h5> <span rel="tooltip" title="2 unread notes"
-                                     class="label label-important tip-left"> 2 / 15 </span>
+                <h5>Notes <span rel="tooltip" title="2 unread notes" class="label label-important tip-left"> 2 / 15 </span></h5>
 
                 <div class="buttons">
                     <a rel="tooltip" title="refresh" class="btn btn-mini" href="#">
