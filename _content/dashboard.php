@@ -463,7 +463,7 @@
     <div class="span6">
         <div class="widget-box">
             <div class="widget-title">
-                <i class="title-icon icon-pencil"></i>
+                <i class="title-icon icon-list"></i>
                 <h5>Notes</h5> <span rel="tooltip" title="2 unread notes"
                                      class="label label-important tip-left"> 2 / 15 </span>
 
