@@ -9,13 +9,13 @@
                             Dashboard
                         </a>
                     </li>
-                    <li class="dropdown <?=$activeMenuItem == 'address' ? 'active' : ''; ?>">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+					<li class="dropdown hover-menu <?=$activeMenuItem == 'address' ? 'active' : ''; ?>">
+                        <a class="dropdown-toggle" href="#">
                             <i class="icon-book"></i>
                             Address
                             <span class="badge badge-shadow badge-warning">4</span>
-                            <b class="caret"></b>
-                        </a>
+                        <b class="caret"></b>
+						</a>
                         <ul class="dropdown-menu" role="menu">
                             <li class="nav-header">Folders</li>
                             <li><a href="#">Private</a></li>
@@ -28,7 +28,7 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown <?=$activeMenuItem == 'calendar' ? 'active' : ''; ?>">
+                    <li class="dropdown hover-menu <?=$activeMenuItem == 'calendar' ? 'active' : ''; ?>">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="icon-calendar"></i>
                             Calendar
@@ -46,7 +46,7 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown <?=$activeMenuItem == 'notes' ? 'active' : ''; ?>">
+                    <li class="dropdown hover-menu <?=$activeMenuItem == 'notes' ? 'active' : ''; ?>">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="icon-pencil"></i>
                             Notes
@@ -63,7 +63,7 @@
                             <li><a href="#">Newsletter</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown <?=$activeMenuItem == 'todo' ? 'active' : ''; ?>">
+                    <li class="dropdown hover-menu <?=$activeMenuItem == 'todo' ? 'active' : ''; ?>">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="icon-check"></i>
                             To do's
@@ -80,7 +80,7 @@
                             <li><a href="#">Newsletter</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown <?=$activeMenuItem == 'email' ? 'active' : ''; ?>">
+                    <li class="dropdown hover-menu <?=$activeMenuItem == 'email' ? 'active' : ''; ?>">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="icon-envelope-alt"></i>
                             Email
@@ -98,7 +98,7 @@
                             <li><a href="#">Newsletter</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown <?=$activeMenuItem == 'files' ? 'active' : ''; ?>">
+                    <li class="dropdown hover-menu <?=$activeMenuItem == 'files' ? 'active' : ''; ?>">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="icon-folder-open"></i>
                             File Managment
@@ -117,7 +117,7 @@
                     </li>
                 </ul>
                 <ul class="nav visible-desktop">
-                    <li class="dropdown <?=$activeMenuItem == 'projects' ? 'active' : ''; ?>">
+                    <li class="dropdown hover-menu <?=$activeMenuItem == 'projects' ? 'active' : ''; ?>">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="icon-list"></i>
                             Projects
@@ -134,7 +134,7 @@
                             <li><a href="#">Newsletter</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown <?=$activeMenuItem == 'sales' ? 'active' : ''; ?>">
+                    <li class="dropdown hover-menu <?=$activeMenuItem == 'sales' ? 'active' : ''; ?>">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="icon-bar-chart"></i>
                             Sales
@@ -151,7 +151,7 @@
                             <li><a href="#">Newsletter</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown <?=$activeMenuItem == 'customer' ? 'active' : ''; ?>">
+                    <li class="dropdown hover-menu <?=$activeMenuItem == 'customer' ? 'active' : ''; ?>">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="icon-bolt"></i>
                             Customer Care
@@ -169,7 +169,7 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown <?=$activeMenuItem == 'campaign' ? 'active' : ''; ?>">
+                    <li class="dropdown hover-menu <?=$activeMenuItem == 'campaign' ? 'active' : ''; ?>">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="icon-list-alt"></i>
                             Campaign
@@ -187,7 +187,7 @@
                         </ul>
                     </li>
 
-                    <li class="dropdown <?=$activeMenuItem == 'social' ? 'active' : ''; ?>">
+                    <li class="dropdown hover-menu <?=$activeMenuItem == 'social' ? 'active' : ''; ?>">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                             <i class="icon-twitter"></i>
                             Social
