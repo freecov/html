@@ -14,10 +14,8 @@
                                        data-items="4" data-provide="typeahead" style="margin: 0 auto;">
                                 <button class="btn" type="button"><i class="icon-search"></i></button>
 
-                            </div>
-                            <p class="muted">
-                                <small>Example: Cherniak Konstantin</small>
-                            </p>
+                            </div><br/>
+                                <small class="muted">Example: Cherniak Konstantin</small>
                         </form>
                     </div>
 
