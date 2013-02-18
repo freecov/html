@@ -8,13 +8,12 @@
 			<button class="btn active">A</button>
 			<button class="btn size-big">A</button>
         </div>
-		
 		<div class="btn-group pull-right">
-            <button class="btn"><i class="icon-plus"></i> Add widget</button>
-            <button class="btn dropdown-toggle" data-toggle="dropdown">
-                <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
+		 <button class="btn dropdown-toggle" data-toggle="dropdown">
+			<i class="icon-cogs"></i> Actions
+			<span class="caret"></span>
+		 </button>
+             <ul class="dropdown-menu">
                 <li><a href="#">Notes</a></li>
                 <li><a href="#">Birthdays and events</a></li>
                 <li><a href="#">News</a></li>
@@ -33,6 +32,53 @@
             <a class="current" href="address.php">Address</a>
         </div>
     </div>
+</div>
+
+<!--Address Content-->
+<div class="row-fluid">
+    <div class="span3">
+		<div class="well" style="max-width: 340px; padding: 8px 0;">
+			<ul class="nav nav-list">
+				<li class="nav-header">Categories</li>
+				<li class="active">
+					<a href="#">Relations</a>
+					<a class="btn" href="" data-toggle="collapse" data-target="#demo"><i class="icon-chevron-down"></i></a>
+					<div id="demo" class="collapse in">
+						<ul class="">
+							<li><a href="#">Customers</a></li>
+							<li><a href="#">Suppliers</a></li>
+							<li><a href="#">CMS forms</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Employees</a></li>
+				<li><a href="#">Businesscards</a></li>    
+        		<li><a href="#">Inactive relations</a></li>
+				<li><a href="#">Duplicate relations</a></li>    
+			</ul>
+		</div>
+	</div>
+	<div class="span3">
+   
+
+			<ul class="nav nav-tabs nav-stacked">
+				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"href="#">Relations</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Customers</a></li>
+						<li><a href="#">Suppliers</a></li>
+						<li><a href="#">CMS forms</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Employees</a></li>
+				<li><a href="#">Businesscards</a></li>    
+        		<li><a href="#">Inactive relations</a></li>
+				<li><a href="#">Duplicate relations</a></li>    
+			</ul>
+
+	</div>
+	<div class="span7">
+	    1
+	</div>
 </div>
 
 <!--Widgets-->
