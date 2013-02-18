@@ -49,13 +49,14 @@
   background : #F9F9F9;
 }
 
-.widget-title, .modal-header, .table th, .dataTables_wrapper .ui-widget-header {
+.widget-title, .modal-header, .dataTables_wrapper .ui-widget-header {
   #gradient > .vertical(#fdfdfd, #efefef);
   border-bottom : 1px solid #CDCDCD; //.border-radius(@baseBorderRadius @baseBorderRadius 0 0);
 }
 
 .widget-title {
   padding-right : 140px;
+  line-height: 36px;
 
   .navs-title {
     width : 400px;
@@ -78,6 +79,8 @@
       }
     }
     li {
+		  line-height: inherit;
+
       a {
         border-width : 0 1px 1px 0px;
 		border-color     : #D6D6D6;
@@ -86,9 +89,11 @@
 		background : #EAEAEA;
         margin       : 0 auto;
         outline      : none;
-       // padding      : 9px 10px 8px;
+        padding      : 0px 12px;
         text-shadow  : 0 1px 0 #FFFFFF;
-		padding-bottom: 9px;
+		//padding-bottom: 9px;
+    	line-height: inherit;
+
 
         &:hover {
           //background-color : transparent;
@@ -110,8 +115,8 @@
   .title-icon {
     border-right : 1px solid #cdcdcd;
     display: inline-block;
-    line-height  : 36px;
-    padding      : 0 10px;
+    line-height: inherit;
+   padding      : 0 10px;
 	font-size: 14px;
     .opacity(70);
   }
