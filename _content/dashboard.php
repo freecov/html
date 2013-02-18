@@ -41,25 +41,25 @@
         <div class="widget-box">
             <div class="widget-title">
                 <i class="title-icon icon-envelope-alt"></i>
-                <h5>Email<span rel="tooltip" title="4 unread emails" class="label label-important tip-left"> 9 </span></h5>
+                <h5>Email</h5>
 				    <div class="btn-group">
 						<a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
-							<i class="icon-folder-close"></i> Inbox <span rel="tooltip" title="4 unread emails" class="label tip-left"> 4 / 9 </span>
+							<i class="icon-folder-close"></i> Inbox <span rel="tooltip" title="4 unread emails" class="label label-important tip-left"> 4 / 9 </span>
 							<span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
 							<li>
-								<a href="#">Important <span rel="tooltip" title="4 unread emails" class="label tip-left"> 2 </span></a>
+								<a href="#"><i class="icon-folder-close"></i> Important <span rel="tooltip" title="4 unread emails" class="label label-important tip-left"> 2 </span></a>
 							</li>
 							<li>
-								<a href="#">Inbox <span rel="tooltip" title="4 unread emails" class="label tip-left"> 4 </span></a>
+								<a href="#"><i class="icon-folder-close"></i> Inbox <span rel="tooltip" title="4 unread emails" class="label label-important tip-left"> 4 </span></a>
 							</li>
 							<li>
-								<a href="#">Folder </a>
+								<a href="#"><i class="icon-folder-close-alt"></i> Folder </a>
 							</li>
 							<li class="divider"></li>
 							<li>
-								<a href="#">Spam <span rel="tooltip" title="4 unread emails" class="label tip-left"> 3 </span></a>
+								<a href="#"><i class="icon-folder-close"></i> Spam <span rel="tooltip" title="4 unread emails" class="label label-important tip-left"> 3 </span></a>
 							</li>
 						</ul>
 					</div>
