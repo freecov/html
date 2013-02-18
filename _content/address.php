@@ -1,6 +1,6 @@
 <div class="row-fluid">
     <div class="span8 title-page">
-        <h2>Dashboard</h2>
+        <h2>Address</h2>
     </div>
     <div class="span4 title-button pull-right">
  		<div class="btn-group pull-right" data-toggle="buttons-radio">
@@ -30,7 +30,7 @@
     <div class="span12">
         <div class="breadcrumb-covide">
             <a href="index.php"><i class="icon-home"></i> Home</a>
-            <a class="current" href="index.php">Dashboard</a>
+            <a class="current" href="address.php">Address</a>
         </div>
     </div>
 </div>

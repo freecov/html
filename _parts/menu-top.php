@@ -4,14 +4,14 @@
             <div class="navbar-inner no-padding">
                 <ul class="nav">
                     <li class="<?=$activeMenuItem == 'dashboard' ? 'active' : ''; ?>">
-                        <a href="index.html">
+                        <a href="index.php">
                             <i class="icon-home"></i>
                             Dashboard
                         </a>
                     </li>
 					<li class="divider-vertical"></li>
 					<li class="dropdown hover-menu <?=$activeMenuItem == 'address' ? 'active' : ''; ?>">
-                        <a class="dropdown-toggle" href="#">
+                        <a class="dropdown-toggle" href="address.php">
                             <i class="icon-book"></i>
                             Address
                             <span class="badge badge-shadow badge-warning">4</span>
