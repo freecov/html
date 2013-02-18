@@ -15,10 +15,13 @@
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-                <li><a href="#">Notes</a></li>
-                <li><a href="#">Birthdays and events</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">To do's</a></li>
+                <li><a href="#"><i class="icon-gift"></i> Birthdays and events</a></li>
+				<li><a href="#"><i class="icon-envelope-alt"></i> Email</a></li>
+                <li><a href="#"><i class="icon-bullhorn"></i> News</a></li>
+                <li><a href="#"><i class="icon-pencil"></i> Notes</a></li>
+				<li><a href="#"><i class="icon-bar-chart"></i> Sales</a></li>
+                <li><a href="#"><i class="icon-check"></i></i> To do's</a></li>
+                
             </ul>
         </div>
 
@@ -490,7 +493,7 @@
     <div class="span6">
         <div class="widget-box">
             <div class="widget-title">
-                <i class="title-icon icon-list"></i>
+                <i class="title-icon icon-pencil"></i>
                 <h5>Notes <span rel="tooltip" title="2 unread notes" class="label label-important tip-left"> 2 / 15 </span></h5>
 
                 <div class="buttons">

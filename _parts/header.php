@@ -27,10 +27,10 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">User settings</a></li>
-                                    <li><a href="#">Online users</a></li>
+                                    <li><a href="#"><i class="icon-group"></i> Online users</a></li>
+                                    <li><a href="#"><i class="icon-wrench"></i> User settings</a></li>
                                     <li class="divider"></li>
-                                    <li><a href="#">Logout</a></li>
+                                    <li><a href="#"><i class="icon-signout"></i> Logout</a></li>
                                 </ul>
                             </div>
                             <div class="btn-group">
@@ -42,12 +42,12 @@
                                 </button>
 
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Email</a></li>
-                                    <li><a href="#">Todo</a></li>
-                                    <li><a href="#">Notes</a></li>
-                                    <li><a href="#">Address</a></li>
-                                    <li><a href="#">Project</a></li>
-                                    <li><a href="#">File</a></li>
+                                    <li><a href="#"><i class="icon-book"></i> Address</a></li>
+                                    <li><a href="#"><i class="icon-envelope-alt"></i> Email</a></li>
+                                    <li><a href="#"><i class="icon-folder-open"></i> File</a></li>
+                                    <li><a href="#"><i class="icon-pencil"></i> Notes</a></li>
+                                    <li><a href="#"><i class="icon-list"></i> Project</a></li>
+                                    <li><a href="#"><i class="icon-check"></i> To do</a></li>
                                 </ul>
                             </div>
                         </div>
