@@ -14,10 +14,19 @@
 			<span class="caret"></span>
 		 </button>
              <ul class="dropdown-menu">
-                <li><a href="#">Notes</a></li>
-                <li><a href="#">Birthdays and events</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">To do's</a></li>
+				<li><a href="#">Search classifications</a></li>
+				<li><a href="#">Manage classifications</a></li>
+				<li><a href="#">Advanced search</a></li>
+				<li><a href="#">Export all relations</a></li>
+				<li><a href="#">Import relations</a></li>
+				<li><a href="#">Import vCard</a></li>
+				<li><a href="#">Global metadata</a></li>
+				<li><a href="#">Manage headers</a></li>
+				<li><a href="#">Letter templates</a></li>
+				<li><a href="#">Manage custom view</a></li>
+				<li><a href="#">View restricted e-mail archives</a></li>
+				<li><a href="#">View businesscard revisions</a></li>
+				<li><a href="#">Connect to LinkedIn (LinkedIn connections)</a></li>
             </ul>
         </div>
 
@@ -36,49 +45,148 @@
 
 <!--Address Content-->
 <div class="row-fluid">
-    <div class="span3">
-		<div class="well" style="max-width: 340px; padding: 8px 0;">
-			<ul class="nav nav-list">
-				<li class="nav-header">Categories</li>
-				<li class="active">
-					<a href="#">Relations</a>
-					<a class="btn" href="" data-toggle="collapse" data-target="#demo"><i class="icon-chevron-down"></i></a>
-					<div id="demo" class="collapse in">
-						<ul class="">
+
+	<div class="span3 text-center">
+		
+	    <div class="btn-group text-left">
+			<a class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown" href="#">
+				<i class="icon-plus"></i> Add new
+				<span class="caret"></span>
+			</a>
+			<ul class="dropdown-menu">
+				<li><a href="#">relations</a></li>
+				<li><a href="#">buisness card</a></li>
+				<li><a href="#">person</a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="well well-covide-menu text-left">
+			<ul class="nav nav-tabs nav-stacked nav-covide" >
+				<li><a data-toggle="collapse" data-target="#submenu1" href="#"><i class="icon-sitemap"></i> Relations</a>
+					<div id="submenu1" class="collapse in">
+						<ul class="nav nav-tabs nav-stacked nav-covide">
 							<li><a href="#">Customers</a></li>
 							<li><a href="#">Suppliers</a></li>
 							<li><a href="#">CMS forms</a></li>
 						</ul>
 					</div>
 				</li>
-				<li><a href="#">Employees</a></li>
-				<li><a href="#">Businesscards</a></li>    
-        		<li><a href="#">Inactive relations</a></li>
-				<li><a href="#">Duplicate relations</a></li>    
+				<li><a href="#"><i class="icon-group"></i> Employees</a></li>
+				<li><a href="#"><i class="icon-credit-card"></i> Businesscards</a></li>    
+        		<li><a href="#"><i class="icon-sitemap muted"></i> Inactive relations</a></li>
+				<li><a href="#"><i class="icon-warning-sign"></i> Duplicate relations</a></li>    
 			</ul>
 		</div>
 	</div>
-	<div class="span3">
-   
+	
+	<div class="span9">
 
-			<ul class="nav nav-tabs nav-stacked">
-				<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"href="#">Relations</a>
-					<ul class="dropdown-menu">
-						<li><a href="#">Customers</a></li>
-						<li><a href="#">Suppliers</a></li>
-						<li><a href="#">CMS forms</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Employees</a></li>
-				<li><a href="#">Businesscards</a></li>    
-        		<li><a href="#">Inactive relations</a></li>
-				<li><a href="#">Duplicate relations</a></li>    
-			</ul>
+		<div class="row-fluid">
+			<div class="span12">
+				<div class="well well-covide">
+				
+					<div class="well well-small well-covide-w">
+						<span class="title">Filter by fields</span>
 
+						<div class="btn-group pull-right" data-toggle="buttons-checkbox">
+							<button type="button" class="btn" data-toggle="collapse" data-target="#search_fields"><i class="icon-angle-up"></i></button>
+						</div>
+					</div>
+
+
+				
+					<div id="search_fields" class="collapse in">
+					
+					    <form>
+						<div class="well well-small well-covide-w">
+							<input type="text" class="span12" placeholder="Search">
+						</div>
+						<div class="well well-small well-covide-g form-inline controls-row">
+						<select class="span3">
+							<option>Address</option>
+							<option>City</option>
+							<option>Zip Code</option>
+						</select>
+						<input type="text" class="span7" placeholder="Type address">
+						<button class="btn btn-small pull-right" type="button"><i class="icon-remove"></i></button>
+						</div>
+						<div class="well well-small well-covide-w form-inline controls-row">
+						<select class="span3">
+							<option>City</option>
+							<option>Address</option>
+							<option>Zip Code</option>
+						</select>
+						<select class="span7">
+							<option>Borneveld</option>
+							<option>Rotterdam</option>
+							<option>Amsterdam</option>
+						</select>
+						<button class="btn btn-small pull-right" type="button"><i class="icon-remove"></i></button>
+						</div>
+						<div class="well well-small well-covide-g form-inline controls-row">
+						<select class="span3">
+							<option>Zip Code</option>
+							<option>City</option>
+							<option>Address</option>
+						</select>
+						<input type="text" class="span7" placeholder="Type zip code">
+						<button class="btn btn-small pull-right" type="button"><i class="icon-remove"></i></button>
+						</div>
+						<br>
+						<a href="#"><i class="icon-plus"></i> Add condition</a> <a href="#"><i class="icon-reply"></i> Reset conditions</a>
+						<hr>
+						<label class="radio inline">
+						<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+							all conditions
+						</label>
+						<label class="radio inline">
+						<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+							at least one condition
+						</label>
+						<button type="submit" class="btn pull-right"><i class="icon-search"></i> Search</button>
+
+						</form>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row-fluid">
+			<div class="span12">
+				<span class="title">Relations</span>
+<a href="#"><b>[All]</b></a>
+<a href="#">A</a>
+<a href="#">B</a>
+<a href="c">C</a>
+<a href="d">D</a>
+<a href="e">E</a>
+<a href="f">F</a>
+<a href="g">G</a>
+<a href="h">H</a>
+<a href="i">I</a>
+<a href="j">J</a>
+<a href="k">K</a>
+<a href="l">L</a>
+<a href="m">M</a>
+<a href="n">N</a>
+<a href="o">O</a>
+<a href="p">P</a>
+<a href="q">Q</a>
+<a href="r">R</a>
+<a href="s">S</a>
+<a href="t">T</a>
+<a href="u">U</a>
+<a href="v">V</a>
+<a href="w">W</a>
+<a href="x">X</a>
+<a href="y">Y</a>
+<a href="z">Z</a>
+				
+			</div>
+		</div>
 	</div>
-	<div class="span7">
-	    1
-	</div>
+	
 </div>
 
 <!--Widgets-->
