@@ -78,7 +78,8 @@
 
 	<div class="span9">
 
-		<? include_once "_parts/search-form.php"; ?>
+		<? /*include_once "_parts/search-form.php"; */?>
+		<? include_once "_parts/search-form-collapsed.php"; ?>
 
 		<div class="row-fluid">
 			<div class="span12">
