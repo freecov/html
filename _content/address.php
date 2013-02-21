@@ -45,7 +45,7 @@
 <div class="row-fluid">
 	<div class="span3 text-center">
 	    <div class="btn-group text-left">
-			<a class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown" href="#">
+			<a class="btn btn-covide btn-warning dropdown-toggle" data-toggle="dropdown" href="#">
 				<i class="icon-plus"></i> Add new
 				<span class="caret"></span>
 			</a>
