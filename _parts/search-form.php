@@ -49,9 +49,6 @@
                                 </button>
                             </div>
                             <br>
-                            <a class="search-link" href="#"><i class="icon-plus"></i> Add condition</a>
-                            <a href="#"><i class="icon-reply"></i> Reset conditions</a>
-                            <hr>
                             <label class="radio inline">
                                 <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
                                 all conditions
@@ -60,6 +57,9 @@
                                 <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
                                 at least one condition
                             </label>
+                            <hr>
+                            <a class="search-link" href="#"><i class="icon-plus"></i> Add condition</a>
+                            <a href="#"><i class="icon-reply"></i> Reset conditions</a>
                             <button type="submit" class="btn pull-right"><i class="icon-search"></i> Search</button>
                         </form>
 			</div>
