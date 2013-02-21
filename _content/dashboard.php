@@ -3,12 +3,12 @@
         <h2>Dashboard</h2>
     </div>
     <div class="span4 title-button pull-right">
- 		<div class="btn-group pull-right" data-toggle="buttons-radio">
-            <button class="btn size-small">A</button>
-			<button class="btn active">A</button>
-			<button class="btn size-big">A</button>
+ 		<div class="fontSizeChange btn-group pull-right" data-toggle="buttons-radio">
+            <button class="btn size-small" data-size="smaller">A</button>
+			<button class="btn active" data-size="normal">A</button>
+			<button class="btn size-big" data-size="bigger">A</button>
         </div>
-		
+
 		<div class="btn-group pull-right">
             <button class="btn"><i class="icon-plus"></i> Add widget</button>
             <button class="btn dropdown-toggle" data-toggle="dropdown">
@@ -21,20 +21,17 @@
                 <li><a href="#"><i class="icon-pencil"></i> Notes</a></li>
 				<li><a href="#"><i class="icon-bar-chart"></i> Sales</a></li>
                 <li><a href="#"><i class="icon-check"></i></i> To do's</a></li>
-                
+
             </ul>
         </div>
-
     </div>
 </div>
 
 <!--Breadcrumb-->
 <div class="row-fluid">
-    <div class="span12">
-        <div class="breadcrumb-covide">
-            <a href="index.php"><i class="icon-home"></i> Home</a>
-            <a class="current" href="index.php">Dashboard</a>
-        </div>
+    <div class="span12 breadcrumb-covide">
+        <a href="index.php"><i class="icon-home"></i> Home</a>
+        <a class="current" href="index.php">Dashboard</a>
     </div>
 </div>
 
