@@ -49,52 +49,6 @@ input[type="color"],
   z-index  : 1px;
 }
 
-.breadcrumb {
-  background-color : #E5E5E5;
-}
-
-.breadcrumb-covide {
-  background-color : #E5E5E5;
-  border           : 1px solid #D6D6D6;
-  border-width     : 1px 0;
-  .box-shadow(~"0 0 1px #FFFFFF");
-  padding-left     : 5px;
-  margin-bottom    : 15px;
-
-  a {
-    background      : url("../../img/breadcrumb.png") right center no-repeat;
-    color           : #666666;
-    display         : inline-block;
-    font-size       : 14px;
-    padding         : 8px 20px 8px 10px;
-    text-decoration : none;
-
-    &:last-child {
-      background-image : none;
-    }
-
-    &.current {
-      color       : #444444;
-      font-weight : bold;
-    }
-  }
-}
-
-.title-button {
-  padding-top : 10px;
-
-  .btn-group{
-	margin-left: 10px;
-  }
-
-  .size-small{
-	font-size: 9px;
-  }
-  .size-big{
-	font-size: 17px;
-  }
-}
-
 /* Available font sizes */
 .fs-smaller {
   font-size: @baseFontSize - 1;
@@ -124,14 +78,4 @@ input[type="color"],
   height        : 9px;
   margin-bottom : 4px;
   margin-top    : 6px;
-}
-
-//
-// Tables
-// --------------------------------------------------
-
-.table-borderless {
-  td, th {
-    border-top: 0;
-  }
 }
