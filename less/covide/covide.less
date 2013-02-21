@@ -62,7 +62,7 @@ input[type="color"],
   margin-bottom    : 15px;
 
   a {
-    background      : url("../img/breadcrumb.png") right center no-repeat;
+    background      : url("../../img/breadcrumb.png") right center no-repeat;
     color           : #666666;
     display         : inline-block;
     font-size       : 14px;
@@ -82,16 +82,30 @@ input[type="color"],
 
 .title-button {
   padding-top : 10px;
+
   .btn-group{
 	margin-left: 10px;
   }
-  
+
   .size-small{
 	font-size: 9px;
   }
   .size-big{
 	font-size: 17px;
   }
+}
+
+/* Available font sizes */
+.fs-smaller {
+  font-size: @baseFontSize - 1;
+}
+
+.fs-normal {
+  font-size: @baseFontSize;
+}
+
+.fs-bigger {
+  font-size: @baseFontSize + 1;
 }
 
 .popover-relation {
@@ -110,4 +124,14 @@ input[type="color"],
   height        : 9px;
   margin-bottom : 4px;
   margin-top    : 6px;
+}
+
+//
+// Tables
+// --------------------------------------------------
+
+.table-borderless {
+  td, th {
+    border-top: 0;
+  }
 }
