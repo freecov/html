@@ -17,7 +17,6 @@ define('utils', function () {
                     } else {
                         return decodeURIComponent(tmp[0].substring(key.length + 1, tmp[0].length).replace(';', '')) || null;
                     }
-
                 },
 
                 set: function (key, value, ttl, path, domain, secure) {
@@ -27,7 +26,6 @@ define('utils', function () {
 
                     ttl && cookie.push(this.cookie.hoursToExpireDate(ttl));
                     secure && cookie.push('secure');
-
                     document.cookie = cookie.join(';');
                 },
 
@@ -50,5 +48,5 @@ define('utils', function () {
         }
     }
 
-    return CovideUtils;
+    window.CovideUtils = new CovideUtils();
 });

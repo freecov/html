@@ -4,9 +4,9 @@
     </div>
     <div class="span4 title-button pull-right">
  		<div class="fontSizeChange btn-group pull-right" data-toggle="buttons-radio">
-            <button class="btn size-small" data-size="smaller">A</button>
-			<button class="btn active" data-size="normal">A</button>
-			<button class="btn size-big" data-size="bigger">A</button>
+            <button class="btn size-small" data-size="small">A</button>
+			<button class="btn size-normal active" data-size="normal">A</button>
+			<button class="btn size-big" data-size="big">A</button>
         </div>
 
 		<div class="btn-group pull-right">
@@ -36,45 +36,45 @@
 </div>
 
 <!--Widgets-->
-<div class="row-fluid">
-    <div class="span6">
-        <div class="widget-box">
+<div class="widgets">
+    <div class="row-fluid">
+        <div class="widget-box span6">
             <div class="widget-title">
                 <i class="title-icon icon-envelope-alt"></i>
                 <h5>Email</h5>
-				    <div class="btn-group">
-						<a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
-							<i class="icon-folder-close"></i> Inbox <span rel="tooltip" title="4 unread emails" class="label label-important tip-left"> 4 / 9 </span>
-							<span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li>
-								<a href="#"><i class="icon-folder-close"></i> Important <span rel="tooltip" title="4 unread emails" class="label label-important tip-left"> 2 </span></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon-folder-close"></i> Inbox <span rel="tooltip" title="4 unread emails" class="label label-important tip-left"> 4 </span></a>
-							</li>
-							<li>
-								<a href="#"><i class="icon-folder-close-alt"></i> Folder </a>
-							</li>
-							<li class="divider"></li>
-							<li>
-								<a href="#"><i class="icon-folder-close"></i> Spam <span rel="tooltip" title="4 unread emails" class="label label-important tip-left"> 3 </span></a>
-							</li>
-						</ul>
-					</div>
+                    <div class="btn-group">
+                        <a class="btn btn-small dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="icon-folder-close"></i> Inbox <span title="4 unread emails" class="label label-important tip-left"> 4 / 9 </span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#"><i class="icon-folder-close"></i> Important <span title="4 unread emails" class="label label-important tip-left"> 2 </span></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon-folder-close"></i> Inbox <span title="4 unread emails" class="label label-important tip-left"> 4 </span></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon-folder-close-alt"></i> Folder </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#"><i class="icon-folder-close"></i> Spam <span title="4 unread emails" class="label label-important tip-left"> 3 </span></a>
+                            </li>
+                        </ul>
+                    </div>
 
                 <div class="buttons">
-                    <a rel="tooltip" title="refresh" class="btn btn-mini" href="#">
+                    <a  title="refresh" class="btn btn-mini" href="#">
                         <i class="icon-refresh"></i>
                     </a>
-                    <a rel="tooltip" title="close" class="btn btn-mini" href="#">
+                    <a  title="close" class="btn btn-mini" href="#">
                         <i class="icon-remove"></i>
                     </a>
 
                 </div>
             </div>
-            <div class="widget-table">
+            <div class="widget-content widget-table">
                 <table class="table table-striped table-hover">
                     <thead>
                     <tr>
@@ -188,7 +188,126 @@
                     </tr>
                     </tbody>
                 </table>
+                <div class="pagination">
+                    <ul>
+                        <li><a href="#">Prev</a></li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">Next</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="widget-box span6">
+            <div class="widget-title">
+                <i class="title-icon icon-check"></i>
+                <h5>To do's <span  data-original-title="6 todo's" class="label label-info">6</span></h5>
 
+                <div class="buttons">
+                    <a  data-original-title="refresh" class="btn btn-mini" href="#">
+                        <i class="icon-refresh"></i>
+                    </a>
+                    <a  data-original-title="close" class="btn btn-mini" href="#">
+                        <i class="icon-remove"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div class="widget-content widget-table">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th></th>
+                            <th>End Date</th>
+                            <th>Status</th>
+                            <th>Prority</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>In vel gravida urna. Aenean non justo</td>
+                            <td></td>
+                            <td>20.02.2013</td>
+                            <td><span  data-original-title="active"
+                                      class="label label-active label-success">A</span></td>
+                            <td>
+                                <div  data-original-title="high" class="progress progress-small progress-striped">
+                                    <div class="bar bar-danger" style="width: 100%;"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>Suspendisse cursus justo in dolor euismod interdum</td>
+                            <td></td>
+                            <td>18.02.2013</td>
+                            <td><span  data-original-title="active"
+                                      class="label label-active label-success">A</span></td>
+                            <td>
+                                <div  data-original-title="high" class="progress progress-small progress-striped">
+                                    <div class="bar bar-danger" style="width: 100%;"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>Pellentesque luctus auctor sapien ac mollis</td>
+                            <td></td>
+                            <td>19.02.2013</td>
+                            <td><span  data-original-title="passive" class="label label-active">P</span></td>
+                            <td>
+                                <div  data-original-title="medium"
+                                     class="progress progress-small progress-striped">
+                                    <div class="bar bar-warning" style="width: 66%;"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>Morbi ac feugiat urna</td>
+                            <td></td>
+                            <td>22.02.2013</td>
+                            <td><span  data-original-title="active"
+                                      class="label label-active label-success">A</span></td>
+                            <td>
+                                <div  data-original-title="medium"
+                                     class="progress progress-small progress-striped">
+                                    <div class="bar bar-warning" style="width: 66%;"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>Duis odio nulla</td>
+                            <td></td>
+                            <td>23.02.2013</td>
+                            <td><span  data-original-title="passive" class="label label-active">P</span></td>
+                            <td>
+                                <div  data-original-title="medium"
+                                     class="progress progress-small progress-striped">
+                                    <div class="bar bar-warning" style="width: 66%;"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>Aenean non justo</td>
+                            <td></td>
+                            <td>20.02.2013</td>
+                            <td><span  data-original-title="active"
+                                      class="label label-active label-success">A</span></td>
+                            <td>
+                                <div  data-original-title="low" class="progress progress-small progress-striped">
+                                    <div class="bar bar-success" style="width: 33%;"></div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
                 <div class="pagination">
                     <ul>
                         <li><a href="#">Prev</a></li>
@@ -203,141 +322,17 @@
             </div>
         </div>
     </div>
-    <div class="span6">
-        <div class="widget-box">
-        <div class="widget-title">
-            <i class="title-icon icon-check"></i>
-            <h5>To do's <span rel="tooltip" data-original-title="6 todo's" class="label label-info">6</span></h5>
-
-            <div class="buttons">
-                <a rel="tooltip" data-original-title="refresh" class="btn btn-mini" href="#">
-                    <i class="icon-refresh"></i>
-                </a>
-                <a rel="tooltip" data-original-title="close" class="btn btn-mini" href="#">
-                    <i class="icon-remove"></i>
-                </a>
-
-            </div>
-        </div>
-        <div class="widget-table">
-            <table class="table table-striped table-hover">
-                <thead>
-                    <tr>
-                        <th>Subject</th>
-                        <th></th>
-                        <th>End Date</th>
-                        <th>Status</th>
-                        <th>Prority</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>In vel gravida urna. Aenean non justo</td>
-                        <td></td>
-                        <td>20.02.2013</td>
-                        <td><span rel="tooltip" data-original-title="active"
-                                  class="label label-active label-success">A</span></td>
-                        <td>
-                            <div rel="tooltip" data-original-title="high" class="progress progress-small progress-striped">
-                                <div class="bar bar-danger" style="width: 100%;"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>Suspendisse cursus justo in dolor euismod interdum</td>
-                        <td></td>
-                        <td>18.02.2013</td>
-                        <td><span rel="tooltip" data-original-title="active"
-                                  class="label label-active label-success">A</span></td>
-                        <td>
-                            <div rel="tooltip" data-original-title="high" class="progress progress-small progress-striped">
-                                <div class="bar bar-danger" style="width: 100%;"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>Pellentesque luctus auctor sapien ac mollis</td>
-                        <td></td>
-                        <td>19.02.2013</td>
-                        <td><span rel="tooltip" data-original-title="passive" class="label label-active">P</span></td>
-                        <td>
-                            <div rel="tooltip" data-original-title="medium"
-                                 class="progress progress-small progress-striped">
-                                <div class="bar bar-warning" style="width: 66%;"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>Morbi ac feugiat urna</td>
-                        <td></td>
-                        <td>22.02.2013</td>
-                        <td><span rel="tooltip" data-original-title="active"
-                                  class="label label-active label-success">A</span></td>
-                        <td>
-                            <div rel="tooltip" data-original-title="medium"
-                                 class="progress progress-small progress-striped">
-                                <div class="bar bar-warning" style="width: 66%;"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>Duis odio nulla</td>
-                        <td></td>
-                        <td>23.02.2013</td>
-                        <td><span rel="tooltip" data-original-title="passive" class="label label-active">P</span></td>
-                        <td>
-                            <div rel="tooltip" data-original-title="medium"
-                                 class="progress progress-small progress-striped">
-                                <div class="bar bar-warning" style="width: 66%;"></div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-
-                        <td>Aenean non justo</td>
-                        <td></td>
-                        <td>20.02.2013</td>
-                        <td><span rel="tooltip" data-original-title="active"
-                                  class="label label-active label-success">A</span></td>
-                        <td>
-                            <div rel="tooltip" data-original-title="low" class="progress progress-small progress-striped">
-                                <div class="bar bar-success" style="width: 33%;"></div>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="pagination">
-                <ul>
-                    <li><a href="#">Prev</a></li>
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">Next</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    </div>
-</div>
-<div class="row-fluid">
-    <div class="span12">
-        <div class="widget-box widget-box-sale">
+    <div class="row-fluid">
+        <div class="widget-box widget-box-sale span12">
             <div class="widget-title">
                 <i class="title-icon icon-bar-chart"></i>
                 <h5>Sales</h5>
 
                 <div class="buttons">
-                    <a rel="tooltip" data-original-title="refresh" class="btn btn-mini" href="#">
+                    <a  data-original-title="refresh" class="btn btn-mini" href="#">
                         <i class="icon-refresh"></i>
                     </a>
-                    <a rel="tooltip" data-original-title="close" class="btn btn-mini" href="#">
+                    <a  data-original-title="close" class="btn btn-mini" href="#">
                         <i class="icon-remove"></i>
                     </a>
 
@@ -427,16 +422,12 @@
 
                                 </div>
                             </form>
-
                         </div>
-
-
                     </div>
                 </div>
 
 
                 <div id="tab3" class="tab-pane">
-
                     <table class="table table-striped table-hover">
                         <thead>
                         <tr>
@@ -485,26 +476,23 @@
             </div>
         </div>
     </div>
-</div>
-<div class="row-fluid">
-    <div class="span6">
-        <div class="widget-box">
+    <div class="row-fluid">
+        <div class="widget-box span6">
             <div class="widget-title">
                 <i class="title-icon icon-pencil"></i>
-                <h5>Notes <span rel="tooltip" title="2 unread notes" class="label label-important tip-left"> 2 / 15 </span></h5>
+                <h5>Notes <span  title="2 unread notes" class="label label-important tip-left"> 2 / 15 </span></h5>
 
                 <div class="buttons">
-                    <a rel="tooltip" title="refresh" class="btn btn-mini" href="#">
+                    <a  title="refresh" class="btn btn-mini" href="#">
                         <i class="icon-refresh"></i>
                     </a>
-                    <a rel="tooltip" title="close" class="btn btn-mini" href="#">
+                    <a  title="close" class="btn btn-mini" href="#">
                         <i class="icon-remove"></i>
                     </a>
 
                 </div>
             </div>
             <div class="widget-table">
-
                 <table class="table table-striped table-hover">
                     <thead>
                     <tr>
@@ -516,108 +504,104 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr>
+                        <tr>
+                            <td>Larry@gmail.com</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
+                                        <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                        <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                        <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>Suspendisse cursus justo in dolor euismod interdum</td>
+                            <td>24.02.2013</td>
+                        </tr>
+                        <tr>
 
-                        <td>Larry@gmail.com</td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
-                                    <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
-                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
-                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td>Suspendisse cursus justo in dolor euismod interdum</td>
-                        <td>24.02.2013</td>
-                    </tr>
-                    <tr>
+                            <td>Mauris@gmail.com</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
+                                        <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                        <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                        <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>In vel gravida urna. Aenean non justo</td>
+                            <td>23.02.2013</td>
+                        </tr>
+                        <tr>
+                            <td>Etiam@gmail.com</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
+                                        <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                        <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                        <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>Morbi ac feugiat urna</td>
+                            <td>22.02.2013</td>
+                        </tr>
+                        <tr>
 
-                        <td>Mauris@gmail.com</td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
-                                    <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
-                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
-                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td>In vel gravida urna. Aenean non justo</td>
-                        <td>23.02.2013</td>
-                    </tr>
-                    <tr>
-
-                        <td>Etiam@gmail.com</td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
-                                    <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
-                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
-                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td>Morbi ac feugiat urna</td>
-                        <td>22.02.2013</td>
-                    </tr>
-                    <tr>
-
-                        <td>Curabitur@gmail.com</td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
-                                    <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
-                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
-                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td>Pellentesque luctus auctor sapien ac mollis</td>
-                        <td>21.02.2013</td>
-                    </tr>
-                    <tr>
-
-                        <td>Etiam@gmail.com</td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
-                                    <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
-                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
-                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td>Aenean non justo</td>
-                        <td>21.02.2013</td>
-                    </tr>
-                    <tr>
-
-                        <td>Duis@gmail.com</td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
-                                    <span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
-                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
-                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td>Duis odio nulla</td>
-                        <td>20.02.2013</td>
-                    </tr>
+                            <td>Curabitur@gmail.com</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
+                                        <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                        <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                        <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>Pellentesque luctus auctor sapien ac mollis</td>
+                            <td>21.02.2013</td>
+                        </tr>
+                        <tr>
+                            <td>Etiam@gmail.com</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
+                                        <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                        <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                        <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>Aenean non justo</td>
+                            <td>21.02.2013</td>
+                        </tr>
+                        <tr>
+                            <td>Duis@gmail.com</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R
+                                        <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                        <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                        <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                            <td>Duis odio nulla</td>
+                            <td>20.02.2013</td>
+                        </tr>
                     </tbody>
                 </table>
 
@@ -635,13 +619,10 @@
 
             </div>
         </div>
-    </div>
-    <div class="span6">
-        <div class="widget-addnew">
+        <div class="widget-addnew span6">
             <div class="well well-large">
                 <button class="btn btn-large" type="button"><i class="icon-plus"></i> Add new widget</button>
             </div>
-
         </div>
     </div>
 </div>

@@ -13,7 +13,7 @@
                     <li class="<?=$activeMenuItem == 'address' ? 'active' : ''; ?>">
                         <a href="#">
                             <i class="icon-book"></i>
-                            Address 
+                            Address
                             <span class="badge badge-shadow badge-warning">4</span>
                         </a>
                     </li>
@@ -80,8 +80,7 @@
 
                 <ul class="nav pull-right hidden-desktop">
                     <li class="dropup">
-                        <a rel="tooltip" class="dropdown-toggle" data-toggle="dropdown" title="" href="#"
-                           title="More modules">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" title="More modules">
                             <i class="icon-reorder"></i>
                         </a>
                         <ul class="dropdown-menu" role="menu">

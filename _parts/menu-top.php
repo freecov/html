@@ -215,7 +215,7 @@
                 </ul>
                 <ul class="nav pull-right hidden-desktop">
                     <li class="dropdown">
-                        <a rel="tooltip" class="dropdown-toggle" data-toggle="dropdown" title="More modules" href="#">
+                        <a class="dropdown-toggle" data-toggle="dropdown" title="More modules" href="#">
                             <i class="icon-reorder"></i>
                         </a>
                         <ul class="dropdown-menu" role="menu">

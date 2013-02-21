@@ -9,7 +9,7 @@
                     <div class="span4 search">
                         <form class="form">
                             <div class="input-append">
-                                <input rel="tooltip" title="Autocomplete search field" type="text"
+                                <input title="Autocomplete search field" type="text"
                                        data-source='["Alabama","Alaska","Arizona","Arkansas","California","Cherniak Konstantin, konstantin.cherniak@gmail.com","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Konstantin, designer","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Voznyakovsky Ivan","Washington","West Virginia","Wisconsin","Wyoming"]'
                                        data-items="4" data-provide="typeahead" style="margin: 0 auto;">
                                 <button class="btn" type="button"><i class="icon-search"></i></button>
@@ -52,17 +52,7 @@
                             </div>
                         </div>
 
-                        <div class="clock">
-                            <div id="Date"></div>
-                            <ul>
-                                <li id="hours"></li>
-                                <li id="point">:</li>
-                                <li id="min"></li>
-                                <li id="point">:</li>
-                                <li id="sec"></li>
-                            </ul>
-
-                        </div>
+                        <div class="clock-container"></div>
                     </div>
                 </div>
             </div>

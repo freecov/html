@@ -11,7 +11,7 @@
     <link rel="stylesheet/less" href="less/bootstrap.less">
 
     <!--[if lt IE 8]>
-        <link rel="stylesheet" href="less/font-awesom-ie7.css">
+    <link rel="stylesheet" href="less/covide/font-awesom-ie7.css">
     <![endif]-->
 
     <script type="text/javascript">
@@ -23,6 +23,8 @@
         <script src="js/polyfill/html5.js"></script>
         <script src="js/polyfill/respond/respond.min.js"></script>
     <![endif]-->
+
+    <script data-main="js/app" src="js/lib/require-jquery.min.js"></script>
 
     <!-- Fav and touch icons -->
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
@@ -37,14 +39,9 @@
         <? $activeMenuItem = 'address'; ?>
         <? include_once "_parts/header.php"; ?>
         <section class="covide-content">
-            <? include_once "_content/address.php"; ?>            
+            <? include_once "_content/address.php"; ?>
         </section>
         <? include_once "_parts/footer.php"; ?>
     </div>
-
-    <script src="js/lib/jquery-1.9.1.js"></script>
-    <script src="js/plugins/bootstrap/all.min.js"></script>
-    <script src="js/plugins/clock/jquery.clock.js"></script>
-    <script src="js/start.js"></script>
 </body>
 </html>
