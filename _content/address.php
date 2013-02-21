@@ -14,19 +14,19 @@
 			<span class="caret"></span>
 		 </button>
          <ul class="dropdown-menu">
-            <li><a href="#">Search classifications</a></li>
-            <li><a href="#">Manage classifications</a></li>
-            <li><a href="#">Advanced search</a></li>
-            <li><a href="#">Export all relations</a></li>
-            <li><a href="#">Import relations</a></li>
-            <li><a href="#">Import vCard</a></li>
-            <li><a href="#">Global metadata</a></li>
-            <li><a href="#">Manage headers</a></li>
-            <li><a href="#">Letter templates</a></li>
-            <li><a href="#">Manage custom view</a></li>
-            <li><a href="#">View restricted e-mail archives</a></li>
-            <li><a href="#">View businesscard revisions</a></li>
-            <li><a href="#">Connect to LinkedIn (LinkedIn connections)</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Search classifications</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Manage classifications</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Advanced search</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Export all relations</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Import relations</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Import vCard</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Global metadata</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Manage headers</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Letter templates</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Manage custom view</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> View restricted e-mail archives</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> View businesscard revisions</a></li>
+            <li><a href="#"><i class="icon-angle-right"></i> Connect to LinkedIn (LinkedIn connections)</a></li>
         </ul>
         </div>
 
@@ -62,15 +62,15 @@
                     <a data-toggle="collapse" data-target="#submenu1" href="#"><i class="icon-sitemap"></i> Relations</a>
 					<div id="submenu1" class="collapse in">
 						<ul class="nav nav-tabs nav-stacked nav-covide">
-							<li><a href="#">Customers</a></li>
-							<li><a href="#">Suppliers</a></li>
-							<li><a href="#">CMS forms</a></li>
+							<li><a href="#"><i class="icon-folder-close-alt"></i> Customers</a></li>
+							<li><a href="#"><i class="icon-folder-close-alt"></i> Suppliers</a></li>
+							<li><a href="#"><i class="icon-folder-close-alt"></i> CMS forms</a></li>
 						</ul>
 					</div>
 				</li>
 				<li><a href="#"><i class="icon-group"></i> Employees</a></li>
 				<li><a href="#"><i class="icon-credit-card"></i> Businesscards</a></li>
-        		<li><a href="#"><i class="icon-sitemap muted"></i> Inactive relations</a></li>
+        		<li><a href="#"><i class="icon-ban-circle"></i> Inactive relations</a></li>
 				<li><a href="#"><i class="icon-warning-sign"></i> Duplicate relations</a></li>
 			</ul>
 		</div>
