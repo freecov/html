@@ -4,8 +4,9 @@
 
 			<div class="well well-small well-covide margin-b">
 				<span class="title">Filter by </span>
-				<div class="btn-group pull-right" data-toggle="buttons-checkbox">
-					<button type="button" class="btn"><i class="icon-angle-up"></i></button>
+			    <div class="btn-group pull-right" data-toggle="buttons-radio">
+					<button class="btn active"><i class="icon-caret-down"></i></button>
+					<button class="btn"><i class="icon-caret-up"></i></button>
 				</div>
 			</div>
 
