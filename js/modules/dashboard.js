@@ -22,20 +22,20 @@ define('modules/dashboard', ['jui/sortable'], function () {
                 handle: '.widget-title',
                 helper: 'clone',
                 forceHelperSize: true,
-                tolerance: 'intersect',
                 opacity: 0.7,
+                revert: true,
                 receive: function(e, ui) {
                     var receiver = $(e.target),
                         sender = $(ui.sender),
                         newRow = null;
 
                     if (ui.item.hasClass('span12')) {
-                        var receiverWidgets = receiver.children().not(ui.item),
+                        var children = receiver.children().not(ui.item),
                             rows = receiver.siblings().addBack(),
                             receiverIdx = rows.index(receiver),
                             senderIdx = rows.index(sender);
 
-                        newRow = me._createRow(receiverWidgets)
+                        newRow = me._createRow(children);
 
                         if (receiverIdx > senderIdx) {
                             newRow.insertBefore(receiver);
