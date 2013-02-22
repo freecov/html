@@ -2,6 +2,52 @@
 // Forms
 // --------------------------------------------------
 
-.search-form{
-	margin-bottom: 0px;
+//
+// Filters widget
+// --------------------------------------------------
+
+.search-widget {
+
+  .main-search {
+    display         : block;
+    -moz-box-sizing : border-box;
+    box-sizing      : border-box;
+    min-height      : 30px;
+    width           : 83%;
+  }
+
+  button[type="submit"] {
+    position : absolute;
+    right    : 0;
+    top      : 0;
+    width    : 15%;
+  }
+
+  .search-link {
+    margin-right : 20px;
+  }
+
+  .extra-wrap {
+    display : none;
+  }
+
+  .show-extra {
+    .main-search {
+      width : 100%;
+    }
+
+    button[type="submit"] {
+      margin-top : -6px;
+      position   : static;
+    }
+
+    .extra-wrap {
+      display : block;
+    }
+  }
+
+  .search-form {
+    margin-bottom : 0px;
+    position      : relative;
+  }
 }

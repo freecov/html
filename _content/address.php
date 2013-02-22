@@ -79,14 +79,14 @@
 	<div class="span9">
 
 		<? /*include_once "_parts/search-form.php"; */?>
-		<? include_once "_parts/search-form-collapsed.php"; ?>
+		<? include_once "_parts/search-form.php"; ?>
 
 		<div class="row-fluid">
 			<div class="span12">
 				<div class="well well-covide">
-					<div class="well well-small well-covide-w">
+					<div class="well well-small well-covide">
 						<span class="title">Relations</span>
-						<span class="alphabeta pull-right">
+						<span class="alphabet pull-right">
 							<a href="#"><b>[All]</b></a>
 							<a href="#">A</a>
 							<a href="#">B</a>
