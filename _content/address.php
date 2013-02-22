@@ -4,12 +4,12 @@
     </div>
     <div class="span4 title-button pull-right">
  		<div class="fontSizeChange btn-group pull-right" data-toggle="buttons-radio">
-            <button class="btn size-small" data-size="small">A</button>
-			<button class="btn size-normal active" data-size="normal">A</button>
-			<button class="btn size-big" data-size="big">A</button>
+            <button class="btn size-small" type="button" data-size="small">A</button>
+			<button class="btn size-normal active" type="button" data-size="normal">A</button>
+			<button class="btn size-big" type="button" data-size="big">A</button>
         </div>
 		<div class="btn-group pull-right">
-             <button class="btn dropdown-toggle" data-toggle="dropdown">
+             <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
                 <i class="icon-cogs"></i> Actions
                 <span class="caret"></span>
              </button>
