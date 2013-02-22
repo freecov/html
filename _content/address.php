@@ -426,7 +426,7 @@
                 </tbody>
             </table>
 
-            <div class="pagination text-center">
+            <div class="pagination text-center no-margin">
                 <ul>
                     <li><a href="#">Prev</a></li>
                     <li class="active"><a href="#">1</a></li>

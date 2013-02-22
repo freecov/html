@@ -21,18 +21,15 @@
                 <li><a href="#"><i class="icon-pencil"></i> Notes</a></li>
 				<li><a href="#"><i class="icon-bar-chart"></i> Sales</a></li>
                 <li><a href="#"><i class="icon-check"></i></i> To do's</a></li>
-
             </ul>
         </div>
     </div>
 </div>
 
 <!--Breadcrumb-->
-<div class="row-fluid">
-    <div class="span12 breadcrumb-covide">
-        <a href="index.php"><i class="icon-home"></i> Home</a>
-        <a class="current" href="index.php">Dashboard</a>
-    </div>
+<div class="breadcrumb-covide">
+    <a href="index.php"><i class="icon-home"></i> Home</a>
+    <a class="current" href="index.php">Dashboard</a>
 </div>
 
 <!--Widgets-->
