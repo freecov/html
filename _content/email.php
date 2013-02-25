@@ -43,11 +43,27 @@
 				<span class="caret"></span>
 			</a>
 			<ul class="dropdown-menu">
-				<li><a href="#">quick email</a></li>
+				<li><a data-toggle="modal" href="email_compose_modal.php" data-target="#myModal" >quick email</a></li>
 				<li><a href="#">email</a></li>
 				<li><a href="#">newsletter</a></li>
 			</ul>
 		</div>
+		
+		<!-- start modal -->
+		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+				
+
+			<div class="modal-body">
+			<!-- content will be loaded here -->
+			</div>
+			<div class="modal-footer">
+				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			</div>
+		</div>
+		<!-- end modal -->
+		
 		<hr>
 		<div class="well well-covide-menu text-left">
 			<h4>Email folders</h4>
@@ -60,7 +76,7 @@
 					<div class="tab-pane active" id="tab1">
 						<ul class="nav nav-tabs nav-stacked nav-covide">
 							<li><a href="#"><i class="icon-folder-close"></i> Starred <span title="4 unread emails" class="label tip-left pull-right"> 1 </span></a></li>
-							<li class="active"><a href="#"><i class="icon-folder-open"></i> Inbox <span title="4 unread emails" class="label label-important tip-left pull-right"> 3 </span></a></a></li>
+							<li class="active"><a href="#"><i class="icon-folder-open"></i> Inbox <span title="4 unread emails" class="label label-important tip-left pull-right"> 3 </span></a></li>
 							<li><a href="#"><i class="icon-folder-close"></i> Bounced</a></li>
 							<li><a href="#"><i class="icon-folder-close"></i> Drafts</a></li>
 							<li><a href="#"><i class="icon-folder-close"></i> Sent mail</a></li>							
@@ -69,7 +85,7 @@
 					<div class="tab-pane" id="tab2">
 						<ul class="nav nav-tabs nav-stacked nav-covide">
 							<li class="active"><a href="#"><i class="icon-folder-open"></i> Folder item <span title="4 unread emails" class="label label-important tip-left pull-right"> 1 </span></a></li>
-							<li><a href="#"><i class="icon-folder-close"></i> New folder <span title="4 unread emails" class="label tip-left pull-right"> 1 </span></a></a></li>
+							<li><a href="#"><i class="icon-folder-close"></i> New folder <span title="4 unread emails" class="label tip-left pull-right"> 1 </span></a></li>
 							<li><a href="#"><i class="icon-folder-close"></i> Test folder <span title="4 unread emails" class="label tip-left pull-right"> 5 </span></a></li>							
 						</ul>
 					</div>
