@@ -30,7 +30,8 @@
 <!--Breadcrumb-->
 <div class="breadcrumb-covide">
     <a href="index.php"><i class="icon-home"></i> Home</a>
-    <a class="current" href="email.php">Email</a>
+    <a href="email.php">Email</a>
+	<a class="current" href="email.php">Inbox</a>
 </div>
 
 <!--Address Content-->
@@ -49,18 +50,28 @@
 		</div>
 		<hr>
 		<div class="well well-covide-menu text-left">
-
+			<h4>Email folders</h4>
 		    <div class="tabbable"> <!-- Only required for left/right tabs -->
 				<ul class="nav nav-tabs">
-					<li class="active"><a href="#tab1" data-toggle="tab">Personal</a></li>
-					<li><a href="#tab2" data-toggle="tab">Shared</a></li>
+					<li class="active"><a href="#tab1" data-toggle="tab"><i class="icon-folder-close-alt"></i> Personal <span title="4 unread emails" class="label label-important tip-left"> 4 </span></a></li>
+					<li><a href="#tab2" data-toggle="tab"><i class="icon-folder-close-alt"></i> Shared <span title="7 unread emails" class="label tip-left"> 7 </span></a></li>
 				</ul>
-				<div class="tab-content">
+				<div class="tab-content covide-email">
 					<div class="tab-pane active" id="tab1">
-						<p>I'm in Section 1.</p>
+						<ul class="nav nav-tabs nav-stacked nav-covide">
+							<li><a href="#"><i class="icon-folder-close"></i> Starred <span title="4 unread emails" class="label tip-left pull-right"> 1 </span></a></li>
+							<li class="active"><a href="#"><i class="icon-folder-open"></i> Inbox <span title="4 unread emails" class="label label-important tip-left pull-right"> 3 </span></a></a></li>
+							<li><a href="#"><i class="icon-folder-close"></i> Bounced</a></li>
+							<li><a href="#"><i class="icon-folder-close"></i> Drafts</a></li>
+							<li><a href="#"><i class="icon-folder-close"></i> Sent mail</a></li>							
+						</ul>
 					</div>
 					<div class="tab-pane" id="tab2">
-						<p>Howdy, I'm in Section 2.</p>
+						<ul class="nav nav-tabs nav-stacked nav-covide">
+							<li class="active"><a href="#"><i class="icon-folder-open"></i> Folder item <span title="4 unread emails" class="label label-important tip-left pull-right"> 1 </span></a></li>
+							<li><a href="#"><i class="icon-folder-close"></i> New folder <span title="4 unread emails" class="label tip-left pull-right"> 1 </span></a></a></li>
+							<li><a href="#"><i class="icon-folder-close"></i> Test folder <span title="4 unread emails" class="label tip-left pull-right"> 5 </span></a></li>							
+						</ul>
 					</div>
 				</div>
 			</div>
@@ -73,36 +84,7 @@
 
         <div class="well well-covide">
             <div class="well well-small well-covide">
-                <span class="title">Relations</span>
-                <span class="alphabet pull-right">
-                    <a href="#"><b>[All]</b></a>
-                    <a href="#">A</a>
-                    <a href="#">B</a>
-                    <a href="c">C</a>
-                    <a href="d">D</a>
-                    <a href="e">E</a>
-                    <a href="f">F</a>
-                    <a href="g">G</a>
-                    <a href="h">H</a>
-                    <a href="i">I</a>
-                    <a href="j">J</a>
-                    <a href="k">K</a>
-                    <a href="l">L</a>
-                    <a href="m">M</a>
-                    <a href="n">N</a>
-                    <a href="o">O</a>
-                    <a href="p">P</a>
-                    <a href="q">Q</a>
-                    <a href="r">R</a>
-                    <a href="s">S</a>
-                    <a href="t">T</a>
-                    <a href="u">U</a>
-                    <a href="v">V</a>
-                    <a href="w">W</a>
-                    <a href="x">X</a>
-                    <a href="y">Y</a>
-                    <a href="z">Z</a>
-                </span>
+                <span class="title">Inbox</span>                
             </div>
             <div class="well well-small well-covide-g">
                 <div class="btn-group">
@@ -110,45 +92,38 @@
                         <i class="icon-check"></i> <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#">Make selection inactive</a></li>
-                        <li><a href="#">Manage selection's classification</a></li>
-                        <li><a href="#">Export selection</a></li>
-                        <li><a href="#">Print selection</a></li>
-                    </ul>
-                </div>
-                <div class="btn-group">
-                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        Relation actions
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li></li>
-                        <li></li>
+						<li><a href="#">All</a></li>
+						<li><a href="#">None</a></li>
+						<li><a href="#">Read</a></li>
+						<li><a href="#">Unread</a></li>
+						<li><a href="#">Starred</a></li>
                     </ul>
                 </div>
                 <div class="btn-group pull-right">
                     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="icon-plus"></i> Add rows
+							<i class="icon-exchange"></i> Relation actions
                         <span class="caret"></span>
                     </a>
-
-                    <div class="dropdown-menu dropdown form">
-                        <form>
-                            <table class="table table-striped table-hover table-condensed table-borderless">
-                                <tr><td><label><input type="checkbox" checked> Address</label></td></tr>
-                                <tr><td><label><input type="checkbox"> Birthday</label></td></tr>
-                                <tr><td><label><input type="checkbox" checked> City</label></td></tr>
-                                <tr><td><label><input type="checkbox"> Country</label></td></tr>
-                                <tr><td><label><input type="checkbox"> Email</label></td></tr>
-                                <tr><td><label><input type="checkbox"> Given name</label></td></tr>
-                                <tr><td><label><input type="checkbox"> Intials</label></td></tr>
-                                <tr><td><label><input type="checkbox"> Last name</label></td></tr>
-                                <tr><td><label><input type="checkbox" checked> Relation name</label></td></tr>
-                                <tr><td><label><input type="checkbox" checked> Telephone nr</label></td></tr>
-                                <tr><td><label><input type="checkbox" checked> Zip code</label></td></tr>
-                            </table>
-                        </form>
-                    </div>
+                    <ul class="dropdown-menu">
+					    <li><a href="#">Delete selection</a></li>
+					    <li><a href="#">Move selection</a></li>
+					    <li><a href="#">Toggle selection's read / unread status</a></li>
+					    <li><a href="#">Make selection private</a></li>
+					    <li><a href="#">Make selection public</a></li>
+					    <li><a href="#">Try to link selection</a></li>
+                    </ul>
+                </div>
+				<div class="btn-group pull-right">
+                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                       <i class="icon-paper-clip"></i> Attachments actions
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+					    <li><a href="#">Delete selection</a></li>
+					    <li><a href="#">Save selection in Covide file system</a></li>
+					    <li><a href="#">Download selection</a></li>
+					    <li><a href="#">Download selection as .zip-file</a></li>
+                    </ul>
                 </div>
             </div>
 
@@ -156,11 +131,8 @@
                 <colgroup>
                     <col width="2%">
                     <col width="2%">
-                    <col width="3%">
-                    <col>
-                    <col>
-                    <col>
-                    <col>
+                    <col width="20%">
+                    <col width="5%">
                     <col>
                     <col>
                 </colgroup>
@@ -168,255 +140,192 @@
                     <tr>
                         <th></th>
                         <th></th>
+                        <th>Email</th>
                         <th></th>
-                        <th>Relations</th>
-                        <th>Address</th>
-                        <th>Date</th>
-                        <th>Zip code</th>
-                        <th>City</th>
-                        <th>Phone</th>
+                        <th>Subject</th>
+                        <th>Date <i class="icon-caret-down"></i></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
+                        <td><i class="icon-star-empty"></i></td>
+                        <td><b>Aliquam@gmail.com</b></td>
+						<td>
                             <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
+                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
+                                        class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
+                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
                                 </ul>
                             </div>
                         </td>
-                        <td>Aliquam erat</td>
-                        <td>Vestibulum in lacus vel est tempus mattis</td>
-                        <td>20.02.2013</td>
-                        <td>342425234</td>
-                        <td>Borneveld</td>
-                        <td>3807554565</td>
+                        <td><b>Vestibulum in lacus vel est tempus mattis</b></td>
+                        <td><b>20.02.2013</b></td>
+                     </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><i class="icon-star"></i></td>
+                        <td><b>Aenean@gmail.com</b></td>
+						<td>
+                            <div class="btn-group">
+                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td><b>Vestibulum in lacus vel est tempus mattis</b></td>
+                        <td><b>18.02.2013</b></td>
                     </tr>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb text-error"></i></td>
-                        <td>
+                        <td><i class="icon-star-empty"></i></td>
+                        <td><b>Feugiat@gmail.com</b></td>
+						<td>
                             <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
+                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
+                                        class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
+                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
                                 </ul>
                             </div>
                         </td>
-                        <td>Aenean vitae arcu</td>
-                        <td>Vestibulum in lacus vel est tempus mattis</td>
-                        <td>18.02.2013</td>
-                        <td>455623339</td>
-                        <td>Rotterdam</td>
-                        <td>3807511125</td>
+                        <td><b>Phasellus nisl lectus, interdum</b></td>
+                        <td><b>03.02.2013</b></td>
                     </tr>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
+                        <td><i class="icon-star"></i></i></td>
+                        <td><b>Suspendisse@gmail.com</b></td>
+						<td>
                             <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
+                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
+                                        class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
+                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
                                 </ul>
                             </div>
                         </td>
-                        <td>Aliquam feugiat</td>
-                        <td>Phasellus nisl lectus, interdum</td>
-                        <td>03.02.2013</td>
-                        <td>311102586</td>
-                        <td>Amsterdam</td>
-                        <td>3807556621</td>
+                        <td><b>Aenean vitae arcu in dolor vehicula scelerisque</b></td>
+                        <td><b>15.01.2013</b></td>
                     </tr>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb text-error"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td>Suspendisse</td>
-                        <td>Aenean vitae arcu in dolor vehicula scelerisque</td>
-                        <td>15.01.2013</td>
-                        <td>553948869</td>
-                        <td>Borneveld</td>
-                        <td>3807500353</td>
-                    </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
+                        <td><i class="icon-star-empty"></i></td>
                         <td>Pellentesque justo</td>
+						<td>
+                            <div class="btn-group">
+                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
+                                        class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
+                                </ul>
+                            </div>
+                        </td>
                         <td>Mauris quis libero lacinia ligula</td>
                         <td>05.01.2013</td>
-                        <td>247935008</td>
-                        <td>Amsterdam</td>
-                        <td>3807998044</td>
                     </tr>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
+                        <td><i class="icon-star-empty"></i></td>
+                        <td>Vestibulum bibendum</td>
+						<td>
                             <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
+                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
+                                        class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
+                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
                                 </ul>
                             </div>
                         </td>
-                        <td>Vestibulum bibendum</td>
                         <td>Pellentesque habitant morbi tristique</td>
                         <td>10.02.2013</td>
-                        <td>502036987</td>
-                        <td>Rotterdam</td>
-                        <td>3807554905</td>
                     </tr>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb text-error"></i></td>
-                        <td>
+                        <td><i class="icon-star"></i></td>
+                        <td>Vivamus dui turpis</td>
+						<td>
                             <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
+                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
+                                        class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
+                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
                                 </ul>
                             </div>
                         </td>
-                        <td>Vivamus dui turpis</td>
                         <td>Aliquam feugiat urna</td>
                         <td>12.01.2013</td>
-                        <td>678912546</td>
-                        <td>Rotterdam</td>
-                        <td>3807873269</td>
                     </tr>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
+                        <td><i class="icon-star-empty"></i></td>
+                        <td>In placerat mollis</td>
+						<td>
                             <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
+                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
+                                        class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
+                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
                                 </ul>
                             </div>
                         </td>
-                        <td>In placerat mollis</td>
                         <td>Donec consequat enim non nisi </td>
                         <td>20.12.2012</td>
-                        <td>742425234</td>
-                        <td>Borneveld</td>
-                        <td>3803544465</td>
                     </tr>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb text-error"></i></td>
-                        <td>
+                        <td><i class="icon-star"></i></td>
+                        <td>Cras vestibulum</td>
+						<td>
                             <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
+                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
+                                        class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
+                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
                                 </ul>
                             </div>
                         </td>
-                        <td>Cras vestibulum</td>
                         <td>Vestibulum bibendum, mi sed consequat</td>
                         <td>30.01.2013</td>
-                        <td>357425987</td>
-                        <td>Amsterdam</td>
-                        <td>3803554568</td>
                     </tr>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
+                        <td><i class="icon-star-empty"></i></td>
+                        <td>Aenean vitae</td>
+						<td>
                             <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
+                                <a class="btn btn-mini btn-warning dropdown-toggle" data-toggle="dropdown" href="#">R <span
+                                        class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
+                                    <li><a href='#'><i class='icon-pencil'></i> Notes</a></li>
+                                    <li><a href='#'><i class='icon-list'></i> Projects</a></li>
+                                    <li><a href='#'><i class='icon-book'></i> Addresses</a></li>
                                 </ul>
                             </div>
                         </td>
-                        <td>Aenean vitae</td>
                         <td>Pellentesque vel odio orci</td>
                         <td>14.02.2013</td>
-                        <td>154565234</td>
-                        <td>Amsterdam</td>
-                        <td>3807222561</td>
                     </tr>
                 </tbody>
             </table>
