@@ -82,7 +82,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="dropdown hover-menu <?=$activeMenuItem == 'email' ? 'active' : ''; ?>">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <a class="dropdown-toggle" href="email.php">
                     <i class="icon-envelope-alt"></i>
                     Email
                     <span class="badge badge-shadow badge-important">4 / 9</span>
