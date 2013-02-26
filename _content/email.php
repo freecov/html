@@ -142,7 +142,7 @@
                 </colgroup>
                 <thead>
                     <tr>
-                        <th class="text-center">
+                        <th>
 							<div class="btn-group">
 								<a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
 									<i class="icon-check"></i> <span class="caret"></span>

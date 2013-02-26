@@ -20,7 +20,7 @@
                         <option>Zip Code</option>
                     </select>
                     <input type="text" class="span7" placeholder="Type address">
-                    <button class="btn btn-small pull-right" type="button"><i class="icon-remove"></i></button>
+					<button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button>
                 </li>
                 <li class="form-inline controls-row">
                     <select class="span3">
@@ -33,7 +33,7 @@
                         <option>Rotterdam</option>
                         <option>Amsterdam</option>
                     </select>
-                    <button class="btn btn-small pull-right" type="button"><i class="icon-remove"></i></button>
+                    <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button>
                 </li>
                 <li class="odd form-inline controls-row">
                     <select class="span3">
@@ -42,7 +42,7 @@
                         <option>Address</option>
                     </select>
                     <input type="text" class="span7" placeholder="Type zip code">
-                    <button class="btn btn-small pull-right" type="button"><i class="icon-remove"></i></button>
+                    <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button>
                 </li>
                 <li class="form-inline controls-row">
                     <label class="radio inline">
