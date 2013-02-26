@@ -2,14 +2,14 @@
     <div class="navbar-inner no-padding">
         <ul class="nav">
             <li class="<?=$activeMenuItem == 'dashboard' ? 'active' : ''; ?>">
-                <a href="dashboard.html">
+                <a href="dashboard.php">
                     <i class="icon-home"></i>
                     Dashboard
                 </a>
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'address' ? 'active' : ''; ?>">
-                <a href="#">
+                <a href="address.php">
                     <i class="icon-book"></i>
                     Address
                     <span class="badge badge-shadow badge-warning">4</span>
@@ -38,7 +38,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'email' ? 'active' : ''; ?>">
-                <a href="#">
+                <a href="email.php">
                     <i class="icon-envelope-alt"></i>
                     Email
                     <span class="badge badge-shadow badge-important">4 / 9</span>
