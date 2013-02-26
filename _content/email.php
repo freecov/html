@@ -43,14 +43,14 @@
 				<span class="caret"></span>
 			</a>
 			<ul class="dropdown-menu">
-				<li><a data-toggle="modal" href="email_compose_modal.php" data-target="#myModal" >quick email</a></li>
+				<li><a data-toggle="modal" href="_modals/email_compose_modal.php" data-target="#quickemailModal" >quick email</a></li>
 				<li><a href="#">email</a></li>
 				<li><a href="#">newsletter</a></li>
 			</ul>
 		</div>
 		
 		<!-- start modal -->
-		<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div id="quickemailModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
 				
