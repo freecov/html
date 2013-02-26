@@ -112,23 +112,13 @@
             <div class="well well-small well-covide-g">
                 <div class="btn-group">
                     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="icon-check"></i> <span class="caret"></span>
+                        Selection actions <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="#">Make selection inactive</a></li>
                         <li><a href="#">Manage selection's classification</a></li>
                         <li><a href="#">Export selection</a></li>
                         <li><a href="#">Print selection</a></li>
-                    </ul>
-                </div>
-                <div class="btn-group">
-                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        Relation actions
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li></li>
-                        <li></li>
                     </ul>
                 </div>
                 <div class="btn-group pull-right">
@@ -171,7 +161,19 @@
                 </colgroup>
                 <thead>
                     <tr>
-                        <th></th>
+                        <th>
+							<div class="btn-group">
+								<a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
+									<i class="icon-check"></i> <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">All</a></li>
+									<li><a href="#">Inverse</a></li>
+									<li><a href="#">None</a></li>
+								</ul>
+							</div>
+						
+						</th>
                         <th></th>
                         <th></th>
                         <th>Relations</th>

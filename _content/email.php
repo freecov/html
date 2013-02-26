@@ -103,18 +103,6 @@
                 <span class="title">Inbox</span>                
             </div>
             <div class="well well-small well-covide-g">
-                <div class="btn-group">
-                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="icon-check"></i> <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-						<li><a href="#">All</a></li>
-						<li><a href="#">None</a></li>
-						<li><a href="#">Read</a></li>
-						<li><a href="#">Unread</a></li>
-						<li><a href="#">Starred</a></li>
-                    </ul>
-                </div>
                 <div class="btn-group pull-right">
                     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
 							<i class="icon-exchange"></i> Relation actions
@@ -154,7 +142,20 @@
                 </colgroup>
                 <thead>
                     <tr>
-                        <th></th>
+                        <th class="text-center">
+							<div class="btn-group">
+								<a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
+									<i class="icon-check"></i> <span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">All</a></li>
+									<li><a href="#">None</a></li>
+									<li><a href="#">Read</a></li>
+									<li><a href="#">Unread</a></li>
+									<li><a href="#">Starred</a></li>
+								</ul>
+							</div>
+						</th>
                         <th></th>
                         <th>Email</th>
                         <th></th>
