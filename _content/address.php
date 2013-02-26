@@ -64,7 +64,7 @@
 			</div>
 			<div class="modal-footer">
 				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-				<button class="btn btn-primary">Save changes</button>
+				<button class="btn btn-warning">Save</button>
 			</div>
 		</div>
 		<!-- End Buisness Card Modal -->
@@ -80,7 +80,7 @@
 			</div>
 			<div class="modal-footer">
 				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-				<button class="btn btn-primary">Save changes</button>
+				<button class="btn btn-warning">Save</button>
 			</div>
 		</div>
 		<!-- End Buisness Card Modal -->
@@ -97,7 +97,7 @@
 			</div>
 			<div class="modal-footer">
 				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-				<button class="btn btn-primary">Save changes</button>
+				<button class="btn btn-warning">Save</button>
 			</div>
 		</div>
 		<!-- End Buisness Card Modal -->
