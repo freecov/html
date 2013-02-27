@@ -15,8 +15,9 @@
 // Body (where all modal content resides)
 .modal-body {
 	background: none repeat scroll 0 0 #FFFFFF;
-	max-height: none;
+	max-height: 430px;
 	overflow-y : auto;
+	overflow-x : hidden;
 	padding    : 15px;
 	position   : relative;
 	text-algn: center;
@@ -28,8 +29,12 @@
 }
 
 .add-relation-modal{
-	width  : 800px;
-	margin-left : -400px;
+	width  : 870px;
+	margin-left : -435px;
+}
+
+.add-relation-modal.fade.in{
+top: 2%;
 }
 
 .wrapper-modal {
