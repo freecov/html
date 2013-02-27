@@ -1,0 +1,28 @@
+<dl class="dl-horizontal">
+    <dt>Company name</dt><dd>Terrazur</dd>
+	<dt>Relation nr</dt><dd>1005</dd>
+    <dt>debtor nr	</dt><dd>1005</dt>
+    <dt>addresstype	</dt><dd>customer</dt>
+    <dt>bankaccount	</dt><dd>385562969</dt>
+    <dt>contact	</dt><dd>De heer H. van der Sloot (Henk)</dt>
+    <dt>address	</dt><dd>Bouwheerstraat 1b</dt>
+    <dt>zip code	</dt><dd>3772 AL</dt>
+    <dt>city	</dt><dd>Barneveld</dt>
+    <dt>country	</dt><dd>Netherlands</dt>
+    <dt>streetmap	</dt><dd>show map</dt>
+    <dt>telephone nr	</dt><dd>+31342-490364</dt>
+    <dt>mobile phone nr</dt><dd>123213123	</dt>
+    <dt>fax nr	</dt><dd>+31342-423577</dt>
+    <dt>email	</dt><dd>toma@kovoks.nl</dt>
+    <dt>website	</dt><dd>http://www.terrazur.nl</dt>
+    <dt>classification(s)	</dt><dd>Escalatie</dt>
+    <dt>account manager	</dt><dd>none</dt>
+    <dt>last changed	</dt><dd>last changed by administrator on 26-06-2012 12:14</dt>
+</dl>
+
+<dl class="dl-horizontal">
+    <dt>Company name</dt>
+    <dd>Terrazur</dd>
+	<dt>Relation nr</dt>
+    <dd>1005</dd>
+</dl>
