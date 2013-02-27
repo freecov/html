@@ -182,15 +182,33 @@
 					<div class="tab-pane" id="tab2relationcard">
 						<h4><i class="icon-credit-card"></i> Buisness Cards</h4>
 						
+						<form class="form-inline">
+							<label>Sync user:</label>
+							<select>
+								<option>Osdn</option>
+								<option>User</option>
+								<option>Kostya</option>
+							</select>
+							<input type="text" class="span6" placeholder="Search buisness card">
+							<button type="submit" class="btn"><i class="icon-search"></i> Search</button>
+						</form>
+						
+						
 						<table class="table table-striped table-hover">
 							<colgroup>
 								<col width="2%">
+								<col width="4%">
+								<col>
+								<col>
+								<col>
+								<col>
 								<col>
 								<col>
 								<col>
 							</colgroup>
 							<thead>
 								<tr>
+									<th></th>
 									<th></th>
 									<th>Name</th>
 									<th>Email</th>
@@ -205,6 +223,7 @@
 							<tbody>
 								<tr>
 									<td><i class="icon-lightbulb"></i></td>
+									<td><button data-toggle="modal" href="_modals/view_buisness_card_modal.php" data-target="#viewbuisnesscardModal" class="btn btn-small" type="button"><i class="icon-credit-card"></i></button></td>
 									<td>Dhr. Henk van der Sloot</td>
                                     <td><a href="#">toma@kovoks.nl</a></td>
 									<td>+31342-490364</td>
@@ -215,6 +234,7 @@
 								</tr>
 								<tr>
 									<td><i class="icon-lightbulb text-error"></i></td>
+									<td><button class="btn btn-small" type="button"><i class="icon-credit-card"></i></button></td>
 									<td>Heer/mevrouw</td>
                                     <td><a href="#">willem.massier@covide.nl</a></td>
 									<td>+31342-490364</td>
@@ -225,6 +245,7 @@
 								</tr>
 								<tr>
 									<td><i class="icon-lightbulb"></i></td>
+									<td><button class="btn btn-small" type="button"><i class="icon-credit-card"></i></button></td>
 									<td>Test</td>
                                     <td><a href="#">toma@kovoks.nl</a></td>
 									<td>+31342-490364</td>
@@ -236,17 +257,65 @@
 							</tbody>
 						</table>
 						
+						<!-- Start view Buisness Card Modal -->
+						<div id="viewbuisnesscardModal" class="modal add-relation-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="viewbuisnesscardModalLabel" aria-hidden="true">
+							<div class="wrapper-modal">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+									<h4 id="viewbuisnesscardModalLabel"><i class="icon-credit-card"></i> View Buisness Card</h4>
+								</div>
+								<div class="modal-body">
+			
+								</div>
+								<div class="modal-footer">
+									<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+									
+								</div>
+							</div>	
+						</div>
+						<!-- End view Buisness Card Modal -->
 						
 						
 					</div>
 					<div class="tab-pane" id="tab3relationcard">
-						<p>Projects</p>
+						<h4><i class="icon-list"></i> Projects</h4>
+						<table class="table table-striped table-hover">
+							<colgroup>
+								<col>
+								<col>
+								<col>
+							</colgroup>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Active</th> 
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Suspendisse ornare</td>
+									<td>Pellentesque volutpat, lectus eget feugiat auctor, felis lectus pellentesque tellus</td>
+									<td><span class="label label-active label-success" data-original-title="active">A</span></td>
+								</tr>
+								<tr>
+									<td>Vivamus</td>
+									<td>Cras condimentum est sit amet tellus scelerisque vulputate</td>
+									<td><span class="label label-active" data-original-title="passive">P</span></td>
+								</tr>
+								<tr>
+									<td>Aliquam</td>
+									<td>Curabitur at mauris dolor, id lobortis felis. Donec dignissim dui sit amet eros cursus pulvinar.</td>
+									<td><span class="label label-active label-success" data-original-title="active">A</span></td>
+								</tr>
+							</tbody>
+						</table>
 					</div>
 					<div class="tab-pane" id="tab4relationcard">
-						<p>Memo</p>
+						<h4><i class="icon-credit-card"></i> Memo</h4>
 					</div>
 					<div class="tab-pane" id="tab5relationcard">
-						<p>Extra</p>
+						<h4><i class="icon-credit-card"></i> Extra</h4>
 					</div>
 				</div>
 			</div>
