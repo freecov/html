@@ -7,7 +7,6 @@
 // --------------------------------------------------
 
 .search-widget {
-
   .main-search {
     display         : block;
     -moz-box-sizing : border-box;
@@ -52,8 +51,33 @@
   }
 }
 
-.classification-select{
-		height: 300px;
-		width: 500px;
-	}	
+fieldset {
+  border-bottom  : 1px solid @grayLighter;
+  margin-bottom  : 10px;
+  padding-bottom : 10px;
+
+  &:first-child {
+    border-bottom  : 0;
+    margin-bottom  : 0;
+    padding-bottom : 0;
+  }
+}
+
+legend {
+  margin-bottom : 10px;
+  font-size     : @baseFontSize;
+  font-weight   : 700;
+  line-height   : @baseLineHeight;
+  color         : @black;
+  border        : 0;
+
+  .muted {
+    font-weight : 400;
+  }
+}
+
+.classification-select {
+  height : 300px;
+  width  : 500px;
+}
 

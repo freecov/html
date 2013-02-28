@@ -1,6 +1,6 @@
 require.config({
     paths: {
-        bootstrap: 'plugins/bootstrap/all.min',
+        bootstrap: 'plugins/bootstrap/all',
         jui: 'lib/jquery-ui/package'
     }
 });

@@ -36,9 +36,9 @@
 
 <!--Address Content-->
 <div class="row-fluid">
-	<div class="span3 text-center">
-	    <div class="btn-group text-left">
-			<a class="btn btn-covide btn-warning dropdown-toggle" data-toggle="dropdown" href="#">
+	<div class="span3">
+	    <div class="btn-group btn-create">
+			<a class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown" href="#">
 				<i class="icon-edit"></i> Compose
 				<span class="caret"></span>
 			</a>
@@ -48,12 +48,12 @@
 				<li><a href="#">newsletter</a></li>
 			</ul>
 		</div>
-		
+
 		<!-- start modal -->
 		<div id="quickemailModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-				
+
 
 			<div class="modal-body">
 			<!-- content will be loaded here -->
@@ -63,9 +63,9 @@
 			</div>
 		</div>
 		<!-- end modal -->
-		
+
 		<hr>
-		<div class="well well-covide-menu text-left">
+		<div class="well well-covide-menu">
 			<h4>Email folders</h4>
 		    <div class="tabbable"> <!-- Only required for left/right tabs -->
 				<ul class="nav nav-tabs">
@@ -79,19 +79,19 @@
 							<li class="active"><a href="#"><i class="icon-folder-open"></i> Inbox <span title="4 unread emails" class="label label-important tip-left pull-right"> 3 </span></a></li>
 							<li><a href="#"><i class="icon-folder-close"></i> Bounced</a></li>
 							<li><a href="#"><i class="icon-folder-close"></i> Drafts</a></li>
-							<li><a href="#"><i class="icon-folder-close"></i> Sent mail</a></li>							
+							<li><a href="#"><i class="icon-folder-close"></i> Sent mail</a></li>
 						</ul>
 					</div>
 					<div class="tab-pane" id="tab2">
 						<ul class="nav nav-tabs nav-stacked nav-covide">
 							<li class="active"><a href="#"><i class="icon-folder-open"></i> Folder item <span title="4 unread emails" class="label label-important tip-left pull-right"> 1 </span></a></li>
 							<li><a href="#"><i class="icon-folder-close"></i> New folder <span title="4 unread emails" class="label tip-left pull-right"> 1 </span></a></li>
-							<li><a href="#"><i class="icon-folder-close"></i> Test folder <span title="4 unread emails" class="label tip-left pull-right"> 5 </span></a></li>							
+							<li><a href="#"><i class="icon-folder-close"></i> Test folder <span title="4 unread emails" class="label tip-left pull-right"> 5 </span></a></li>
 						</ul>
 					</div>
 				</div>
 			</div>
-		
+
 		</div>
 	</div>
 
@@ -100,7 +100,7 @@
 
         <div class="well well-covide">
             <div class="well well-small well-covide">
-                <span class="title">Inbox</span>                
+                <span class="title">Inbox</span>
             </div>
             <div class="well well-small well-covide-g">
                 <div class="btn-group pull-right">

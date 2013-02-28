@@ -41,9 +41,9 @@
 
 <!--Address Content-->
 <div class="row-fluid">
-	<div class="span3 text-center">
-	    <div class="btn-group text-left">
-			<a class="btn btn-covide btn-warning dropdown-toggle" data-toggle="dropdown" href="#">
+	<div class="span3">
+	    <div class="btn-group btn-create">
+			<a class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown" href="#">
 				<i class="icon-plus"></i> Add new
 				<span class="caret"></span>
 			</a>
@@ -53,16 +53,16 @@
 				<li><a data-toggle="modal" href="_modals/add_person_modal.php" data-target="#personModal" ><i class="icon-user"></i> person</a></li>
 			</ul>
 		</div>
-		
+
 		<!-- Start Relation Modal -->
-		<div id="relationModal" class="modal add-relation-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="relationModalLabel" aria-hidden="true">
+		<div id="relationModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="relationModalLabel" aria-hidden="true">
 			<div class="wrapper-modal">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
 					<h4 id="relationModalLabel"><i class="icon-sitemap"></i> Add Relation</h4>
 				</div>
 				<div class="modal-body">
-			
+
 				</div>
 				<div class="modal-footer">
 					<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
@@ -71,37 +71,35 @@
 			</div>
 		</div>
 		<!-- End Relation Modal -->
-		
+
 		<!-- Start Buisness Card Modal -->
 
-		<div id="buisnesscardModal" class="modal add-relation-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="buisnesscardModalLabel" aria-hidden="true">
-			<div class="wrapper-modal">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-					<h4 id="buisnesscardModalLabel"><i class="icon-credit-card"></i> Add Buisness Card</h4>
-				</div>
-				<div class="modal-body">
-			
-				</div>
-				<div class="modal-footer">
-					<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-					<button class="btn btn-warning">Add Buisness Card</button>
-				</div>
-			</div>	
+		<div id="buisnesscardModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="buisnesscardModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+                <h4 id="buisnesscardModalLabel"><i class="icon-credit-card"></i> Add Buisness Card</h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                <button class="btn btn-warning">Add Buisness Card</button>
+            </div>
 		</div>
-	
+
 		<!-- End Buisness Card Modal -->
-		
+
 
 		<!-- Start Person Modal Modal -->
-		<div id="personModal" class="modal add-relation-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="personModalLabel" aria-hidden="true">
+		<div id="personModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="personModalLabel" aria-hidden="true">
 			<div class="wrapper-modal">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
 					<h4 id="personModalLabel"><i class="icon-user"></i> Add Person</h4>
 				</div>
 				<div class="modal-body">
-				
+
 				</div>
 				<div class="modal-footer">
 					<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
@@ -111,12 +109,8 @@
 		</div>
 		<!-- End Person Modal -->
 
-		
-		
-		
-		
 		<hr>
-		<div class="well well-covide-menu text-left">
+		<div class="well well-covide-menu">
 			<ul class="nav nav-tabs nav-stacked nav-covide">
 				<li>
                     <a data-toggle="collapse" data-target="#submenu1" href="#"><i class="icon-sitemap"></i> Relations</a>
@@ -149,39 +143,40 @@
 				<div class="tab-content">
 					<div class="tab-pane active" id="tab1relationcard">
 						<h4><i class="icon-info-sign"></i> Information</h4>
-						<div class="row-fluid">						
+						<div class="row-fluid">
 							<div class="span6">
 								<dl class="dl-horizontal">
 									<dt>Company name</dt><dd>Terrazur</dd>
 									<dt>Relation nr</dt><dd>1005</dd>
-    								<dt>Debtor nr	</dt><dd>1005</dt>
-    								<dt>Addresstype	</dt><dd>customer</dt>
-    								<dt>Bankaccount	</dt><dd>385562969</dt>
-    								<dt>Contact	</dt><dd>De heer H. van der Sloot (Henk)</dt>
-    								<dt>Address	</dt><dd>Bouwheerstraat 1b</dt>
-    								<dt>Zip code	</dt><dd>3772 AL</dt>
-    								<dt>City	</dt><dd>Barneveld</dt>
-    								<dt>Country	</dt><dd>Netherlands</dt>
-								</dl>	
+    								<dt>Debtor nr	</dt><dd>1005</dd>
+    								<dt>Addresstype	</dt><dd>customer</dd>
+    								<dt>Bankaccount	</dt><dd>385562969</dd>
+    								<dt>Contact	</dt><dd>De heer H. van der Sloot (Henk)</dd>
+    								<dt>Address	</dt><dd>Bouwheerstraat 1b</dd>
+    								<dt>Zip code</dt><dd>3772 AL</dd>
+    								<dt>City	</dt><dd>Barneveld</dd>
+    								<dt>Country	</dt><dd>Netherlands</dd>
+								</dl>
 							</div>
 							<div class="span6">
 								<dl class="dl-horizontal">
-    								<dt>Streetmap	</dt><dd><a href=#>show map</a></dt>
-    								<dt>Telephone nr	</dt><dd>+31342-490364</dt>
-    								<dt>Mobile phone nr</dt><dd>123213123	</dt>
-    								<dt>Fax nr	</dt><dd>+31342-423577</dt>
-    								<dt>Email	</dt><dd><a href=#>toma@kovoks.nl</a></dt>
-    								<dt>Website	</dt><dd><a href=#>http://www.terrazur.nl</a></dt>
-    								<dt>Classification(s)	</dt><dd>Escalatie</dt>
-    								<dt>Account manager	</dt><dd>none</dt>
-    								<dt>Last changed	</dt><dd>last changed by administrator on 26-06-2012 12:14</dt>
+    								<dt>Streetmap	</dt><dd><a href=#>show map</a></dd>
+    								<dt>Telephone nr	</dt><dd>+31342-490364</dd>
+    								<dt>Mobile phone nr</dt><dd>123213123	</dd>
+    								<dt>Fax nr	</dt><dd>+31342-423577</dd>
+    								<dt>Email	</dt><dd><a href=#>toma@kovoks.nl</a></dd>
+    								<dt>Website	</dt><dd><a href=#>http://www.terrazur.nl</a></dd>
+    								<dt>Classification(s)	</dt><dd>Escalatie</dd>
+    								<dt>Account manager	</dt><dd>none</dd>
+    								<dt>Last changed	</dt>
+                                    <dd>last changed by administrator on 26-06-2012 12:14</dd>
 								</dl>
 							</div>
 						</div>
 					</div>
 					<div class="tab-pane" id="tab2relationcard">
 						<h4><i class="icon-credit-card"></i> Buisness Cards</h4>
-						
+
 						<form class="form-inline">
 							<label>Sync user:</label>
 							<select>
@@ -192,8 +187,8 @@
 							<input type="text" class="span6" placeholder="Search buisness card">
 							<button type="submit" class="btn"><i class="icon-search"></i> Search</button>
 						</form>
-						
-						
+
+
 						<table class="table table-striped table-hover">
 							<colgroup>
 								<col width="2%">
@@ -212,8 +207,8 @@
 									<th></th>
 									<th>Name</th>
 									<th>Email</th>
-									<th>Telephone</th> 
-									<th>Mobile</th> 
+									<th>Telephone</th>
+									<th>Mobile</th>
 									<th>Skype</th>
 									<th>Linkedin</th>
 									<th>Twitter</th>
@@ -256,7 +251,7 @@
 								</tr>
 							</tbody>
 						</table>
-						
+
 						<!-- Start view Buisness Card Modal -->
 						<div id="viewbuisnesscardModal" class="modal add-relation-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="viewbuisnesscardModalLabel" aria-hidden="true">
 							<div class="wrapper-modal">
@@ -265,17 +260,17 @@
 									<h4 id="viewbuisnesscardModalLabel"><i class="icon-credit-card"></i> View Buisness Card</h4>
 								</div>
 								<div class="modal-body">
-			
+
 								</div>
 								<div class="modal-footer">
 									<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-									
+
 								</div>
-							</div>	
+							</div>
 						</div>
 						<!-- End view Buisness Card Modal -->
-						
-						
+
+
 					</div>
 					<div class="tab-pane" id="tab3relationcard">
 						<h4><i class="icon-list"></i> Projects</h4>
@@ -289,7 +284,7 @@
 								<tr>
 									<th>Name</th>
 									<th>Description</th>
-									<th>Active</th> 
+									<th>Active</th>
 								</tr>
 							</thead>
 							<tbody>

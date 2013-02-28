@@ -7,7 +7,7 @@
 		<li><a href="#tab5person" data-toggle="tab">Other address</a></li>
 		<li><a href="#tab6person" data-toggle="tab">Other</a></li>
     </ul>
-	
+
 	<div class="tab-content">
 		<div class="tab-pane active" id="tab1person">
 			<p><b><i class="icon-info-sign"></i> Information</b></p>
@@ -75,7 +75,7 @@
 					<input class="span6" type="text" placeholder="SSN">
 					<input class="span6" type="text" placeholder="Person Number">
 				</div>
-				
+
 			</form>
 		</div>
 		<div class="tab-pane" id="tab2person">
@@ -104,28 +104,28 @@
 						<li class="odd form-inline controls-row">Van Wijck, Gorisira &Tacken <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
 						<li class="form-inline controls-row">Terrazur <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
 					</ul>
-					
+
 					<button class="btn" type="button"><i class="icon-link"></i> Link Relations</button>
 				</div>
-				<hr>				
-				<p><b><i class="icon-exchange"></i> Classfication information</b></p>				
+				<hr>
+				<p><b><i class="icon-exchange"></i> Classfication information</b></p>
 				<div class="controls controls-row">
 					<ul class="list-striped linked-ul inline">
 						<li class="odd form-inline controls-row">Klant-Apps <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
 						<li class="form-inline controls-row">Klant-CRM <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
 					</ul>
-					
-					<a class="btn" type="button" data-toggle="modal" href="_modals/add_classification_modal.php" data-target="#classificationModal" ><i class="icon-link"></i> Link Classfication</a>
-					
+
+					<a class="btn" type="button" data-toggle="modal" href="_modals/add_classification_modal.php" data-target="#pcClassificationModal" ><i class="icon-link"></i> Link Classfication</a>
+
 					<!-- Start classification Modal -->
-					<div id="classificationModal" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="classificationModalLabel" aria-hidden="true">
+					<div id="pcClassificationModal" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="classificationModalLabel" aria-hidden="true">
 						<div class="wrapper-modal">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
 								<h4 id="classificationModalLabel"><i class="icon-exchange"></i> Link Classification</h4>
 							</div>
 							<div class="modal-body">
-			
+
 							</div>
 							<div class="modal-footer">
 								<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
@@ -134,15 +134,15 @@
 						</div>
 					</div>
 					<!-- End classification Modal -->
-					
+
 				</div>
 				<hr>
-				<p><b><i class="icon-info-sign"></i> Extra company information</b> <span class="muted">(only if information differs from relation card)</span></p>		
+				<p><b><i class="icon-info-sign"></i> Extra company information</b> <span class="muted">(only if information differs from relation card)</span></p>
 				<div class="controls controls-row">
 					<input class="span6" type="text" placeholder="Company Name">
 					<input class="span6" type="text" placeholder="Company Phone Nr">
 				</div>
-			</form>			
+			</form>
 		</div>
 		<div class="tab-pane" id="tab3person">
 			<form>
@@ -183,8 +183,8 @@
 					<input class="span6" type="text" placeholder="Skype">
 					<input class="span6" type="text" placeholder="Email">
 				</div>
-				<hr>				
-				<p><b><i class="icon-comments-alt"></i> Social media</b></p>				
+				<hr>
+				<p><b><i class="icon-comments-alt"></i> Social media</b></p>
 					<div class="input-prepend input-prepend-social">
 						<span class="add-on"><i class="icon-twitter"></i></span>
 						<input  type="text" class="span11" placeholder="Twitter Account">
@@ -194,7 +194,7 @@
 						<input  type="text" class="span11" placeholder="LinkedIn Account">
 					</div>
 				<hr class="margin-t2">
-				<p><b><i class="icon-phone"></i> Custom business phone numbers</b></p>		
+				<p><b><i class="icon-phone"></i> Custom business phone numbers</b></p>
 				<div class="controls controls-row">
 					<input class="span3" type="text" placeholder="Callback phone nr">
 					<input class="span3" type="text" placeholder="Radio phone nr">
@@ -202,7 +202,7 @@
 					<input class="span3" type="text" placeholder="Telex nr">
 				</div>
 				<hr>
-				<p><b><i class="icon-envelope"></i> Mailing address</b></p>		
+				<p><b><i class="icon-envelope"></i> Mailing address</b></p>
 				<div class="controls controls-row">
 					<input class="span6" type="text" placeholder="Address">
 					<input class="span6" type="text" placeholder="Address addition">
@@ -230,7 +230,7 @@
 		</div>
 		<div class="tab-pane" id="tab4person">
 			<form>
-				<p><b><i class="icon-building text-error"></i> Private address</b></p>	
+				<p><b><i class="icon-building text-error"></i> Private address</b></p>
 				<div class="controls controls-row">
 					<input class="span6" type="text" placeholder="Address">
 					<input class="span6" type="text" placeholder="Address addition">
@@ -265,12 +265,12 @@
 				<div class="controls controls-row">
 					<input class="span6" type="text" placeholder="Email">
 					<input class="span6" type="text" placeholder="Skype">
-				</div>	
+				</div>
 			</form>
 		</div>
 		<div class="tab-pane" id="tab5person">
 			<form>
-				<p><b><i class="icon-building text-info"></i> Other address</b></p>	
+				<p><b><i class="icon-building text-info"></i> Other address</b></p>
 				<div class="controls controls-row">
 					<input class="span6" type="text" placeholder="Address">
 					<input class="span6" type="text" placeholder="Address addition">
@@ -304,12 +304,12 @@
 				</div>
 				<div class="controls controls-row">
 					<input class="span6" type="text" placeholder="Email">
-				</div>	
+				</div>
 			</form>
 		</div>
 		<div class="tab-pane" id="tab6person">
 			<form>
-				<p><b><i class="icon-info-sign"></i> Other</b></p>	
+				<p><b><i class="icon-info-sign"></i> Other</b></p>
 				<div class="controls controls-row">
 					<textarea  class="span12" rows="3"></textarea>
 				</div>

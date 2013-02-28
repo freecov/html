@@ -141,6 +141,7 @@
 
     , hide: function (e) {
         e && e.preventDefault()
+        e && e.stopPropagation()
 
         var that = this
 
@@ -215,12 +216,15 @@
     , backdrop: function (callback) {
         var that = this
           , animate = this.$element.hasClass('fade') ? 'fade' : ''
+          , body = $(document.body)
 
         if (this.isShown && this.options.backdrop) {
           var doAnimate = $.support.transition && animate
 
           this.$backdrop = $('<div class="modal-backdrop ' + animate + '" />')
-            .appendTo(document.body)
+            .appendTo(body)
+
+          body.addClass('no-overflow')
 
           this.$backdrop.click(
             this.options.backdrop == 'static' ?
@@ -240,6 +244,7 @@
 
         } else if (!this.isShown && this.$backdrop) {
           this.$backdrop.removeClass('in')
+          $('.modal-backdrop').length === 1 && body.removeClass('no-overflow')
 
           $.support.transition && this.$element.hasClass('fade')?
             this.$backdrop.one($.support.transition.end, callback) :
