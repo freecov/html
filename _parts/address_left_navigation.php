@@ -5,7 +5,7 @@
 			</a>
 			<ul class="dropdown-menu">
 				<li><a data-toggle="modal" href="_modals/add_relation_modal.php" data-target="#relationModal" ><i class="icon-sitemap"></i> relations</a></li>
-				<li><a data-toggle="modal" href="_modals/add_buisness_card_modal.php" data-target="#buisnesscardModal" ><i class="icon-credit-card"></i> buisness card</a></li>
+				<li><a data-toggle="modal" href="_modals/add_buisness_card_modal.php" data-target="#buisnesscardModal" ><i class="icon-credit-card"></i> business card</a></li>
 				<li><a data-toggle="modal" href="_modals/add_person_modal.php" data-target="#personModal" ><i class="icon-user"></i> person</a></li>
 			</ul>
 		</div>
@@ -24,19 +24,19 @@
 		</div>
 		<!-- End Relation Modal -->
 
-		<!-- Start Buisness Card Modal -->
+		<!-- Start Business Card Modal -->
 		<div id="buisnesscardModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="buisnesscardModalLabel" aria-hidden="true">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-                <h4 id="buisnesscardModalLabel"><i class="icon-credit-card"></i> Add Buisness Card</h4>
+                <h4 id="buisnesscardModalLabel"><i class="icon-credit-card"></i> Add Business Card</h4>
             </div>
             <div class="modal-body"></div>
             <div class="modal-footer">
                 <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                <button class="btn btn-warning">Add Buisness Card</button>
+                <button class="btn btn-warning">Add Business Card</button>
             </div>
 		</div>
-		<!-- End Buisness Card Modal -->
+		<!-- End Business Card Modal -->
 
 
 		<!-- Start Person Modal Modal -->

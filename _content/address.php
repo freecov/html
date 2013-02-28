@@ -197,7 +197,7 @@
                                 </ul>
                             </div>
                         </td>
-                        <td><a href="#">Aenean vitae arcu</a></td>
+                        <td><a href="address_relation_card.php">Aenean vitae arcu</a></td>
                         <td>Vestibulum in lacus vel est tempus mattis</td>
                         <td>18.02.2013</td>
                         <td>455623339</td>
@@ -221,7 +221,7 @@
                                 </ul>
                             </div>
                         </td>
-                        <td><a href="#">Aliquam feugiat</a></td>
+                        <td><a href="address_relation_card.php">Aliquam feugiat</a></td>
                         <td>Phasellus nisl lectus, interdum</td>
                         <td>03.02.2013</td>
                         <td>311102586</td>
@@ -245,7 +245,7 @@
                                 </ul>
                             </div>
                         </td>
-                        <td><a href="#">Suspendisse</a></td>
+                        <td><a href="address_relation_card.php">Suspendisse</a></td>
                         <td>Aenean vitae arcu in dolor vehicula scelerisque</td>
                         <td>15.01.2013</td>
                         <td>553948869</td>
@@ -269,7 +269,7 @@
                                 </ul>
                             </div>
                         </td>
-                        <td><a href="#">Pellentesque justo</a></td>
+                        <td><a href="address_relation_card.php">Pellentesque justo</a></td>
                         <td>Mauris quis libero lacinia ligula</td>
                         <td>05.01.2013</td>
                         <td>247935008</td>
@@ -293,7 +293,7 @@
                                 </ul>
                             </div>
                         </td>
-                        <td><a href="#">Vestibulum bibendum</a></td>
+                        <td><a href="address_relation_card.php">Vestibulum bibendum</a></td>
                         <td>Pellentesque habitant morbi tristique</td>
                         <td>10.02.2013</td>
                         <td>502036987</td>
@@ -317,7 +317,7 @@
                                 </ul>
                             </div>
                         </td>
-                        <td><a href="#">Vivamus dui turpis</a></td>
+                        <td><a href="address_relation_card.php">Vivamus dui turpis</a></td>
                         <td>Aliquam feugiat urna</td>
                         <td>12.01.2013</td>
                         <td>678912546</td>
@@ -341,7 +341,7 @@
                                 </ul>
                             </div>
                         </td>
-                        <td><a href="#">In placerat mollis</a></td>
+                        <td><a href="address_relation_card.php">In placerat mollis</a></td>
                         <td>Donec consequat enim non nisi </td>
                         <td>20.12.2012</td>
                         <td>742425234</td>
@@ -365,7 +365,7 @@
                                 </ul>
                             </div>
                         </td>
-                        <td><a href="#">Cras vestibulum</a></td>
+                        <td><a href="address_relation_card.php">Cras vestibulum</a></td>
                         <td>Vestibulum bibendum, mi sed consequat</td>
                         <td>30.01.2013</td>
                         <td>357425987</td>
@@ -389,7 +389,7 @@
                                 </ul>
                             </div>
                         </td>
-                        <td><a href="#">Aenean vitae</a></td>
+                        <td><a href="address_relation_card.php">Aenean vitae</a></td>
                         <td>Pellentesque vel odio orci</td>
                         <td>14.02.2013</td>
                         <td>154565234</td>

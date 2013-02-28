@@ -17,13 +17,14 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                     <li class="nav-header">Folders</li>
-                    <li><a href="#">Private</a></li>
-                    <li><a href="#">Shared</a></li>
+                    <li><a href="#">Relations</a></li>
+                    <li><a href="#">Employees</a></li>
+					<li><a href="#">Business cards</a></li>
                     <li class="divider"></li>
-                    <li class="nav-header">Compose</li>
-                    <li><a href="#">Quick E-mail</a></li>
-                    <li><a href="#">E-mail</a></li>
-                    <li><a href="#">Newsletter</a></li>
+                    <li class="nav-header">Add new</li>
+                    <li><a href="#">Relation</a></li>
+                    <li><a href="#">Business card</a></li>
+                    <li><a href="#">Person</a></li>
                 </ul>
             </li>
             <li class="divider-vertical"></li>

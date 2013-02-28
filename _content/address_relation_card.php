@@ -50,7 +50,7 @@
 		    <div class="tabbable"> <!-- Only required for left/right tabs -->
 				<ul class="nav nav-tabs">
 					<li class="active"><a href="#tab1relationcard" data-toggle="tab">Information</a></li>
-					<li><a href="#tab2relationcard" data-toggle="tab">Buisness Cards</a></li>
+					<li><a href="#tab2relationcard" data-toggle="tab">Business Cards</a></li>
 					<li><a href="#tab3relationcard" data-toggle="tab">Projects</a></li>
 					<li><a href="#tab4relationcard" data-toggle="tab">Memo</a></li>
 					<li><a href="#tab5relationcard" data-toggle="tab">Extra</a></li>
@@ -90,7 +90,7 @@
 						</div>
 					</div>
 					<div class="tab-pane" id="tab2relationcard">
-						<h4><i class="icon-credit-card"></i> Buisness Cards</h4>
+						<h4><i class="icon-credit-card"></i> Business Cards</h4>
 
 						<form class="form-inline">
 							<label>Sync user:</label>
@@ -99,7 +99,7 @@
 								<option>User</option>
 								<option>Kostya</option>
 							</select>
-							<input type="text" class="span6" placeholder="Search buisness card">
+							<input type="text" class="span6" placeholder="Search business card">
 							<button type="submit" class="btn"><i class="icon-search"></i> Search</button>
 						</form>
 
@@ -144,7 +144,7 @@
 								</tr>
 								<tr>
 									<td><i class="icon-lightbulb text-error"></i></td>
-									<td><button class="btn btn-small" type="button"><i class="icon-credit-card"></i></button></td>
+									<td><button data-toggle="modal" href="_modals/view_buisness_card_modal.php" data-target="#viewbuisnesscardModal" class="btn btn-small" type="button"><i class="icon-credit-card"></i></button></td>
 									<td>Heer/mevrouw</td>
                                     <td><a href="#">willem.massier@covide.nl</a></td>
 									<td>+31342-490364</td>
@@ -155,7 +155,7 @@
 								</tr>
 								<tr>
 									<td><i class="icon-lightbulb"></i></td>
-									<td><button class="btn btn-small" type="button"><i class="icon-credit-card"></i></button></td>
+									<td><button data-toggle="modal" href="_modals/view_buisness_card_modal.php" data-target="#viewbuisnesscardModal" class="btn btn-small" type="button"><i class="icon-credit-card"></i></button></td>
 									<td>Test</td>
                                     <td><a href="#">toma@kovoks.nl</a></td>
 									<td>+31342-490364</td>
@@ -167,12 +167,12 @@
 							</tbody>
 						</table>
 
-						<!-- Start view Buisness Card Modal -->
+						<!-- Start view Business Card Modal -->
 						<div id="viewbuisnesscardModal" class="modal add-relation-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="viewbuisnesscardModalLabel" aria-hidden="true">
 							<div class="wrapper-modal">
 								<div class="modal-header">
 									<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-									<h4 id="viewbuisnesscardModalLabel"><i class="icon-credit-card"></i> View Buisness Card</h4>
+									<h4 id="viewbuisnesscardModalLabel"><i class="icon-credit-card"></i> View Business Card</h4>
 								</div>
 								<div class="modal-body">
 
@@ -183,7 +183,7 @@
 								</div>
 							</div>
 						</div>
-						<!-- End view Buisness Card Modal -->
+						<!-- End view Business Card Modal -->
 
 
 					</div>
