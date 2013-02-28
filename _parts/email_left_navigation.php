@@ -14,11 +14,28 @@
 		<div id="quickemailModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="quickemailModalLabel" aria-hidden="true">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+				<a type="button" class="change_modal_button" href="#" ><i class="icon-share"></i></a>
 				<h4 id="quickemailModalLabel"><i class="icon-envelope"></i> New message</h4>
 			</div>
 			<div class="modal-body"></div>
 			<div class="modal-footer">
-				<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				<label class="checkbox inline pull-left"><input type="checkbox" id="inlineCheckbox1" value="option1" checked> Read confirmation</label>
+
+				<button class="btn">Save</button>
+				<div class="btn-group">
+					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						More
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu text-left">
+						<li><a href=#>Change From email</a></li>
+						<li><a href=#>Add star</a></li>
+						<li><a href=#>Print</a></li>
+						<li><a href=#>Change mode</a></li>
+						<li class="divider"></li>
+						<li><a href=#>Discard draft</a></li>
+					</ul>
+				</div>
 				<button class="btn btn-warning">Send email</button>
 			</div>
 		</div>
