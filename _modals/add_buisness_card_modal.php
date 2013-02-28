@@ -135,18 +135,16 @@
 
                         <!-- Start classification Modal -->
                         <div id="bcClassificationModal" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="classificationModalLabel" aria-hidden="true">
-                            <div class="wrapper-modal">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-                                    <h4 id="classificationModalLabel"><i class="icon-exchange"></i> Link Classification</h4>
-                                </div>
-                                <div class="modal-body">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+									<h4 id="classificationModalLabel"><i class="icon-exchange"></i> Link Classification</h4>
+                            </div>
+                            <div class="modal-body">
 
-                                </div>
-                                <div class="modal-footer">
-                                    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                                    <button class="btn btn-warning">Link Classification</button>
-                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                                <button class="btn btn-warning">Link Classification</button>
                             </div>
                         </div>
                         <!-- End classification Modal -->
