@@ -245,10 +245,7 @@
         } else if (!this.isShown && this.$backdrop) {
           this.$backdrop.removeClass('in')
           $('.modal-backdrop').length === 1 && body.removeClass('no-overflow')
-
-          $.support.transition && this.$element.hasClass('fade')?
-            this.$backdrop.one($.support.transition.end, callback) :
-            callback()
+          callback()
 
         } else if (callback) {
           callback()
