@@ -1,5 +1,5 @@
 		<div class="btn-group btn-create">
-			<a class="btn btn-large btn-warning dropdown-toggle" data-toggle="dropdown" href="#">
+			<a class="btn btn-large <? echo $activeCompose ?> dropdown-toggle" data-toggle="dropdown" href="#">
 				<i class="icon-edit"></i> Compose
 				<span class="caret"></span>
 			</a>
@@ -14,7 +14,7 @@
 		<div id="quickemailModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="quickemailModalLabel" aria-hidden="true">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-				<a type="button" class="change_modal_button" href="#" ><i class="icon-share"></i></a>
+				<a type="button" class="change_modal_button" href="email_compose.php" ><i class="icon-share"></i></a>
 				<h4 id="quickemailModalLabel"><i class="icon-envelope"></i> New message</h4>
 			</div>
 			<div class="modal-body"></div>

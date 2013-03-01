@@ -37,6 +37,7 @@
 <!--Address Content-->
 <div class="row-fluid">
 	<div class="span3">
+		<? $activeCompose = 'btn-warning'; ?>
 	    <? include_once "_parts/email_left_navigation.php"; ?>
 	</div>
 

@@ -18,9 +18,13 @@
 					</div>
 					<div class="controls controls-row">
 						<input class="span10" type="text" placeholder="Cc:">
+						<button class="btn span1"><i class="icon-envelope"></i></button>
+						<button class="btn span1"><i class="icon-reorder"></i></button>
 					</div>
 					<div class="controls controls-row">
 						<input class="span10" type="text" placeholder="Bc:">
+						<button class="btn span1"><i class="icon-envelope"></i></button>
+						<button class="btn span1"><i class="icon-reorder"></i></button>
 					</div>
 					<div class="controls controls-row">
 						<input class="span10" type="text" placeholder="Subject:">
