@@ -31,16 +31,65 @@
 							<option>High</option>
 						</select>
 					</div>
+					<div class="row-fluid">
+						<div class="span10 margin-b"><img src="img/wysiwyg.png"></div>
+						<div class="span2"><button class="btn btn-block active"  type="button"  data-toggle="button">HTML-mode</button></div>
+					</div>
+					<div class="controls controls-row">
+						<textarea rows="4" class="span12"></textarea>
+					</div>
 				</fieldset>
 			</form>
 		</div>
 		<div class="tab-pane" id="tab_links">
 			<form>
+				<legend><i class="icon-link"></i> Links</legend>
+				<hr>
+				<div class="row-fluid">
+					<div class="span6">
+
+							<legend><i class="icon-book"></i> Contacts</legend>
+							<div class="controls controls-row">
+								<ul class="list-striped linked-ul inline">
+									<li class="odd form-inline controls-row">Klant-Apps <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+									<li class="form-inline controls-row">Klant-CRM <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								</ul>	
+								<input class="span8" type="text" placeholder="Type search contact">
+								<button class="btn span4" type="button" ><i class="icon-search"></i> Search</button>
+							</div>
+
+					</div>
+					<div class="span6">
+
+							<legend><i class="icon-list"></i> Project</legend>
+							<div class="controls controls-row">
+								<input class="span8" type="text" placeholder="Type search contact">
+								<button class="btn span4" type="button" ><i class="icon-search"></i> Search</button>
+							</div>
+
+					</div>
+				</div>
 				<fieldset>
-					<legend><i class="icon-link"></i> Links</legend>
+					<legend><i class="icon-phone"></i> Support calls</legend>
 					<div class="controls controls-row">
-						<input class="span6" type="text" placeholder="Free Field">
-						<input class="span6" type="text" placeholder="Given Name">
+						<ul class="list-striped linked-ul inline">
+                            <li class="odd form-inline controls-row">546444896 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							<li class="form-inline controls-row">879789879 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+                        </ul>
+						<input class="span8" type="text" placeholder="Type search contact">
+						<button class="btn span2" type="button" ><i class="icon-search"></i> Search</button>
+					</div>
+				</fieldset>
+				<fieldset>
+					<legend><i class="icon-bar-chart"></i> Sales items</legend>
+					<div class="controls controls-row">
+						<ul class="list-striped linked-ul inline">
+                            <li class="odd form-inline controls-row">Item1 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							<li class="form-inline controls-row">Item2 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							<li class="odd form-inline controls-row">Item3 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+                        </ul>
+						<input class="span8" type="text" placeholder="Type search contact">
+						<button class="btn span2" type="button" ><i class="icon-search"></i> Search</button>
 					</div>
 				</fieldset>
 			</form>
