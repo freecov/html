@@ -41,13 +41,13 @@
 				</fieldset>
 			</form>
 		</div>
-		<div class="tab-pane" id="tab_links">
+		<div class="tab-pane fieldset-group" id="tab_links">
 			<form>
 				<legend><i class="icon-link"></i> Links</legend>
 				<hr>
 				<div class="row-fluid">
 					<div class="span6">
-
+						<fieldset>
 							<legend><i class="icon-book"></i> Contacts</legend>
 							<div class="controls controls-row">
 								<ul class="list-striped linked-ul inline">
@@ -57,41 +57,47 @@
 								<input class="span8" type="text" placeholder="Type search contact">
 								<button class="btn span4" type="button" ><i class="icon-search"></i> Search</button>
 							</div>
-
+						</fieldset>
 					</div>
 					<div class="span6">
-
+						<fieldset>
 							<legend><i class="icon-list"></i> Project</legend>
 							<div class="controls controls-row">
 								<input class="span8" type="text" placeholder="Type search contact">
 								<button class="btn span4" type="button" ><i class="icon-search"></i> Search</button>
 							</div>
-
+						</fieldset>
 					</div>
 				</div>
-				<fieldset>
-					<legend><i class="icon-phone"></i> Support calls</legend>
-					<div class="controls controls-row">
-						<ul class="list-striped linked-ul inline">
-                            <li class="odd form-inline controls-row">546444896 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-							<li class="form-inline controls-row">879789879 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-                        </ul>
-						<input class="span8" type="text" placeholder="Type search contact">
-						<button class="btn span2" type="button" ><i class="icon-search"></i> Search</button>
+				<div class="row-fluid">
+					<div class="span6">
+						<fieldset>
+							<legend><i class="icon-phone"></i> Support calls</legend>
+							<div class="controls controls-row">
+								<ul class="list-striped linked-ul inline">
+									<li class="odd form-inline controls-row">546444896 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+									<li class="form-inline controls-row">879789879 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								</ul>
+							<input class="span8" type="text" placeholder="Type search contact">
+							<button class="btn span4" type="button" ><i class="icon-search"></i> Search</button>
+							</div>
+						</fieldset>
 					</div>
-				</fieldset>
-				<fieldset>
-					<legend><i class="icon-bar-chart"></i> Sales items</legend>
-					<div class="controls controls-row">
-						<ul class="list-striped linked-ul inline">
-                            <li class="odd form-inline controls-row">Item1 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-							<li class="form-inline controls-row">Item2 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-							<li class="odd form-inline controls-row">Item3 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-                        </ul>
-						<input class="span8" type="text" placeholder="Type search contact">
-						<button class="btn span2" type="button" ><i class="icon-search"></i> Search</button>
+					<div class="span6">
+						<fieldset>
+							<legend><i class="icon-bar-chart"></i> Sales items</legend>
+							<div class="controls controls-row">
+								<ul class="list-striped linked-ul inline">
+									<li class="odd form-inline controls-row">Item1 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+									<li class="form-inline controls-row">Item2 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+									<li class="odd form-inline controls-row">Item3 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								</ul>
+								<input class="span8" type="text" placeholder="Type search contact">
+								<button class="btn span4" type="button" ><i class="icon-search"></i> Search</button>
+							</div>
+						</fieldset>
 					</div>
-				</fieldset>
+				</div>
 			</form>
 		</div>
 	    <div class="tab-pane" id="tab_access">

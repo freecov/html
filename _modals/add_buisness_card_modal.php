@@ -55,7 +55,7 @@
 							<option value="4">Jr.</option>
 							<option value="5">Sr.</option>
 						</select>
-						<select class="span3">
+						<select class="span4">
 							<option>Select commencement</option>
 							<option value="1">Dhr.</option>
 							<option value="2">Mevr.</option>
@@ -65,7 +65,7 @@
 							<option value="6">Mrs.</option>
 							<option value="7">Ms.</option>
 						</select>
-						<input class="span3" type="text" placeholder="Birth Date">
+						<input class="span2" data-toggle="datepicker" type="text" placeholder="Birth Date">
 					</div>
 					<div class="controls controls-row">
 						<input class="span6" type="text" placeholder="SSN">
