@@ -5,7 +5,7 @@
 			</a>
 			<ul class="dropdown-menu">
 				<li><a data-toggle="modal" href="_modals/email_compose_modal.php" data-target="#quickemailModal" >quick email</a></li>
-				<li><a href="#">email</a></li>
+				<li><a href="email_compose.php">email</a></li>
 				<li><a href="#">newsletter</a></li>
 			</ul>
 		</div>
@@ -20,23 +20,24 @@
 			<div class="modal-body"></div>
 			<div class="modal-footer">
 				<label class="checkbox inline pull-left text-left"><input type="checkbox" id="inlineCheckbox1" value="option1" checked> Read confirmation</label>
-
-				<button class="btn">Save</button>
-				<div class="btn-group">
-					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-						More
-						<span class="caret"></span>
-					</a>
-					<ul class="dropdown-menu text-left">
-						<li><a href=#>Change From email</a></li>
-						<li><a href=#>Add star</a></li>
-						<li><a href=#>Print</a></li>
-						<li><a href=#>Change mode</a></li>
-						<li class="divider"></li>
-						<li><a href=#>Discard draft</a></li>
-					</ul>
+				<div class="btn-toolbar">
+					<button class="btn">Save</button>
+					<div class="btn-group dropup">
+						<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+							More
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu text-left">
+							<li><a href=#>Change From email</a></li>
+							<li><a href=#>Add star</a></li>
+							<li><a href=#>Print</a></li>
+							<li><a href=#>Change mode</a></li>
+							<li class="divider"></li>
+							<li><a href=#>Discard draft</a></li>
+						</ul>
+					</div>
+					<button class="btn btn-warning">Send email</button>
 				</div>
-				<button class="btn btn-warning">Send email</button>
 			</div>
 		</div>
 		<!-- End Quick Email Modal -->

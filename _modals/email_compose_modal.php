@@ -50,13 +50,13 @@
 						<fieldset>
 							<legend><i class="icon-book"></i> Contacts</legend>
 							<div class="controls controls-row">
-								<ul class="list-striped linked-ul inline">
-									<li class="odd form-inline controls-row">Klant-Apps <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-									<li class="form-inline controls-row">Klant-CRM <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-								</ul>	
 								<input class="span8" type="text" placeholder="Type search contact">
 								<button class="btn span4" type="button" ><i class="icon-search"></i> Search</button>
 							</div>
+							<ul class="list-striped linked-ul inline">
+								<li class="odd form-inline controls-row">Klant-Apps <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								<li class="form-inline controls-row">Klant-CRM <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							</ul>	
 						</fieldset>
 					</div>
 					<div class="span6">
@@ -69,56 +69,120 @@
 						</fieldset>
 					</div>
 				</div>
+				<hr>
 				<div class="row-fluid">
 					<div class="span6">
 						<fieldset>
 							<legend><i class="icon-phone"></i> Support calls</legend>
 							<div class="controls controls-row">
-								<ul class="list-striped linked-ul inline">
-									<li class="odd form-inline controls-row">546444896 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-									<li class="form-inline controls-row">879789879 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-								</ul>
-							<input class="span8" type="text" placeholder="Type search contact">
-							<button class="btn span4" type="button" ><i class="icon-search"></i> Search</button>
+								<input class="span8" type="text" placeholder="Type search contact">
+								<button class="btn span4" type="button" ><i class="icon-search"></i> Search</button>
 							</div>
+							<ul class="list-striped linked-ul inline">
+								<li class="odd form-inline controls-row">546444896 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								<li class="form-inline controls-row">879789879 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							</ul>
 						</fieldset>
 					</div>
 					<div class="span6">
 						<fieldset>
 							<legend><i class="icon-bar-chart"></i> Sales items</legend>
 							<div class="controls controls-row">
-								<ul class="list-striped linked-ul inline">
-									<li class="odd form-inline controls-row">Item1 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-									<li class="form-inline controls-row">Item2 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-									<li class="odd form-inline controls-row">Item3 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-								</ul>
 								<input class="span8" type="text" placeholder="Type search contact">
 								<button class="btn span4" type="button" ><i class="icon-search"></i> Search</button>
 							</div>
+							<ul class="list-striped linked-ul inline">
+								<li class="odd form-inline controls-row">Item1 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								<li class="form-inline controls-row">Item2 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								<li class="odd form-inline controls-row">Item3 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							</ul>
+						</fieldset>
+					</div>
+				</div>
+				<hr>
+				<div class="row-fluid">
+					<div class="span6">
+						<fieldset>
+							<legend><i class="icon-check"></i> To do</legend>
+							<div class="row-fluid">
+								<div class="input-prepend span6">
+									<span class="add-on"><i class="icon-calendar"></i></span>
+									<input type="text" class="span10"></input>
+								</div>
+								<div class="input-prepend span6">
+									<span class="add-on"><i class="icon-time"></i></span>
+									<input type="text" class="span10"></input>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+					<div class="span6">
+						<fieldset>
+							<legend><i class="icon-folder-open"></i> Folder after sending</legend>
+							<select class="span12">
+								<option>Select folder</option>
+								<option>Default</option>
+								<option>Sent</option>
+								<option>Draft</option>
+								<option>...</option>
+							</select>
 						</fieldset>
 					</div>
 				</div>
 			</form>
 		</div>
-	    <div class="tab-pane" id="tab_access">
+	    <div class="tab-pane fieldset-group" id="tab_access">
 			<form>
 				<fieldset>
-					<legend><i class="icon-lock"></i> Access</legend>
-					<div class="controls controls-row">
-						<input class="span6" type="text" placeholder="Free Field">
-						<input class="span6" type="text" placeholder="Given Name">
+					<div class="row-fluid">
+						<div class="span10">
+							<fieldset>
+								<legend><i class="icon-group"></i> Access users and groups</legend>
+								<div class="controls controls-row">
+									<input class="span10" type="text" placeholder="Type search user or group users">
+									<button class="btn span2" type="button" ><i class="icon-search"></i> Search</button>
+								</div>
+								<ul class="list-striped linked-ul inline">
+									<li class="odd form-inline controls-row">Klant-Apps <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+									<li class="form-inline controls-row">Klant-CRM <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								</ul>	
+							</fieldset>
+						</div>
+						<div class="span2">
+							<fieldset>
+								<legend><i class="icon-lock"></i> Access</legend>
+								<label class="checkbox inline"><input type="checkbox" id="inlineCheckbox1" value="option1" checked> Public</label>
+							</fieldset>
+						</div>
 					</div>
 				</fieldset>
 			</form>
 		</div>
-		<div class="tab-pane" id="tab_attachments">
+		<div class="tab-pane fieldset-group" id="tab_attachments">
 			<form>
-				<fieldset>
+				<fieldset class="attachment">
 					<legend><i class="icon-paper-clip"></i> Attachments</legend>
-					<div class="controls controls-row">
-						<input class="span6" type="text" placeholder="Free Field">
-						<input class="span6" type="text" placeholder="Given Name">
-					</div>
+						<div class="btn-group margin-b">
+							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+								Add attachment
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href=#>local computer</a></li>
+								<li><a href=#>google docs</a></li>
+								<li><a href=#>covide file system</a></li>
+							</ul>
+						</div>
+						<ul class="list-striped linked-ul inline">
+							<li class="odd form-inline controls-row">Attach.docx <span class="label" title="Google docs">Google</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							<li class="form-inline controls-row">picture.jpg <span class="label" title="Covide file system">Covide</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							<li class="form-inline controls-row">Attach.docx <span class="label" title="Google docs">Google</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							<li class="form-inline controls-row">picture.jpg <span class="label" title="Covide file system">Covide</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+							<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+						
+						</ul>
 				</fieldset>
 			</form>
 		</div>

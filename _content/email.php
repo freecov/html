@@ -48,7 +48,7 @@
                 <span class="title">Inbox</span>
             </div>
             <div class="well well-small well-covide-g">
-                <div class="btn-group pull-right">
+                <div class="btn-group">
                     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
 							<i class="icon-exchange"></i> Relation actions
                         <span class="caret"></span>
