@@ -19,7 +19,7 @@
 			</div>
 			<div class="modal-body"></div>
 			<div class="modal-footer">
-				<label class="checkbox inline pull-left"><input type="checkbox" id="inlineCheckbox1" value="option1" checked> Read confirmation</label>
+				<label class="checkbox inline pull-left text-left"><input type="checkbox" id="inlineCheckbox1" value="option1" checked> Read confirmation</label>
 
 				<button class="btn">Save</button>
 				<div class="btn-group">

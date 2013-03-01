@@ -222,10 +222,10 @@
 						</table>
 					</div>
 					<div class="tab-pane" id="tab4relationcard">
-						<h4><i class="icon-credit-card"></i> Memo</h4>
+						<h4><i class="icon-info-sign"></i> Memo</h4>
 					</div>
 					<div class="tab-pane" id="tab5relationcard">
-						<h4><i class="icon-credit-card"></i> Extra</h4>
+						<h4><i class="icon-info-sign"></i> Extra</h4>
 					</div>
 				</div>
 			</div>

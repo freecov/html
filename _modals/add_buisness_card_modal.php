@@ -65,7 +65,7 @@
 							<option value="6">Mrs.</option>
 							<option value="7">Ms.</option>
 						</select>
-						<input class="span2" data-toggle="datepicker" type="text" placeholder="Birth Date">
+						<input class="span2 text-center" data-toggle="datepicker" type="text" placeholder="Birth Date">
 					</div>
 					<div class="controls controls-row">
 						<input class="span6" type="text" placeholder="SSN">
