@@ -2,8 +2,8 @@
     <div class="well well-small well-covide margin-b">
         <span class="title">Filter by </span>
         <div class="btn-group pull-right" data-toggle="buttons-radio">
-            <button class="btn active" type="button"><i class="icon-caret-down"></i></button>
-            <button class="btn" type="button"><i class="icon-caret-up"></i></button>
+            <button class="btn active" type="button" data-extra="show"><i class="icon-caret-down"></i></button>
+            <button class="btn" type="button" data-extra="hide"><i class="icon-caret-up"></i></button>
         </div>
     </div>
 

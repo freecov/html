@@ -27,6 +27,18 @@ define("layout", depends, function () {
 
             tooltip: function () {
                 $("[title]").tooltip();
+            },
+
+            searchForm: function() {
+                var widget = $('.search-widget');
+                if (widget.length) {
+                    widget.each(function() {
+                        $(this).data('form', $('.search-form', this))
+                    }).on('click', '[data-extra]', function() {
+                        var el = $(this), widget = el.closest('.search-widget');
+                        widget.data('form').toggleClass('show-extra', el.data('extra') === 'show');
+                    });
+                }
             }
         },
 
