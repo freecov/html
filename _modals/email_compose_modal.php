@@ -48,7 +48,6 @@
 		<div class="tab-pane fieldset-group" id="tab_links">
 			<form>
 				<legend><i class="icon-link"></i> Links</legend>
-				<hr>
 				<div class="row-fluid">
 					<div class="span6">
 						<fieldset>
@@ -73,7 +72,6 @@
 						</fieldset>
 					</div>
 				</div>
-				<hr>
 				<div class="row-fluid">
 					<div class="span6">
 						<fieldset>
@@ -103,7 +101,6 @@
 						</fieldset>
 					</div>
 				</div>
-				<hr>
 				<div class="row-fluid">
 					<div class="span6">
 						<fieldset>
@@ -137,7 +134,7 @@
 		</div>
 	    <div class="tab-pane fieldset-group" id="tab_access">
 			<form>
-				<fieldset>
+
 					<div class="row-fluid">
 						<div class="span10">
 							<fieldset>
@@ -159,7 +156,7 @@
 							</fieldset>
 						</div>
 					</div>
-				</fieldset>
+
 			</form>
 		</div>
 		<div class="tab-pane fieldset-group" id="tab_attachments">

@@ -37,7 +37,7 @@
 <!--Address Content-->
 <div class="row-fluid">
 	<div class="span3">
-		<? $activeCompose = ''; ?>
+		<? $activeCompose = 'disabled'; ?>
 	    <? include_once "_parts/email_left_navigation.php"; ?>
 	</div>
 
@@ -102,8 +102,8 @@
 								<fieldset>
 									<legend><i class="icon-book"></i> Contacts</legend>
 									<div class="controls controls-row">
-										<input class="span9" type="text" placeholder="Type search contact">
-										<button class="btn span3" type="button" ><i class="icon-search"></i> Search</button>
+										<input class="span10" type="text" placeholder="Type search contact">
+										<button class="btn span2" type="button" ><i class="icon-search"></i></button>
 									</div>
 									<ul class="list-striped linked-ul inline">
 										<li class="odd form-inline controls-row">Klant-Apps <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
@@ -115,20 +115,19 @@
 								<fieldset>
 									<legend><i class="icon-list"></i> Project</legend>
 									<div class="controls controls-row">
-										<input class="span9" type="text" placeholder="Type search contact">
-										<button class="btn span3" type="button" ><i class="icon-search"></i> Search</button>
+										<input class="span10" type="text" placeholder="Type search contact">
+										<button class="btn span2" type="button" ><i class="icon-search"></i></button>
 									</div>
 								</fieldset>
 							</div>
 						</div>
-						<hr>
 						<div class="row-fluid">
 							<div class="span6">
 								<fieldset>
 									<legend><i class="icon-phone"></i> Support calls</legend>
 									<div class="controls controls-row">
-										<input class="span9" type="text" placeholder="Type search contact">
-										<button class="btn span3" type="button" ><i class="icon-search"></i> Search</button>
+										<input class="span10" type="text" placeholder="Type search contact">
+										<button class="btn span2" type="button" ><i class="icon-search"></i></button>
 									</div>
 									<ul class="list-striped linked-ul inline">
 										<li class="odd form-inline controls-row">546444896 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
@@ -140,8 +139,8 @@
 								<fieldset>
 									<legend><i class="icon-bar-chart"></i> Sales items</legend>
 									<div class="controls controls-row">
-										<input class="span9" type="text" placeholder="Type search contact">
-										<button class="btn span3" type="button" ><i class="icon-search"></i> Search</button>
+										<input class="span10" type="text" placeholder="Type search contact">
+										<button class="btn span2" type="button" ><i class="icon-search"></i></button>
 									</div>
 									<ul class="list-striped linked-ul inline">
 										<li class="odd form-inline controls-row">Item1 <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
@@ -151,7 +150,6 @@
 								</fieldset>
 							</div>
 						</div>
-						<hr>
 						<div class="row-fluid">
 							<div class="span6">
 								<fieldset>
@@ -196,7 +194,7 @@
 									<legend><i class="icon-group"></i> Access users and groups</legend>
 									<div class="controls controls-row">
 										<input class="span10" type="text" placeholder="Type search user or group users">
-										<button class="btn span2" type="button" ><i class="icon-search"></i> Search</button>
+										<button class="btn span2" type="button" ><i class="icon-search"></i></button>
 									</div>
 									<ul class="list-striped linked-ul inline">
 										<li class="odd form-inline controls-row">Klant-Apps <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
@@ -220,27 +218,28 @@
 								<button class="btn" type="button" data-extra="hide"><i class="icon-caret-up"></i></button>
 							</div>
 						</div>
-						<div class="btn-group margin-b">
-							<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-								Add attachment
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu">
-								<li><a href=#>local computer</a></li>
-								<li><a href=#>google docs</a></li>
-								<li><a href=#>covide file system</a></li>
+						<fieldset>
+							<div class="btn-group margin-b">
+								<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+									Add attachment
+									<span class="caret"></span>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a href=#>local computer</a></li>
+									<li><a href=#>google docs</a></li>
+									<li><a href=#>covide file system</a></li>
+								</ul>
+							</div>
+							<ul class="list-striped linked-ul inline">
+								<li class="odd form-inline controls-row">Attach.docx <span class="label" title="Google docs">Google</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								<li class="form-inline controls-row">picture.jpg <span class="label" title="Covide file system">Covide</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								<li class="form-inline controls-row">Attach.docx <span class="label" title="Google docs">Google</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								<li class="form-inline controls-row">picture.jpg <span class="label" title="Covide file system">Covide</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+								<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
 							</ul>
-						</div>
-						<ul class="list-striped linked-ul inline">
-							<li class="odd form-inline controls-row">Attach.docx <span class="label" title="Google docs">Google</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-							<li class="form-inline controls-row">picture.jpg <span class="label" title="Covide file system">Covide</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-							<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-							<li class="form-inline controls-row">Attach.docx <span class="label" title="Google docs">Google</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-							<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-							<li class="form-inline controls-row">picture.jpg <span class="label" title="Covide file system">Covide</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-							<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-						
-						</ul>
+						</fieldset>	
 					</div>
 				
 					<div class="controls controls-row">
