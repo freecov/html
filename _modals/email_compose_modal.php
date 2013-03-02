@@ -159,7 +159,7 @@
 
 			</form>
 		</div>
-		<div class="tab-pane fieldset-group" id="tab_attachments">
+		<div class="tab-pane" id="tab_attachments">
 			<form>
 				<fieldset class="attachment">
 					<legend><i class="icon-paper-clip"></i> Attachments</legend>
