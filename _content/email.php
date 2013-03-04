@@ -63,7 +63,7 @@
 					    <li><a href="#">Try to link selection</a></li>
                     </ul>
                 </div>
-				<div class="btn-group pull-right">
+				<div class="btn-group">
                     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                        <i class="icon-paper-clip"></i> Attachments actions
                         <span class="caret"></span>
@@ -74,6 +74,22 @@
 					    <li><a href="#">Download selection</a></li>
 					    <li><a href="#">Download selection as .zip-file</a></li>
                     </ul>
+                </div>
+				<div class="btn-group pull-right">
+                    <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="icon-plus"></i> Add columns
+                        <span class="caret"></span>
+                    </a>
+
+                    <div class="dropdown-menu dropdown form">
+                        <form>
+                            <table class="table table-striped table-hover table-condensed table-borderless">
+                                <tr><td><label><input type="checkbox" checked> Date</label></td></tr>
+                                <tr><td><label><input type="checkbox"checked> Email</label></td></tr>
+                                <tr><td><label><input type="checkbox" checked> Subject</label></td></tr>
+                            </table>
+                        </form>
+                    </div>
                 </div>
             </div>
 
@@ -293,16 +309,28 @@
                 </tbody>
             </table>
 
-            <div class="pagination text-center no-margin">
-                <ul>
-                    <li><a href="#">Prev</a></li>
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">Next</a></li>
-                </ul>
+            <div class="pagination pagination-right no-margin">
+				<select class="span1" title="Items per page">
+					<option>5</option>
+					<option>10</option>
+					<option>20</option>
+					<option>50</option>
+					<option selected>100</option>
+					<option>200</option>
+					<option>500</option>
+					<option>1000</option>
+				</select>
+				<span class="help-inline">
+					<ul>
+						<li><a href="#">Prev</a></li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">Next</a></li>
+					</ul>
+				</span>
             </div>
         </div>
 	</div>

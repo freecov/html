@@ -94,7 +94,7 @@
                 </div>
                 <div class="btn-group pull-right">
                     <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-                        <i class="icon-plus"></i> Add rows
+                        <i class="icon-plus"></i> Add columns
                         <span class="caret"></span>
                     </a>
 
@@ -399,16 +399,28 @@
                 </tbody>
             </table>
 
-            <div class="pagination text-center no-margin">
-                <ul>
-                    <li><a href="#">Prev</a></li>
-                    <li class="active"><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li><a href="#">5</a></li>
-                    <li><a href="#">Next</a></li>
-                </ul>
+            <div class="pagination pagination-right no-margin">
+				<select class="span1" title="Items per page">
+					<option>5</option>
+					<option>10</option>
+					<option>20</option>
+					<option>50</option>
+					<option selected>100</option>
+					<option>200</option>
+					<option>500</option>
+					<option>1000</option>
+				</select>
+				<span class="help-inline">
+					<ul>
+						<li><a href="#">Prev</a></li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">Next</a></li>
+					</ul>
+				</span>
             </div>
         </div>
 	</div>
