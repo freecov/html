@@ -48,26 +48,14 @@
 	<div class="span9">
 	
 		<!-- Start widgets for relation card -->
-		
-		
-		
-		<!-- End widgets for relation card -->
-	
-	
-	
-	
-		<div class="well well-covide">
-		    <div class="tabbable"> <!-- Only required for left/right tabs -->
-				<ul class="nav nav-tabs">
-					<li class="active"><a href="#tab1relationcard" data-toggle="tab">Information</a></li>
-					<li><a href="#tab2relationcard" data-toggle="tab">Business Cards</a></li>
-					<li><a href="#tab3relationcard" data-toggle="tab">Projects</a></li>
-					<li><a href="#tab4relationcard" data-toggle="tab">Memo</a></li>
-					<li><a href="#tab5relationcard" data-toggle="tab">Extra</a></li>
-				</ul>
-				<div class="tab-content">
-					<div class="tab-pane active" id="tab1relationcard">
-						<h4><i class="icon-info-sign"></i> Information</h4>
+		<div class="widgets">	
+			<div class="row-fluid">
+				<div class="widget-box span6">
+					<div class="widget-title">
+						<i class="title-icon icon-info-sign"></i>
+						<h5>Information</h5>
+					</div>
+					<div class="widget-content widget-table">
 						<div class="row-fluid">
 							<div class="span6">
 								<dl class="dl-horizontal">
@@ -98,21 +86,78 @@
 								</dl>
 							</div>
 						</div>
+            		</div>
+        		</div>
+				<div class="widget-box span6">
+					<div class="widget-title">
+						<i class="title-icon icon-list"></i>
+						<h5>Projects</h5>
 					</div>
-					<div class="tab-pane" id="tab2relationcard">
-						<h4><i class="icon-credit-card"></i> Business Cards</h4>
-
-						<form class="form-inline">
-							<label>Sync user:</label>
-							<select>
-								<option>Osdn</option>
-								<option>User</option>
-								<option>Kostya</option>
-							</select>
-							<input type="text" class="span6" placeholder="Search business card">
-							<button type="submit" class="btn"><i class="icon-search"></i> Search</button>
+					<div class="widget-content widget-table">
+						<table class="table table-striped table-hover">
+							<colgroup>
+								<col>
+								<col>
+								<col>
+							</colgroup>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Active</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Suspendisse ornare</td>
+									<td>Pellentesque volutpat, lectus eget feugiat auctor</td>
+									<td><span class="label label-active label-success" data-original-title="active">A</span></td>
+								</tr>
+								<tr>
+									<td>Vivamus</td>
+									<td>Cras condimentum est sit amet tellus scelerisque vulputate</td>
+									<td><span class="label label-active" data-original-title="passive">P</span></td>
+								</tr>
+								<tr>
+									<td>Aliquam</td>
+									<td>Curabitur at mauris dolor, id lobortis felis</td>
+									<td><span class="label label-active label-success" data-original-title="active">A</span></td>
+								</tr>
+								<tr>
+									<td>Suspendisse ornare</td>
+									<td>Pellentesque volutpat, lectus eget feugiat auctor</td>
+									<td><span class="label label-active label-success" data-original-title="active">A</span></td>
+								</tr>
+								<tr>
+									<td>Vivamus</td>
+									<td>Cras condimentum est sit amet tellus scelerisque vulputate</td>
+									<td><span class="label label-active" data-original-title="passive">P</span></td>
+								</tr>
+							</tbody>
+						</table>
+            		</div>
+        		</div>
+			</div>
+			<div class="row-fluid">
+				<div class="widget-box span12">
+					<div class="widget-title">
+						<i class="title-icon icon-credit-card"></i>
+						<h5>Business Cards</h5>
+					</div>
+					<div class="widget-content widget-table">
+						<form class="form-inline text-center margin-t">
+							<div class="row-fluid">
+								<label>Sync user:
+									<select>
+										<option>Osdn</option>
+										<option>User</option>
+										<option>Kostya</option>
+									</select>
+								</label>
+								<input type="text" class="span6" placeholder="Search business card">
+								<button type="submit" class="btn"><i class="icon-search"></i> Search</button>
+							</div>
 						</form>
-
 
 						<table class="table table-striped table-hover">
 							<colgroup>
@@ -195,50 +240,30 @@
 						</div>
 						<!-- End view Business Card Modal -->
 
+            		</div>
+        		</div>
+			</div>
+			<div class="row-fluid">
+				<div class="widget-box span6">
+					<div class="widget-title">
+						<i class="title-icon icon-file-alt"></i>
+						<h5>Memo</h5>
+					</div>
+					<div class="widget-content widget-table">
 
+            		</div>
+        		</div>
+				<div class="widget-box span6">
+					<div class="widget-title">
+						<i class="title-icon icon-info-sign"></i>
+						<h5>Extra</h5>
 					</div>
-					<div class="tab-pane" id="tab3relationcard">
-						<h4><i class="icon-list"></i> Projects</h4>
-						<table class="table table-striped table-hover">
-							<colgroup>
-								<col>
-								<col>
-								<col>
-							</colgroup>
-							<thead>
-								<tr>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Active</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Suspendisse ornare</td>
-									<td>Pellentesque volutpat, lectus eget feugiat auctor, felis lectus pellentesque tellus</td>
-									<td><span class="label label-active label-success" data-original-title="active">A</span></td>
-								</tr>
-								<tr>
-									<td>Vivamus</td>
-									<td>Cras condimentum est sit amet tellus scelerisque vulputate</td>
-									<td><span class="label label-active" data-original-title="passive">P</span></td>
-								</tr>
-								<tr>
-									<td>Aliquam</td>
-									<td>Curabitur at mauris dolor, id lobortis felis. Donec dignissim dui sit amet eros cursus pulvinar.</td>
-									<td><span class="label label-active label-success" data-original-title="active">A</span></td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="tab-pane" id="tab4relationcard">
-						<h4><i class="icon-info-sign"></i> Memo</h4>
-					</div>
-					<div class="tab-pane" id="tab5relationcard">
-						<h4><i class="icon-info-sign"></i> Extra</h4>
-					</div>
-				</div>
+					<div class="widget-content widget-table">
+
+            		</div>
+        		</div>
 			</div>
 		</div>
+		<!-- End widgets for relation card -->
 	</div>
 </div>
