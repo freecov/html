@@ -46,6 +46,16 @@
 	</div>
 
 	<div class="span9">
+	
+		<!-- Start widgets for relation card -->
+		
+		
+		
+		<!-- End widgets for relation card -->
+	
+	
+	
+	
 		<div class="well well-covide">
 		    <div class="tabbable"> <!-- Only required for left/right tabs -->
 				<ul class="nav nav-tabs">

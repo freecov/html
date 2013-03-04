@@ -93,7 +93,7 @@
                 </div>
             </div>
 
-            <table class="table table-striped table-hover">
+            <table class="table table-condensed table-striped table-hover">
                 <colgroup>
                     <col width="2%">
                     <col width="2%">
