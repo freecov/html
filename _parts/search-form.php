@@ -56,6 +56,7 @@
                 </li>
             </ul>
             <hr>
+            <br>
         </div>
         <div>
             <a class="search-link" href="#"><i class="icon-plus"></i> Add condition</a>
