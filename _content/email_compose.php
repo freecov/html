@@ -1,7 +1,5 @@
 <div class="row-fluid">
-    <div class="span8 title-page">
-        <h2>Email</h2>
-    </div>
+    <h2 class="span8 title-page">Email</h2>
     <div class="span4 title-button pull-right">
  		<div class="fontSizeChange btn-group pull-right" data-toggle="buttons-radio">
             <button class="btn size-small" data-size="small">A</button>

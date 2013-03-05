@@ -50,7 +50,7 @@ hr{
 
 .covide-foot {
   .navbar {
-    margin-top : 20px;
+    margin : 20px 0 10px;
   }
 }
 
@@ -80,7 +80,7 @@ hr{
   .box-shadow(~"inset 0 2px 3px rgba(0, 0, 0, 0.7), 0 2px 0 rgba(255, 255, 255, 0.2)");
 }
 
-.change_modal_button{
+.change_modal_button {
   float       : right;
   font-size   : 20px;
   font-weight : bold;
@@ -89,6 +89,7 @@ hr{
   color       : @black;
   text-shadow : 0 1px 0 rgba(255, 255, 255, 1);
   .opacity(20);
+
   &:hover,
   &:focus {
     color           : @black;
@@ -145,25 +146,20 @@ button.change_modal_button{
 
 .linked-ul {
   margin-bottom : 5px;
-  li{
-	border     : 1px solid #DDDDDD;
-	margin-bottom : 5px;
-  }
 
-  li:nth-child(odd), .odd,  {
-	border     : 1px solid #DDDDDD;
-	margin-bottom : 5px;
+  li {
+  	border     : 1px solid #DDDDDD;
+	  margin-bottom : 5px;
   }
 
   .close{
-  font-size: @baseFontSize;
-  float: inherit;
-
+    font-size: @baseFontSize;
+    float: inherit;
   }
 }
 
-.well-small{
-	margin-bottom: 10px;
+.title-page {
+  margin: 5px 0;
 }
 
 [class^="icon-"],

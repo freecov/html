@@ -1,7 +1,5 @@
 <div class="row-fluid">
-    <div class="span8 title-page">
-        <h2>Terrazur Relation Card</h2>
-    </div>
+    <h2 class="span8 title-page">Terrazur Relation Card</h2>
     <div class="span4 title-button pull-right">
  		<div class="fontSizeChange btn-group pull-right" data-toggle="buttons-radio">
             <button class="btn size-small" type="button" data-size="small">A</button>
@@ -55,7 +53,7 @@
 						<i class="title-icon icon-info-sign"></i>
 						<h5>Information</h5>
 					</div>
-					<div class="widget-content widget-table">
+					<div class="widget-content">
 						<div class="row-fluid">
 							<div class="span6">
 								<dl class="dl-horizontal">
