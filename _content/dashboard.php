@@ -2,14 +2,14 @@
     <h2 class="span8 title-page">Dashboard</h2>
     <div class="span4 title-button pull-right">
  		<div class="fontSizeChange btn-group pull-right" data-toggle="buttons-radio">
-            <button class="btn size-small" data-size="small">A</button>
-			<button class="btn size-normal active" data-size="normal">A</button>
-			<button class="btn size-big" data-size="big">A</button>
+            <button class="btn btn-small size-small" data-size="small">A</button>
+			<button class="btn btn-small size-normal active" data-size="normal">A</button>
+			<button class="btn btn-small size-big" data-size="big">A</button>
         </div>
 
 		<div class="btn-group pull-right">
-            <button class="btn"><i class="icon-plus"></i> Add widget</button>
-            <button class="btn dropdown-toggle" data-toggle="dropdown">
+            <button class="btn btn-small"><i class="icon-plus"></i> Add widget</button>
+            <button class="btn btn-small dropdown-toggle" data-toggle="dropdown">
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
