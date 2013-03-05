@@ -54,7 +54,7 @@
 		<!-- End Person Modal -->
 
 		<hr>
-		<div class="well well-covide-menu">
+		<div class="well">
 			<ul class="nav nav-tabs nav-stacked nav-covide">
 				<li>
                     <a data-toggle="collapse" data-target="#submenu1" href="#"><i class="icon-sitemap"></i> Relations</a>
