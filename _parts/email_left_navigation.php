@@ -43,7 +43,7 @@
 		<!-- End Quick Email Modal -->
 
 		<hr>
-		<div class="well">
+		<div class="well well-covide">
 			<h4>Email folders</h4>
 		    <div class="tabbable"> <!-- Only required for left/right tabs -->
 				<ul class="nav nav-tabs">
