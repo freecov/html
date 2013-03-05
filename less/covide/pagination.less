@@ -2,10 +2,22 @@
 // Pagination (multiple pages)
 // --------------------------------------------------
 
-.pagination label{
- display: inline;
+.pagination {
+  label {
+    display : inline;
+  }
+
+  ul > li {
+    & > a, & > span {
+      padding : 2px 12px;
+    }
+  }
+
+  select {
+    height        : auto;
+    margin-bottom : 5px;
+    min-height    : 0;
+    padding       : 3px;
+  }
 }
 
-.pagination select{
-  margin-bottom: 5px;
-}

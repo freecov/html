@@ -1,13 +1,13 @@
 <div class="well well-covide search-widget">
-    <div class="well well-small well-covide margin-b">
+    <div class="well-title">
         <span class="title">Filter by </span>
         <div class="btn-group pull-right" data-toggle="buttons-radio">
-            <button class="btn active" type="button" data-extra="show"><i class="icon-caret-down"></i></button>
-            <button class="btn" type="button" data-extra="hide"><i class="icon-caret-up"></i></button>
+            <button class="btn btn-small" type="button" data-extra="show"><i class="icon-caret-down"></i></button>
+            <button class="btn btn-small active" type="button" data-extra="hide"><i class="icon-caret-up"></i></button>
         </div>
     </div>
 
-    <form class="search-form show-extra">
+    <form class="search-form">
         <input type="text" class="main-search" placeholder="Search">
 
         <div class="extra-wrap">
@@ -57,7 +57,7 @@
             </ul>
             <hr>
         </div>
-        <div class="well well-small well-covide form-inline controls-row no-margin">
+        <div>
             <a class="search-link" href="#"><i class="icon-plus"></i> Add condition</a>
             <a href="#"><i class="icon-reply"></i> Reset conditions</a>
             <button type="submit" class="btn pull-right"><i class="icon-search"></i> Search</button>

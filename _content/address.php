@@ -46,7 +46,7 @@
 		<? include_once "_parts/search-form.php"; ?>
 
         <div class="well well-covide">
-            <div class="well well-small well-covide">
+            <div class="well-title">
                 <span class="title">Relations</span>
                 <span class="alphabet pull-right">
                     <a href="#"><b>[All]</b></a>

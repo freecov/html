@@ -2,9 +2,9 @@
 // Wells
 // --------------------------------------------------
 
-.well{
-	margin-bottom: 10px;
-	padding: 8px;	
+.well {
+  margin-bottom : 10px;
+  padding       : 8px;
 }
 
 .well-covide-menu {
@@ -13,13 +13,23 @@
   box-shadow       : none;
 }
 
+.well-title {
+  margin-bottom : 10px;
+
+  &:after {
+    display : table;
+    clear   : both;
+    content : " ";
+  }
+}
+
 .well-covide {
-  background-color : #FFFFFF;
-  border           : 1px solid #FFFFFF;
-  box-shadow       : none;
-  margin-bottom: 10px;
-  padding: 8px;
-  
+  background    : #FFFFFF;
+  border        : 1px solid #FFFFFF;
+  box-shadow    : none;
+  margin-bottom : 10px;
+  padding       : 8px;
+
   .title {
     font-size   : @baseFontSize * 1.25;
     font-weight : @headingsFontWeight;
@@ -31,6 +41,6 @@
   }
 }
 
-.well-small{
-  margin-bottom: 10px;
+.well-small {
+  margin-bottom : 10px;
 }

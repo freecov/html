@@ -43,7 +43,7 @@
 		<? include_once "_parts/search-form.php"; ?>
 
         <div class="well well-covide">
-            <div class="well well-small well-covide">
+            <div class="well-title">
                 <span class="title">Inbox</span>
             </div>
             <div class="well well-small well-covide-g">
