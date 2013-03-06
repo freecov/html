@@ -165,10 +165,72 @@
 								</fieldset>
 							</div>
 							
-							
-							<div class="controls controls-row">
-								<textarea rows="8" class="span12"></textarea>
+							<div class="well well-small well-covide-g fieldset-group">
+								<div class="row-fluid">
+									<span class="title"><i class="icon-file-alt"></i> Description</span>
+									<div class="btn-group pull-right" data-toggle="buttons-radio">
+										<button class="btn active" type="button" data-extra="show"><i class="icon-caret-down"></i></button>
+										<button class="btn" type="button" data-extra="hide"><i class="icon-caret-up"></i></button>
+									</div>
+								</div>
+								<fieldset>
+									<div class="controls controls-row">
+										<textarea rows="5" class="span12" >email: konstantin.cherniak@gmail.com, 
+case nr: 904421040, 
+relation name: Kostya category: CRM, 
+description: Nulla fermentum dapibus lacus, venenatis semper nibh pretium non</textarea>
+									</div>
+								</fieldset>
 							</div>
+							
+							<div class="well well-small well-covide-g fieldset-group">
+								<div class="row-fluid">
+									<span class="title"><i class="icon-file-alt"></i> Escalation</span>
+									<div class="btn-group pull-right" data-toggle="buttons-radio">
+										<button class="btn active" type="button" data-extra="show"><i class="icon-caret-down"></i></button>
+										<button class="btn" type="button" data-extra="hide"><i class="icon-caret-up"></i></button>
+									</div>
+								</div>
+								
+								<fieldset>
+									<div class="row-fluid">
+										<div class="span8">
+											<div class="controls controls-row">
+												<input class="span10" type="text" placeholder="Email">
+												<button class="btn span2" type="button" ><i class="icon-search"></i></button>
+											</div>
+											<ul class="list-striped linked-ul inline">
+												<li class="odd form-inline controls-row">kostias@gmail.com <button type="button" class="close close-extra-field " ><i class="icon-remove-sign"></i></button></li>
+												<li class="form-inline controls-row">vanias@gmail.com <button type="button" class="close close-extra-field " ><i class="icon-remove-sign"></i></button></li>
+											</ul>	
+										</div>
+										<div class="span4">
+											<label class="checkbox inline">
+												<input type="checkbox" id="inlineCheckbox1" value="option1"> Accepted
+											</label>
+											<button class="btn pull-right" type="button" ><i class="icon-envelope"></i> Send link</button>
+										</div>
+									</div>
+								</fieldset>
+							</div>
+							
+							
+							<div class="well well-small well-covide-g fieldset-group">
+								<div class="row-fluid">
+									<span class="title"><i class="icon-ok"></i> Applied solution</span>
+									<div class="btn-group pull-right" data-toggle="buttons-radio">
+										<button class="btn active" type="button" data-extra="show"><i class="icon-caret-down"></i></button>
+										<button class="btn" type="button" data-extra="hide"><i class="icon-caret-up"></i></button>
+									</div>
+								</div>
+								<fieldset>
+									<div class="controls controls-row">
+										<textarea rows="3" class="span12" >Via e-mail en/of telefoon is inhoudelijk met u gecommuniceerd. 
+Gelieve - wanneer u het eens bent met het sluiten van deze vraag - niet meer op deze mail te reageren, omdat de call dan weer automatisch wordt geopend.</textarea>
+									</div>
+								</fieldset>
+							</div>
+
 						</form>
 					</div>
 					
