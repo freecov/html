@@ -30,6 +30,7 @@
 <!--Address Content-->
 <div class="row-fluid">
 	<div class="span3">
+		<? $activeADD = 'btn-warning'; ?>
 	   	<? include_once "_parts/customer_care_left_navigation.php"; ?>
 	</div>
 
@@ -81,281 +82,70 @@
 
             <table class="table table-condensed table-striped table-hover">
                 <colgroup>
-                    <col width="2%">
-                    <col width="2%">
                     <col width="3%">
                     <col>
+                    <col width="25%">
+                    <col width="30%">
+                    <col width="20%">
                     <col>
-                    <col>
-                    <col>
-                    <col>
-                    <col>
+                    <col width="3%">
                 </colgroup>
                 <thead>
                     <tr>
-                        <th>
-							<div class="btn-group">
-								<a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-									<i class="icon-check"></i> <span class="caret"></span>
-								</a>
-								<ul class="dropdown-menu">
-									<li><a href="#">All</a></li>
-									<li><a href="#">Inverse</a></li>
-									<li><a href="#">None</a></li>
-								</ul>
-							</div>
-
-						</th>
                         <th></th>
-                        <th></th>
-                        <th>Relations</th>
-                        <th>Address</th>
                         <th>Date</th>
-                        <th>Zip code</th>
-                        <th>City</th>
-                        <th>Phone</th>
+                        <th>Customer care</th>
+                        <th>Dispatching</th>
+                        <th>Contact</th>
+                        <th>Executor</th>
+                        <th>Done</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td><a href="address_relation_card.php">Terrazur</a></td>
-                        <td>Vestibulum in lacus vel est tempus mattis</td>
+                        <td><a class="btn btn-small" href="#" title="Show support item"><i class="icon-tag"></i></a></td>
                         <td>20.02.2013</td>
-                        <td>342425234</td>
-                        <td>Borneveld</td>
-                        <td>3807554565</td>
-                    </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb text-error"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td><a href="address_relation_card.php">Aenean vitae arcu</a></td>
+                        <td>email: konstantin.cherniak@gmail.com</td>
                         <td>Vestibulum in lacus vel est tempus mattis</td>
-                        <td>18.02.2013</td>
-                        <td>455623339</td>
-                        <td>Rotterdam</td>
-                        <td>3807511125</td>
+                        <td><a href="#">A.G. Wolffenbuttel</a></td>
+                        <td>Tom</td>
+                        <td><i class="icon-thumbs-up text-success" title="Done"></i></td>
                     </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td><a href="address_relation_card.php">Aliquam feugiat</a></td>
-                        <td>Phasellus nisl lectus, interdum</td>
-                        <td>03.02.2013</td>
-                        <td>311102586</td>
-                        <td>Amsterdam</td>
-                        <td>3807556621</td>
+					<tr>
+                        <td><a class="btn btn-small" href="#" title="Show support item"><i class="icon-tag"></i></a></td>
+                        <td>22.02.2013</td>
+                        <td>email: sfs@gmail.com</td>
+                        <td>Ut bibendum tellus vel magna aliquam suscipit</td>
+                        <td><a href="#">Aenean lacus</a></td>
+                        <td>Vivamus</td>
+                        <td><i class="icon-question-sign muted" title="Not done"></i></td>
                     </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb text-error"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td><a href="address_relation_card.php">Suspendisse</a></td>
-                        <td>Aenean vitae arcu in dolor vehicula scelerisque</td>
-                        <td>15.01.2013</td>
-                        <td>553948869</td>
-                        <td>Borneveld</td>
-                        <td>3807500353</td>
+					<tr>
+                        <td><a class="btn btn-small" href="#" title="Show support item"><i class="icon-tag"></i></a></td>
+                        <td>18.01.2013</td>
+                        <td>case nr: 971213168</td>
+                        <td>Donec varius augue ac lacus mollis</td>
+                        <td><a href="#">Quisque nibh</a></td>
+                        <td>Curabitur</td>
+                        <td><i class="icon-thumbs-up text-success" title="Done"></i></td>
                     </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td><a href="address_relation_card.php">Pellentesque justo</a></td>
-                        <td>Mauris quis libero lacinia ligula</td>
-                        <td>05.01.2013</td>
-                        <td>247935008</td>
-                        <td>Amsterdam</td>
-                        <td>3807998044</td>
+					<tr>
+                        <td><a class="btn btn-small" href="#" title="Show support item"><i class="icon-tag"></i></a></td>
+                        <td>22.02.2013</td>
+                        <td>email: sfs@gmail.com</td>
+                        <td>Ut bibendum tellus vel magna aliquam suscipit</td>
+                        <td><a href="#">Aenean lacus</a></td>
+                        <td>Vivamus</td>
+                        <td><i class="icon-question-sign muted" title="Not done"></i></td>
                     </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td><a href="address_relation_card.php">Vestibulum bibendum</a></td>
-                        <td>Pellentesque habitant morbi tristique</td>
-                        <td>10.02.2013</td>
-                        <td>502036987</td>
-                        <td>Rotterdam</td>
-                        <td>3807554905</td>
-                    </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb text-error"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td><a href="address_relation_card.php">Vivamus dui turpis</a></td>
-                        <td>Aliquam feugiat urna</td>
-                        <td>12.01.2013</td>
-                        <td>678912546</td>
-                        <td>Rotterdam</td>
-                        <td>3807873269</td>
-                    </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td><a href="address_relation_card.php">In placerat mollis</a></td>
-                        <td>Donec consequat enim non nisi </td>
-                        <td>20.12.2012</td>
-                        <td>742425234</td>
-                        <td>Borneveld</td>
-                        <td>3803544465</td>
-                    </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb text-error"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td><a href="address_relation_card.php">Cras vestibulum</a></td>
-                        <td>Vestibulum bibendum, mi sed consequat</td>
-                        <td>30.01.2013</td>
-                        <td>357425987</td>
-                        <td>Amsterdam</td>
-                        <td>3803554568</td>
-                    </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td><i class="icon-lightbulb"></i></td>
-                        <td>
-                            <div class="btn-group">
-                                <a class="btn btn-mini dropdown-toggle" data-toggle="dropdown" href="#">
-                                <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href=#>relation card</a></li>
-                                    <li><a href=#>more information</a></li>
-                                    <li><a href=#>add business card</a></li>
-                                    <li><a href=#>export as vCard</a></li>
-                                    <li><a href=#>email</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                        <td><a href="address_relation_card.php">Aenean vitae</a></td>
-                        <td>Pellentesque vel odio orci</td>
-                        <td>14.02.2013</td>
-                        <td>154565234</td>
-                        <td>Amsterdam</td>
-                        <td>3807222561</td>
+					<tr>
+                        <td><a class="btn btn-small" href="#" title="Show support item"><i class="icon-tag"></i></a></td>
+                        <td>20.02.2013</td>
+                        <td>email: konstantin.cherniak@gmail.com</td>
+                        <td>Vestibulum in lacus vel est tempus mattis</td>
+                        <td><a href="#">A.G. Wolffenbuttel</a></td>
+                        <td>Tom</td>
+                        <td><i class="icon-thumbs-up text-success" title="Done"></i></td>
                     </tr>
                 </tbody>
             </table>
