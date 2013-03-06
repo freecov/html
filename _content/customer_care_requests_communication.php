@@ -39,7 +39,7 @@
 	<div class="span9">
         <div class="well well-covide">
 			<div class="btn-toolbar">
-				<button class="btn btn-warning"><i class="icon-save"></i> Save</button><button type="button" class="btn"><i class="icon-thumbs-up"></i> Done</button>
+				<button class="btn btn-warning"><i class="icon-save"></i> Save</button>
 				<button type="button" class="btn disabled pull-right">Case number: 23476768</button>
 				<button type="button" class="btn disabled pull-right" title="Reponse time"><i class="icon-time"></i> 48 hours</button>
 				<button type="button" class="btn disabled pull-right" title="Date"><i class="icon-calendar"></i> 01-02-2013 15:49</button>
@@ -235,13 +235,140 @@ Gelieve - wanneer u het eens bent met het sluiten van deze vraag - niet meer op 
 					</div>
 					
 					<div class="tab-pane" id="tabCommunication">
-						<p>Howdy, I'm in Section 2.</p>
+						<div class="row-fluid">
+							<div class="span8">
+								<ul class="list-striped linked-ul inline">
+									<li class="form-inline controls-row"><i class="icon-pencil"></i> 2 (10 min)</li>
+									<li class="form-inline controls-row"><i class="icon-envelope"></i> 2 (20 min)</li>
+									<li class="form-inline controls-row"><i class="icon-user"></i> 0</li>
+								</ul>	
+							</div>
+							<div class="span4">
+								<div class="btn-group pull-right">
+									<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+										Add new
+										<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li><a href=#><i class="icon-envelope"></i> email</a></li>
+										<li><a href=#><i class="icon-pencil"></i> note</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<table class="table table-condensed table-striped">
+							<colgroup>
+                			    <col width="2%">
+                    			<col width="2%">
+                    			<col>
+                    			<col>
+								<col>
+                    			<col>
+                			</colgroup>
+                			<thead>
+								<tr>
+									<th></th>
+									<th></th>
+									<th>Subject</th>
+									<th>From</th>
+									<th>To</th>
+									<th>Date</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><button class="btn btn-small" data-toggle="collapse" data-target="#IdItem1"><i class="icon-caret-down"></i></button></td>
+									<td><i class="icon-envelope"></i></td>
+									<td>Phasellus eleifend lectus</td>
+									<td>kostias@gmail.com</td>
+									<td>jort@gmail.com </td>
+									<td>23.02.2013 15:32</td>
+								</tr>
+								<tr>
+									<td colspan="6">
+									<div id="IdItem1" class="collapse in">
+		
+										<p>Sed aliquam, lectus et interdum dapibus, nulla enim lobortis libero, in consequat lacus tellus eu ipsum. In ornare, nunc vel sagittis dapibus, tellus urna lacinia tortor, ac feugiat risus eros sit amet justo. Duis eget est massa.</p>
+									
+										<ul class="list-striped linked-ul inline">
+											<li class="odd form-inline controls-row">Attach.docx <span class="label" title="Google docs">Google</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+											<li class="form-inline controls-row">picture.jpg <span class="label" title="Covide file system">Covide</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+											<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+											<li class="form-inline controls-row">Attach.docx <span class="label" title="Google docs">Google</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+											<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+											<li class="form-inline controls-row">picture.jpg <span class="label" title="Covide file system">Covide</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+											<li class="odd form-inline controls-row">document.docx <span class="label" title="Local computer">Local</span> <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
+										</ul>
+										<hr>
+										<div class="btn-toolbar">
+											<button class="btn btn-small"><i class="icon-share-alt"></i> Replay</button>
+											<label class="checkbox inline pull-right">
+												<input type="checkbox" id="inlineCheckbox1" value="option1" > 
+												<i class="icon-eye-close margin-l"></i> Hide from portal
+											</label>
+										</div>
+									</div>
+									</td>
+								</tr>
+								<tr>
+									<td><button class="btn btn-small" data-toggle="collapse" data-target="#IdItem2"><i class="icon-caret-down"></i></button></td>
+									<td><i class="icon-envelope"></i></td>
+									<td>Duis eget est massa</td>
+									<td>jort@gmail.com</td>
+									<td>erty@gmail.com </td>
+									<td>28.02.2013 15:32</td>
+								</tr>
+								<tr>
+									<td colspan="6">
+									<div id="IdItem2" class="collapse">
+									test
+									</div>
+									</td>
+								</tr>
+								<tr>
+									<td><button class="btn btn-small" data-toggle="collapse" data-target="#IdItem3"><i class="icon-caret-down"></i></button></td>
+									<td><i class="icon-pencil"></i></td>
+									<td>Aliquam pellentesque porttitor vehicula</td>
+									<td>kostias@gmail.com</td>
+									<td>otrtu@gmail.com </td>
+									<td>21.02.2013 15:32</td>
+								</tr>
+								<tr>
+									<td colspan="6">
+									<div id="IdItem3" class="collapse">
+									test
+									</div>
+									</td>
+								</tr>
+								<tr>
+									<td><button class="btn btn-small" data-toggle="collapse" data-target="#IdItem4"><i class="icon-caret-down"></i></button></td>
+									<td><i class="icon-pencil"></i></td>
+									<td>Phasellus interdum malesuada dapibus.</td>
+									<td>kostias@gmail.com</td>
+									<td>otrtu@gmail.com </td>
+									<td>25.02.2013 15:32</td>
+								</tr>
+								<tr>
+									<td colspan="6">
+									<div id="IdItem4" class="collapse">
+									test
+									</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
 					</div>
 				</div>
 			</div>
 			
 			<div class="btn-toolbar">
-				<button class="btn btn-warning"><i class="icon-save"></i> Save</button><button type="button" class="btn"><i class="icon-thumbs-up"></i> Done</button>
+				<button class="btn btn-warning"><i class="icon-save"></i> Save</button>
+				<label class="checkbox inline">
+					<input type="checkbox" id="inlineCheckbox1" value="option1" > 
+					<i class="icon-thumbs-up margin-l"></i> Done
+				</label>
 				<button type="button" class="btn disabled pull-right">Case number: 23476768</button>
 				
 			</div>
