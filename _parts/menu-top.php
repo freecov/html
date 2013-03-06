@@ -251,7 +251,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-submenu">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <a class="dropdown-toggle"  href="customer_care.php">
                             <i class="icon-bolt"></i>
                             Customer Care
                         </a>
