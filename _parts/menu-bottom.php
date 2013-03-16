@@ -17,7 +17,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'calendar' ? 'active' : ''; ?>">
-                <a href="#">
+                <a href="calendar.php">
                     <i class="icon-calendar"></i>
                     Calendar
                 </a>
