@@ -24,7 +24,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'notes' ? 'active' : ''; ?>">
-                <a href="#">
+                <a href="notes.php">
                     <i class="icon-pencil"></i>
                     Notes
                 </a>

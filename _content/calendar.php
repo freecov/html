@@ -24,7 +24,7 @@
 				<div id="calendarshareModal" class="modal add-classification-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="calendarshareModalLabel" aria-hidden="true">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-						<h4 id="calendarshareLabel"><i class="icon-share"></i> Calendar Share</h4>
+						<h4 id="calendarshareLabel"><i class="icon-share"></i> Share Calendar</h4>
 					</div>
 					<div class="modal-body"></div>
 					<div class="modal-footer">

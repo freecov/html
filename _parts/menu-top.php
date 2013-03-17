@@ -45,20 +45,19 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="dropdown hover-menu <?=$activeMenuItem == 'notes' ? 'active' : ''; ?>">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <a class="dropdown-toggle" href="notes.php">
                     <i class="icon-pencil"></i>
                     Notes
                     <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu" role="menu">
                     <li class="nav-header">Folders</li>
-                    <li><a href="#">Private</a></li>
-                    <li><a href="#">Shared</a></li>
+                    <li><a href="#">Received</a></li>
+                    <li><a href="#">Sent</a></li>
+					<li><a href="#">Drafts</a></li>
                     <li class="divider"></li>
-                    <li class="nav-header">Compose</li>
-                    <li><a href="#">Quick E-mail</a></li>
-                    <li><a href="#">E-mail</a></li>
-                    <li><a href="#">Newsletter</a></li>
+                    <li class="nav-header">Add new</li>
+                    <li><a href="#">Note</a></li>
                 </ul>
             </li>
             <li class="divider-vertical"></li>
