@@ -17,14 +17,14 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'calendar' ? 'active' : ''; ?>">
-                <a href="#">
+                <a href="calendar.php">
                     <i class="icon-calendar"></i>
                     Calendar
                 </a>
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'notes' ? 'active' : ''; ?>">
-                <a href="#">
+                <a href="notes.php">
                     <i class="icon-pencil"></i>
                     Notes
                 </a>
