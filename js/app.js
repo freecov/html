@@ -1,7 +1,9 @@
 require.config({
     paths: {
         bootstrap: 'plugins/bootstrap/all',
-        jui: 'lib/jquery-ui/package'
+        covide: 'plugins/covide',
+        jui: 'lib/jquery-ui/package',
+        locale: 'plugins/locales'
     }
 });
 

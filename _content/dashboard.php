@@ -31,7 +31,7 @@
 </div>
 
 <!--Widgets-->
-<div class="widgets">
+<div class="widgetsBoard">
     <div class="row-fluid">
         <div class="widget-box span6">
             <div class="widget-title">

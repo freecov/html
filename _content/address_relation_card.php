@@ -44,9 +44,9 @@
 	</div>
 
 	<div class="span9">
-	
+
 		<!-- Start widgets for relation card -->
-		<div class="widgets">	
+		<div class="widgetsBoard">
 			<div class="row-fluid">
 				<div class="widget-box span6">
 					<div class="widget-title">

@@ -1,4 +1,4 @@
-var depends = ['bootstrap', 'plugins/clock/clock'];
+var depends = ['bootstrap', 'covide/clock'];
 
 define("layout", depends, function () {
 
@@ -9,6 +9,10 @@ define("layout", depends, function () {
     CovideLayout.prototype = {
         globalWidgets: {
             clock: function () {
+                if (typeof $.fn.clock !== 'function') {
+                    return
+                }
+
                 $('.clock-container').clock();
             },
 
@@ -26,7 +30,19 @@ define("layout", depends, function () {
             },
 
             tooltip: function () {
+                if (typeof $.fn.tooltip !== 'function') {
+                    return
+                }
+
                 $("[title]").tooltip();
+            },
+
+            editable: function() {
+                if (typeof $.fn.editable !== 'function') {
+                    return
+                }
+
+                $('[data-toggle="editable"]').editable()
             },
 
             searchForm: function() {
@@ -37,6 +53,15 @@ define("layout", depends, function () {
                     }).on('click', '[data-extra]', function() {
                         var el = $(this), widget = el.closest('.search-widget');
                         widget.data('form').toggleClass('show-extra', el.data('extra') === 'show');
+                    });
+                }
+            },
+
+            widgetsBoard: function() {
+                var boards = $('.widgetsBoard');
+                if (boards.length) {
+                    require(['covide/widgetsBoard'], function() {
+                        boards.widgetsBoard();
                     });
                 }
             }

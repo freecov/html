@@ -43,11 +43,5 @@
         </section>
         <? include_once "_parts/footer.php"; ?>
     </div>
-
-    <script type="text/javascript">
-        require(['modules/dashboard'], function (dashboard) {
-            new dashboard();
-        });
-    </script>
 </body>
 </html>
