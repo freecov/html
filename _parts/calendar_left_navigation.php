@@ -35,24 +35,29 @@
 				<fieldset>
 					<legend><i class="icon-group"></i> Select user</legend>
 					<div class="controls controls-row">
-						<label class="checkbox">
-							<button class="btn btn-mini btn-color" type="button" style="color: rgb(204, 204, 255);"><i class="icon-sign-blank"></i></button>
+						
+						<button class="btn btn-mini btn-color" type="button" style="color: rgb(204, 204, 255);"><i class="icon-sign-blank"></i></button>
+						<label class="checkbox inline">
 							<input type="checkbox"> Osdn <i class="icon-edit muted" title="Can edit"></i>
 						</label>
-						<label class="checkbox">
-							<button class="btn btn-mini btn-color" type="button" style="color: rgb(204, 204, 255);"><i class="icon-sign-blank"></i></button>						
+						<br>
+						<button class="btn btn-mini btn-color" type="button" style="color: rgb(204, 204, 255);"><i class="icon-sign-blank"></i></button>												
+						<label class="checkbox inline">
 							<input type="checkbox"> Willem <i class="icon-edit muted" title="Can edit"></i>
 						</label>
-						<label class="checkbox">
-							<button class="btn btn-mini btn-color" type="button" style="color: rgb(204, 255, 204);"><i class="icon-sign-blank"></i></button>						
+						<br>
+						<button class="btn btn-mini btn-color" type="button" style="color: rgb(204, 255, 204);"><i class="icon-sign-blank"></i></button>						
+						<label class="checkbox inline">
 							<input type="checkbox"> Robbert <i class="icon-edit muted" title="Can edit"></i>
 						</label>
-						<label class="checkbox">
-							<button class="btn btn-mini btn-color" type="button" style="color: rgb(204, 204, 255);"><i class="icon-sign-blank"></i></button>						
+						<br>
+						<button class="btn btn-mini btn-color" type="button" style="color: rgb(204, 204, 255);"><i class="icon-sign-blank"></i></button>						
+						<label class="checkbox inline">
 							<input type="checkbox"> Hanna <i class="icon-eye-open muted" title="Can read"></i>
 						</label>
-						<label class="checkbox">
-							<button class="btn btn-mini btn-color" type="button" style="color: rgb(204, 204, 255);"><i class="icon-sign-blank"></i></button>						
+						<br>
+						<button class="btn btn-mini btn-color" type="button" style="color: rgb(204, 204, 255);"><i class="icon-sign-blank"></i></button>						
+						<label class="checkbox inline">
 							<input type="checkbox"> Tom <i class="icon-edit muted" title="Can edit"></i>
 						</label>							
 					</div>
