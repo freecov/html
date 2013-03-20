@@ -137,7 +137,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="dropdown hover-menu <?=$activeMenuItem == 'sales' ? 'active' : ''; ?>">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <a class="dropdown-toggle" href="sales.php">
                     <i class="icon-bar-chart"></i>
                     Sales
                     <b class="caret"></b>
@@ -232,7 +232,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-submenu">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <a class="dropdown-toggle" href="sales.php">
                             <i class="icon-bar-chart"></i>
                             Sales
                         </a>

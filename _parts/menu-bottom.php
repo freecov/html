@@ -59,7 +59,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'sales' ? 'active' : ''; ?>">
-                <a href="#"><i class="icon-bar-chart"></i> Sales</a>
+                <a href="sales.php"><i class="icon-bar-chart"></i> Sales</a>
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'customer' ? 'active' : ''; ?>">
@@ -83,8 +83,8 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                     <li><a href="#"><i class="icon-list"></i> Projects</a></li>
-                    <li><a href="#"><i class="icon-bar-chart"></i> Sales</a></li>
-                    <li><a href="#"><i class="icon-bolt"></i> Customer Care</a></li>
+                    <li><a href="sales.php"><i class="icon-bar-chart"></i> Sales</a></li>
+                    <li><a href="customer_care.php"><i class="icon-bolt"></i> Customer Care</a></li>
                     <li><a href="#"><i class="icon-list-alt"></i> Campaign</a></li>
                     <li><a href="#"><i class="icon-twitter"></i> Social</a></li>
                 </ul>
