@@ -92,7 +92,7 @@
 					</div>
 					
 					<!-- Start Add Contact Modal -->
-					<div id="addcontactModal" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addcontactModalLabel" aria-hidden="true">
+					<div id="addcontactModal" class="modal add-classification-big-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addcontactModalLabel" aria-hidden="true">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
 							<h4 id="addcontactModalLabel"><i class="icon-book"></i> Add contacts</h4>
@@ -118,7 +118,7 @@
 					</div>
 					
 					<!-- Start Add Project Modal -->
-					<div id="addprojectModal" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addprojectModalLabel" aria-hidden="true">
+					<div id="addprojectModal" class="modal add-classification-big-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addprojectModalLabel" aria-hidden="true">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
 							<h4 id="addprojectModalLabel"><i class="icon-list"></i> Add project</h4>
@@ -149,7 +149,7 @@
 						</fieldset>
 					</div>
 					<!-- Start Add CC Modal -->
-					<div id="addccModal" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addccModalLabel" aria-hidden="true">
+					<div id="addccModal" class="modal add-classification-big-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addccModalLabel" aria-hidden="true">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
 							<h4 id="addccModalLabel"><i class="icon-bolt"></i> Add customer care</h4>
@@ -179,7 +179,7 @@
 						</fieldset>
 					</div>
 					<!-- Start Add CC Modal -->
-					<div id="addsiModal" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addsiModalLabel" aria-hidden="true">
+					<div id="addsiModal" class="modal add-classification-big-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addsiModalLabel" aria-hidden="true">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
 							<h4 id="addsiModalLabel"><i class="icon-bar-chart"></i> Add sales item</h4>
