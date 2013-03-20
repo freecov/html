@@ -49,4 +49,5 @@ define('utils', function () {
     }
 
     window.CovideUtils = new CovideUtils();
+    window.translate = window.CovideUtils.translate;
 });
