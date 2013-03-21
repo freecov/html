@@ -167,6 +167,11 @@
                                 class="badge">0</span></strong> <strong>Total <span
                                 class="badge badge-important">1827</span></strong>
 						</div>
+						<a href=#><strong>Pending</strong></a> <span class="badge badge-important">0</span> | 
+						<a href=#><strong>Close to decision</strong></a> <span class="badge">0</span> | 
+						<a href=#><strong>Closed - lost</strong></a> <span class="badge">0</span> | 
+						<a href=#><strong>Closed - won</strong></a> <span class="badge badge-success">0</span> | 
+						<a href=#><strong>Total</strong></a> <span class="badge badge-important">0</span>
 					</div>
 
 				</div>
@@ -222,8 +227,8 @@
                     		<col>
                     		<col>
                     		<col>
-                    		<col>
-                    		<col>
+                    		<col width="15%">
+							<col>
                     		<col>
                 		</colgroup>
                 		<thead>
@@ -244,8 +249,8 @@
                         		<th>Sales Item</th>
                         		<th>Project</th>
                         		<th>Date</th>
-                        		<th>Order / Commission</th>
-                        		<th>City</th>
+                        		<th>Order/Commission</th>
+								<th>Status</th>
                         		<th>Price</th>
                     		</tr>
                 		</thead>
@@ -256,7 +261,7 @@
                         		<td>Vestibulum in lacus vel est tempus mattis</td>
                         		<td>20.02.2013</td>
                         		<td>342425234</td>
-                        		<td>Borneveld</td>
+								<td><select><option>close to decision</option><option>pending</option><option>close to lost</option><option>close to won</option></select></td>
                         		<td>3565</td>
                     		</tr>
                     		<tr>
@@ -265,7 +270,7 @@
                         		<td>Vestibulum in lacus vel est tempus mattis</td>
                         		<td>18.02.2013</td>
                         		<td>455623339</td>
-                        		<td>Rotterdam</td>
+								<td><select><option>close to decision</option><option>pending</option><option>close to lost</option><option>close to won</option></select></td>
                         		<td>125</td>
                     		</tr>
                     		<tr>
@@ -274,14 +279,14 @@
                         		<td>Phasellus nisl lectus, interdum</td>
                         		<td>03.02.2013</td>
                         		<td>311102586</td>
-                        		<td>Amsterdam</td>
+								<td><select><option>close to decision</option><option>pending</option><option>close to lost</option><option>close to won</option></select></td>
                         		<td>3621</td>
                     		</tr>
                 		</tbody>
             		</table>
 
 		            <div class="pagination pagination-right no-margin">
-						<select class="span1" title="Items per page">
+						<select class="span2" title="Items per page">
 							<option>5</option>
 							<option>10</option>
 							<option>20</option>

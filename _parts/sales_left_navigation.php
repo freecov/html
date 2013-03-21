@@ -40,7 +40,7 @@
 		<hr>
 		<div class="well well-covide well-covide-menu">
 			<ul class="nav nav-tabs nav-stacked nav-covide">
-				<li><a href="customer_care.php"><i class="icon-bar-chart"></i> Sales overview</a></li>
-				<li><a href="customer_care_requests.php"><i class="icon-screenshot"></i> Sales targets</a></li>
+				<li><a href="sales.php"><i class="icon-bar-chart"></i> Sales overview</a></li>
+				<li><a href="sales_targets.php"><i class="icon-screenshot"></i> Sales targets</a></li>
 			</ul>
 		</div>
