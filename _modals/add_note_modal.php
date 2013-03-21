@@ -196,14 +196,14 @@
 				<fieldset>
 					<legend><i class="icon-magic"></i> Create</legend>
 					<br>
-					<label class="checkbox inline">
-						<input type="checkbox"> new customer contact
+					<label class="checkbox span3 inline">
+						<input type="checkbox"> <i class="icon-bolt"></i> new customer contact
 					</label>
-					<label class="checkbox inline">
-						<input type="checkbox"> new todo
+					<label class="checkbox span2 inline">
+						<input type="checkbox"> <i class="icon-check"></i> new todo
 					</label>
-					<label class="checkbox inline">
-						<input type="checkbox"> new sales item
+					<label class="checkbox span3 inline">
+						<input type="checkbox"> <i class="icon-bar-chart"></i> new sales item
 					</label>
 				</fieldset>
 			</form>

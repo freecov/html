@@ -144,13 +144,12 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                     <li class="nav-header">Folders</li>
-                    <li><a href="#">Private</a></li>
-                    <li><a href="#">Shared</a></li>
+                    <li><a href="#">Sales overview</a></li>
+                    <li><a href="#">Sales targets</a></li>
                     <li class="divider"></li>
-                    <li class="nav-header">Compose</li>
-                    <li><a href="#">Quick E-mail</a></li>
-                    <li><a href="#">E-mail</a></li>
-                    <li><a href="#">Newsletter</a></li>
+                    <li class="nav-header">Add new</li>
+                    <li><a href="#">Sales Item</a></li>
+                    <li><a href="#">Sales target</a></li>
                 </ul>
             </li>
             <li class="divider-vertical"></li>
@@ -237,14 +236,13 @@
                             Sales
                         </a>
                         <ul class="dropdown-menu" role="menu">
-                            <li class="nav-header">Folders</li>
-                            <li><a href="#">Private</a></li>
-                            <li><a href="#">Shared</a></li>
-                            <li class="divider"></li>
-                            <li class="nav-header">Compose</li>
-                            <li><a href="#">Quick E-mail</a></li>
-                            <li><a href="#">E-mail</a></li>
-                            <li><a href="#">Newsletter</a></li>
+							<li class="nav-header">Folders</li>
+                    		<li><a href="#">Sales overview</a></li>
+                    		<li><a href="#">Sales targets</a></li>
+                    		<li class="divider"></li>
+                    		<li class="nav-header">Add new</li>
+                    		<li><a href="#">Sales Item</a></li>
+                    		<li><a href="#">Sales target</a></li>
                         </ul>
                     </li>
                     <li class="dropdown-submenu">
