@@ -1,12 +1,12 @@
 <div class="tabbable"> <!-- Only required for left/right tabs -->
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#tab_maininfo" data-toggle="tab">Main information</a></li>
-		<li><a href="#tab_links" data-toggle="tab">Links</a></li>
-		<li><a href="#tab_attachments" data-toggle="tab">Attachments</a></li>
+		<li class="active"><a href="#tab_maininfo_nam" data-toggle="tab">Main information</a></li>
+		<li><a href="#tab_links_nam" data-toggle="tab">Links</a></li>
+		<li><a href="#tab_attachments_nam" data-toggle="tab">Attachments</a></li>
     </ul>
     
 	<div class="tab-content">
-		<div class="tab-pane fieldset-group active" id="tab_maininfo">
+		<div class="tab-pane fieldset-group active" id="tab_maininfo_nam">
 			<form>
 				<legend><i class="icon-info-sign"></i> Main information</legend>
 
@@ -129,7 +129,7 @@
 			</form>
 		</div>
 				
-		<div class="tab-pane fieldset-group" id="tab_links">
+		<div class="tab-pane fieldset-group" id="tab_links_nam">
 			<form>
 				<legend><i class="icon-link"></i> Links</legend>
 				<div class="row-fluid">
@@ -215,7 +215,7 @@
 				
 			</form>
 		</div>
-		<div class="tab-pane" id="tab_attachments">
+		<div class="tab-pane" id="tab_attachments_nam">
 			<form>
 				<fieldset class="attachment">
 					<legend><i class="icon-paper-clip"></i> Attachments</legend>

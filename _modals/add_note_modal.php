@@ -1,12 +1,12 @@
 <div class="tabbable"> <!-- Only required for left/right tabs -->
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#tab_compose" data-toggle="tab">Compose</a></li>
-		<li><a href="#tab_extra" data-toggle="tab">Extra fields</a></li>
-		<li><a href="#tab_links" data-toggle="tab">Links</a></li>
+		<li class="active"><a href="#tab_compose_anm" data-toggle="tab">Compose</a></li>
+		<li><a href="#tab_extra_anm" data-toggle="tab">Extra fields</a></li>
+		<li><a href="#tab_links_anm" data-toggle="tab">Links</a></li>
     </ul>
     
 	<div class="tab-content">
-		<div class="tab-pane fieldset-group active" id="tab_compose">
+		<div class="tab-pane fieldset-group active" id="tab_compose_anm">
 			<form>
 				<fieldset>
 					<legend><i class="icon-group"></i> To users</legend>
@@ -49,7 +49,7 @@
 				</fieldset>
 			</form>
 		</div>
-		<div class="tab-pane fieldset-group" id="tab_extra">
+		<div class="tab-pane fieldset-group" id="tab_extra_anm">
 			<form>
 				<fieldset>
 					<legend><i class="icon-list"></i> Extra fields</legend>
@@ -73,7 +73,7 @@
 				</fieldset>
 			</form>
 		</div>
-		<div class="tab-pane fieldset-group" id="tab_links">
+		<div class="tab-pane fieldset-group" id="tab_links_anm">
 			<form>
 				<legend><i class="icon-link"></i> Links</legend>
 				<div class="row-fluid">

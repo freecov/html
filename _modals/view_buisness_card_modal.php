@@ -1,15 +1,15 @@
 <div class="tabbable"> <!-- Only required for left/right tabs -->
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#tab1viewbuisnesscard" data-toggle="tab">Information</a></li>
-		<li><a href="#tab2viewbuisnesscard" data-toggle="tab">Business</a></li>
-		<li><a href="#tab3viewbuisnesscard" data-toggle="tab">Business address</a></li>
-		<li><a href="#tab4viewbuisnesscard" data-toggle="tab">Private address</a></li>
-		<li><a href="#tab5viewbuisnesscard" data-toggle="tab">Other address</a></li>
-		<li><a href="#tab6viewbuisnesscard" data-toggle="tab">Other</a></li>
+		<li class="active"><a href="#tab1viewbuisnesscard_vbcm" data-toggle="tab">Information</a></li>
+		<li><a href="#tab2viewbuisnesscard_vbcm" data-toggle="tab">Business</a></li>
+		<li><a href="#tab3viewbuisnesscard_vbcm" data-toggle="tab">Business address</a></li>
+		<li><a href="#tab4viewbuisnesscard_vbcm" data-toggle="tab">Private address</a></li>
+		<li><a href="#tab5viewbuisnesscard_vbcm" data-toggle="tab">Other address</a></li>
+		<li><a href="#tab6viewbuisnesscard_vbcm" data-toggle="tab">Other</a></li>
     </ul>
 	
 	<div class="tab-content">
-		<div class="tab-pane active" id="tab1viewbuisnesscard">
+		<div class="tab-pane active" id="tab1viewbuisnesscard_vbcm">
 			<p><b><i class="icon-info-sign"></i> Information</b></p>
 		    <div class="row-fluid">						
 				<div class="span6">
@@ -37,7 +37,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="tab-pane" id="tab2viewbuisnesscard">
+		<div class="tab-pane" id="tab2viewbuisnesscard_vbcm">
 			<p><b><i class="icon-briefcase"></i> Company information</b></p>
 			<div class="row-fluid">						
 				<div class="span6">
@@ -80,7 +80,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="tab-pane" id="tab3viewbuisnesscard">
+		<div class="tab-pane" id="tab3viewbuisnesscard_vbcm">
 			<p><b><i class="icon-building"></i> Visiting address</b></p>
 			<div class="row-fluid">						
 				<div class="span6">
@@ -154,7 +154,7 @@
 				</div>
 			</div>	
 		</div>
-		<div class="tab-pane" id="tab4viewbuisnesscard">
+		<div class="tab-pane" id="tab4viewbuisnesscard_vbcm">
 			<p><b><i class="icon-building text-error"></i> Private address</b></p>	
 			<div class="row-fluid">						
 				<div class="span6">
@@ -174,7 +174,7 @@
 			</div>	
 
 		</div>
-		<div class="tab-pane" id="tab5viewbuisnesscard">
+		<div class="tab-pane" id="tab5viewbuisnesscard_vbcm">
 			<p><b><i class="icon-building text-info"></i> Other address</b></p>	
 			<div class="row-fluid">						
 				<div class="span6">
@@ -194,7 +194,7 @@
 			</div>	
 				
 		</div>
-		<div class="tab-pane" id="tab6viewbuisnesscard">
+		<div class="tab-pane" id="tab6viewbuisnesscard_vbcm">
 			<p><b><i class="icon-info-sign"></i> Other</b></p>	
 		</div>
 	</div>

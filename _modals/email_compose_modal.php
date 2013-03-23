@@ -1,13 +1,13 @@
 <div class="tabbable"> <!-- Only required for left/right tabs -->
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#tab_compose" data-toggle="tab">Compose</a></li>
-		<li><a href="#tab_links" data-toggle="tab">Links</a></li>
-		<li><a href="#tab_access" data-toggle="tab">Access</a></li>
-		<li><a href="#tab_attachments" data-toggle="tab">Attachments</a></li>
+		<li class="active"><a href="#tab_compose_ecm" data-toggle="tab">Compose</a></li>
+		<li><a href="#tab_links_ecm" data-toggle="tab">Links</a></li>
+		<li><a href="#tab_access_ecm" data-toggle="tab">Access</a></li>
+		<li><a href="#tab_attachments_ecm" data-toggle="tab">Attachments</a></li>
     </ul>
     
 	<div class="tab-content">
-		<div class="tab-pane active" id="tab_compose">
+		<div class="tab-pane active" id="tab_compose_ecm">
 			<form>
 				<fieldset>
 					<legend><i class="icon-edit"></i> Compose</legend>
@@ -45,7 +45,7 @@
 				</fieldset>
 			</form>
 		</div>
-		<div class="tab-pane fieldset-group" id="tab_links">
+		<div class="tab-pane fieldset-group" id="tab_links_ecm">
 			<form>
 				<legend><i class="icon-link"></i> Links</legend>
 				<div class="row-fluid">
@@ -132,7 +132,7 @@
 				</div>
 			</form>
 		</div>
-	    <div class="tab-pane fieldset-group" id="tab_access">
+	    <div class="tab-pane fieldset-group" id="tab_access_ecm">
 			<form>
 
 					<div class="row-fluid">
@@ -159,7 +159,7 @@
 
 			</form>
 		</div>
-		<div class="tab-pane" id="tab_attachments">
+		<div class="tab-pane" id="tab_attachments_ecm">
 			<form>
 				<fieldset class="attachment">
 					<legend><i class="icon-paper-clip"></i> Attachments</legend>

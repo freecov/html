@@ -1,14 +1,14 @@
 <div class="tabbable"> <!-- Only required for left/right tabs -->
 	<ul class="nav nav-tabs">
-		<li class="active"><a href="#tab_general" data-toggle="tab">General</a></li>
-		<li><a href="#tab_costs" data-toggle="tab">Costs</a></li>
-		<li><a href="#tab_links" data-toggle="tab">Access / Links</a></li>
-		<li><a href="#tab_attachments" data-toggle="tab">Dates / Attachments</a></li>
-		<li><a href="#tab_communication" data-toggle="tab">Sales communication</a></li>
+		<li class="active"><a href="#tab_general_asim" data-toggle="tab">General</a></li>
+		<li><a href="#tab_costs_asim" data-toggle="tab">Costs</a></li>
+		<li><a href="#tab_links_asim" data-toggle="tab">Access / Links</a></li>
+		<li><a href="#tab_attachments_asim" data-toggle="tab">Dates / Attachments</a></li>
+		<li><a href="#tab_communication_asim" data-toggle="tab">Sales communication</a></li>
     </ul>
     
 	<div class="tab-content">
-		<div class="tab-pane fieldset-group active" id="tab_general">
+		<div class="tab-pane fieldset-group active" id="tab_general_asim">
 			<form>
 				<fieldset>
 					<legend><i class="icon-edit"></i> General</legend>
@@ -26,7 +26,7 @@
 				</fieldset>
 			</form>
 		</div>
-		<div class="tab-pane fieldset-group" id="tab_costs">
+		<div class="tab-pane fieldset-group" id="tab_costs_asim">
 			<form>
 				<fieldset>
 					<legend><i class="icon-money"></i> Costs</legend>
@@ -43,7 +43,7 @@
 				</fieldset>
 			</form>
 		</div>
-		<div class="tab-pane fieldset-group" id="tab_links">
+		<div class="tab-pane fieldset-group" id="tab_links_asim">
 			<form>
 				<div class="row-fluid">
 					<div class="span6">
@@ -195,7 +195,7 @@
 				</div>
 			</form>
 		</div>
-		<div class="tab-pane" id="tab_attachments">
+		<div class="tab-pane" id="tab_attachments_asim">
 			<form>
 				<legend><i class="icon-check"></i> To do</legend>
 				<div class="well well-covide">
@@ -326,11 +326,14 @@
 				</div>
 			</form>
 		</div>
-		<div class="tab-pane fieldset-group" id="tab_communication">
+		<div class="tab-pane fieldset-group" id="tab_communication_asim">
 			<form>
 				<div class="btn-group">
 					<button class="btn btn-small" data-toggle="modal" href="_modals/newappointment_modal.php" data-target="#addappModal" ><i class="icon-calendar"></i> new appiontment</button>
-					<!-- Start Add NEW APP Modal -->
+					<button class="btn btn-small" data-toggle="modal" href="_modals/email_compose_modal.php" data-target="#addemailModal" ><i class="icon-envelope-alt"></i> new email</button>
+					<button class="btn btn-small" data-toggle="modal" href="_modals/add_note_modal.php" data-target="#addnoteModal" ><i class="icon-pencil"></i> new note</button>
+				</div>
+				<!-- Start Add NEW APP Modal -->
 					<div id="addappModal" class="modal add-classification-big-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addappModalLabel" aria-hidden="true">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
@@ -345,7 +348,7 @@
 					</div>
 					<!-- End Add NEW APPModal -->
 					
-					<button class="btn btn-small" data-toggle="modal" href="_modals/email_compose_modal.php" data-target="#addemailModal" ><i class="icon-envelope-alt"></i> new email</button>
+					
 					<!-- Start Add NEW Email Modal -->
 					<div id="addemailModal" class="modal add-classification-big-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addemailModalLabel" aria-hidden="true">
 						<div class="modal-header">
@@ -361,7 +364,7 @@
 					</div>
 					<!-- End Add NEW Email Modal -->
 					
-					<button class="btn btn-small" data-toggle="modal" href="_modals/add_note_modal.php" data-target="#addnoteModal" ><i class="icon-pencil"></i> new note</button>
+					
 					<!-- Start Add NEW Email Modal -->
 					<div id="addnoteModal" class="modal add-classification-big-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addnoteModalLabel" aria-hidden="true">
 						<div class="modal-header">
@@ -376,7 +379,6 @@
 						</div>
 					</div>
 					<!-- End Add NEW Email Modal -->
-				</div>
 			</form>
 
 		</div>
