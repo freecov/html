@@ -6,7 +6,7 @@
 							<legend><i class="icon-user"></i> User</legend>
 							<div class="controls controls-row">
 								<input class="span8" type="text" placeholder="Type search user">
-								<button class="btn span4" type="button" data-toggle="modal" href="_modals/add_users_classification_modal.php" data-target="#addusersModal" ><i class="icon-plus"></i> Add</button>
+								<button class="btn span4" type="button" data-toggle="modal" href="_modals/add_users_classification_modal.php" data-target="#addusersModal_astm" ><i class="icon-plus"></i> Add</button>
 							</div>
 							<ul class="list-striped linked-ul inline">
 								<li class="odd form-inline controls-row">Robbert <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
@@ -24,10 +24,10 @@
 					</div>
 				</div>
 				<!-- Start Users Modal -->
-                <div id="addusersModal" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addusersModalLabel" aria-hidden="true">
+                <div id="addusersModal_astm" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addusersModal_astm_Label" aria-hidden="true">
 					<div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-							<h4 id="addusersModalLabel"><i class="icon-user"></i> Add users</h4>
+							<h4 id="addusersModal_astm_Label"><i class="icon-user"></i> Add users</h4>
                     </div>
                     <div class="modal-body">
 					</div>
