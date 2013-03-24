@@ -55,7 +55,7 @@
         </ul>
         <ul class="nav visible-desktop">
             <li class="<?=$activeMenuItem == 'projects' ? 'active' : ''; ?>">
-                <a href="#"><i class="icon-list"></i> Projects</a>
+                <a href="projects"><i class="icon-list"></i> Projects</a>
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'sales' ? 'active' : ''; ?>">
@@ -63,7 +63,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'customer' ? 'active' : ''; ?>">
-                <a href="#"><i class="icon-bolt"></i> Customer Care</a>
+                <a href="customer_care.php"><i class="icon-bolt"></i> Customer Care</a>
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'campaign' ? 'active' : ''; ?>">
@@ -82,7 +82,7 @@
                     <i class="icon-reorder"></i>
                 </a>
                 <ul class="dropdown-menu" role="menu">
-                    <li><a href="#"><i class="icon-list"></i> Projects</a></li>
+                    <li><a href="projects.php"><i class="icon-list"></i> Projects</a></li>
                     <li><a href="sales.php"><i class="icon-bar-chart"></i> Sales</a></li>
                     <li><a href="customer_care.php"><i class="icon-bolt"></i> Customer Care</a></li>
                     <li><a href="#"><i class="icon-list-alt"></i> Campaign</a></li>

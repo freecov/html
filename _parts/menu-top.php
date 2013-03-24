@@ -119,7 +119,7 @@
         </ul>
         <ul class="nav visible-desktop">
             <li class="dropdown hover-menu <?=$activeMenuItem == 'projects' ? 'active' : ''; ?>">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <a class="dropdown-toggle" href="projects.php">
                     <i class="icon-list"></i>
                     Projects
                     <b class="caret"></b>
@@ -215,7 +215,7 @@
                 </a>
                 <ul class="dropdown-menu" role="menu">
                     <li class="dropdown-submenu">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <a class="dropdown-toggle" href="projects.php">
                             <i class="icon-list"></i>
                             Projects
                         </a>
