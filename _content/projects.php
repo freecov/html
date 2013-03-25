@@ -109,7 +109,7 @@
                         <td>
 							<div class="btn-group">
 								<a class="btn btn-small"><i class="icon-edit"></i></a>
-								<a class="btn btn-small"><i class="icon-file-alt"></i></a>
+								<a href="projects_overview.php" class="btn btn-small"><i class="icon-file-alt"></i></a>
 							</div>
 						</td>
                     </tr>
@@ -122,7 +122,7 @@
                         <td>
 							<div class="btn-group">
 								<a class="btn btn-small"><i class="icon-edit"></i></a>
-								<a class="btn btn-small"><i class="icon-file-alt"></i></a>
+								<a href="projects_overview.php" class="btn btn-small"><i class="icon-file-alt"></i></a>
 							</div>
 						</td>
                     </tr>
@@ -135,7 +135,7 @@
                         <td>
 							<div class="btn-group">
 								<a class="btn btn-small"><i class="icon-edit"></i></a>
-								<a class="btn btn-small"><i class="icon-file-alt"></i></a>
+								<a href="projects_overview.php" class="btn btn-small"><i class="icon-file-alt"></i></a>
 							</div>
 						</td>
                     </tr>
