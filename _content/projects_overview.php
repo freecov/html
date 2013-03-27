@@ -43,9 +43,45 @@
 		
 			<div class="well-title">
                 <span class="title">Curabitur</span>
-            </div>
-            
 
+				<div class="btn-group pull-right">
+					<a class="btn" data-toggle="modal" href="_modals/add_project_modal.php" data-target="#addproject_po_Modal"><i class="icon-edit"></i> Edit</a>
+					<a class="btn" data-toggle="modal" href="_modals/hour_registration_modal.php" data-target="#hourregistration_po_Modal"><i class="icon-time"></i> Input costs</a>
+					<a class="btn" href="#"><i class="icon-align-justify"></i> Extended</a>
+				</div>
+            </div>
+			
+			
+			<!-- Start Add Project Modal -->
+			<div id="addproject_po_Modal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="addproject_po_ModalLabel" aria-hidden="true">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+					<h4 id="addproject_po_ModalLabel"><i class="icon-list"></i> Add project</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					<button class="btn btn-warning">Add project</button>
+				</div>
+			</div>
+			<!-- End Add Project Modal -->
+			
+			<!-- Start hourregistration Modal -->
+			<div id="hourregistration_po_Modal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="hourregistration_po_ModalLabel" aria-hidden="true">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+					<h4 id="hourregistration_po_ModalLabel"><i class="icon-time"></i> Hour registration</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					<button class="btn btn-warning">Save</button>
+				</div>
+			</div>
+			<!-- End hourregistration Modal -->
+			
+			
+			
             <table class="table table-condensed table-striped table-hover table-activities">
                 <colgroup>
                     <col>
