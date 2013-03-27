@@ -109,27 +109,27 @@
 								<tr>
 									<td>Suspendisse ornare</td>
 									<td>Pellentesque volutpat, lectus eget feugiat auctor</td>
-									<td><span class="label label-active label-success" data-original-title="active">A</span></td>
+									<td><span class="label label-active label-success" data-original-title="active"><i class="icon-ok-circle"></i></span></td>
 								</tr>
 								<tr>
 									<td>Vivamus</td>
 									<td>Cras condimentum est sit amet tellus scelerisque vulputate</td>
-									<td><span class="label label-active" data-original-title="passive">P</span></td>
+									<td><span class="label label-active" data-original-title="passive"><i class="icon-circle-blank"></i></span></td>
 								</tr>
 								<tr>
 									<td>Aliquam</td>
 									<td>Curabitur at mauris dolor, id lobortis felis</td>
-									<td><span class="label label-active label-success" data-original-title="active">A</span></td>
+									<td><span class="label label-active label-success" data-original-title="active"><i class="icon-ok-circle"></i></span></td>
 								</tr>
 								<tr>
 									<td>Suspendisse ornare</td>
 									<td>Pellentesque volutpat, lectus eget feugiat auctor</td>
-									<td><span class="label label-active label-success" data-original-title="active">A</span></td>
+									<td><span class="label label-active label-success" data-original-title="active"><i class="icon-ok-circle"></i></span></td>
 								</tr>
 								<tr>
 									<td>Vivamus</td>
 									<td>Cras condimentum est sit amet tellus scelerisque vulputate</td>
-									<td><span class="label label-active" data-original-title="passive">P</span></td>
+									<td><span class="label label-active" data-original-title="passive"><i class="icon-circle-blank"></i></span></td>
 								</tr>
 							</tbody>
 						</table>
