@@ -62,7 +62,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="dropdown hover-menu <?=$activeMenuItem == 'todo' ? 'active' : ''; ?>">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <a class="dropdown-toggle" href="todo.php">
                     <i class="icon-check"></i>
                     To do's
                     <b class="caret"></b>

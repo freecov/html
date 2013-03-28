@@ -31,7 +31,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'todo' ? 'active' : ''; ?>">
-                <a href="#">
+                <a href="todo.php">
                     <i class="icon-check"></i>
                     To do's
                 </a>
@@ -55,7 +55,7 @@
         </ul>
         <ul class="nav visible-desktop">
             <li class="<?=$activeMenuItem == 'projects' ? 'active' : ''; ?>">
-                <a href="projects"><i class="icon-list"></i> Projects</a>
+                <a href="projects.php"><i class="icon-list"></i> Projects</a>
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'sales' ? 'active' : ''; ?>">
