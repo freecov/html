@@ -14,7 +14,7 @@
              <ul class="dropdown-menu">
                 <li><a href="#"><i class="icon-angle-right"></i> Print visible to-do's</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Print all to-do's</a></li>
-                <li><a href="#"><i class="icon-angle-right"></i> Show planning</a></li>
+                <li><a href="todo_show_planning.php"><i class="icon-angle-right"></i> Show planning</a></li>
             </ul>
         </div>
     </div>
@@ -23,7 +23,7 @@
 <!--Breadcrumb-->
 <div class="breadcrumb-covide">
     <a href="index.php"><i class="icon-home"></i> Home</a>
-    <a class="current" href="projects.php">To do's</a>
+    <a class="current" href="todo.php">To do's</a>
 	
 </div>
 
@@ -47,7 +47,8 @@
                         Selection actions <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-						<li><a href="#">export</a></li>
+						<li><a href="#">Edit selection</a></li>
+						<li><a href="#">Mark selection as done</a></li>
                     </ul>
                 </div>
                 
@@ -56,10 +57,14 @@
             <table class="table table-condensed table-striped table-hover">
                 <colgroup>
                     <col width="3%">
-                    <col width="20%">
-                    <col width="35%">
                     <col width="15%">
                     <col width="15%">
+                    <col width="15%">
+                    <col width="10%">
+                    <col width="10%">
+                    <col width="10%">
+                    <col width="10%">
+                    <col width="10%">
                     <col>
                 </colgroup>
                 <thead>
@@ -77,66 +82,91 @@
 								</ul>
 							</div>
 						</th>
+                        <th>To do</th>
+                        <th>Date</th>
+                        <th>End date</th>
+                        <th>Contact</th>
                         <th>Project</th>
-                        <th>Description</th>
-                        <th>Executor</th>
-                        <th>Relations</th>
+                        <th>User</th>
+                        <th>Status</th>
+                        <th>Priority</th>
                         <th></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td><input type="checkbox"></td>
-                        <td>Main Project sjdfhl a</td>
-                        <td>WBSO TV uitvoeren</td>
-                        <td>willem</td>
-                        <td><a href="#">Terrazur</a></td>
+                        <td><a href=#>Vestibulum</a></td>
+                        <td>17-03-2013 22:24</td>
+                        <td>18-03-2013 22:24</td>
+                        <td><a href=#>Willem</a></td>
+                        <td><a href=#>Praesent</a></td>
+                        <td>osdn</td>
+                        <td><span  data-original-title="active" class="label label-active label-success">A</span></td>
                         <td>
-							<div class="btn-group">
-								<a class="btn btn-small"><i class="icon-edit"></i></a>
-								<a href="projects_show_info.php" class="btn btn-small"><i class="icon-file"></i></a>
-							</div>
+							<div  data-original-title="high" class="progress progress-small progress-striped">
+                                <div class="bar bar-danger" style="width: 100%;"></div>
+                            </div>
 						</td>
-                    </tr>
-                    <tr>
-                        <td><input type="checkbox"></td>
-                        <td>Morbi</td>
-                        <td>Sed nec lacus eget augue ultricies consectetur</td>
-                        <td>willem</td>
-                        <td><a href="#">Terrazur</a></td>
                         <td>
 							<div class="btn-group">
-								<a class="btn btn-small"><i class="icon-edit"></i></a>
-								<a href="projects_overview.php" class="btn btn-small"><i class="icon-file-alt"></i></a>
-							</div>
-						</td>
-                    </tr>
-					<tr>
-                        <td><input type="checkbox"></td>
-                        <td>Vivamus</td>
-                        <td>Nullam orci ante, tincidunt vitae varius ve</td>
-                        <td>willem</td>
-                        <td><a href="#">Terrazur</a></td>
-                        <td>
-							<div class="btn-group">
-								<a class="btn btn-small"><i class="icon-edit"></i></a>
-								<a href="projects_overview.php" class="btn btn-small"><i class="icon-file-alt"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-info-sign"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-thumbs-up"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-edit"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-calendar"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-time"></i></a>
 							</div>
 						</td>
                     </tr>
 					<tr>
                         <td><input type="checkbox"></td>
-                        <td>Vestibulum</td>
-                        <td>Suspendisse vel justo ut eros lobortis condimentum</td>
-                        <td>willem</td>
-                        <td><a href="#">Terrazur</a></td>
+                        <td><a href=#>Aenean</a> <span class="label label-important"><i class="icon-flag "></i></span></td>
+                        <td>17-03-2013 22:24</td>
+                        <td>18-03-2013 22:24</td>
+                        <td><a href=#>Willem</a></td>
+                        <td><a href=#>Praesent</a></td>
+                        <td>osdn</td>
+                        <td><span  data-original-title="active" class="label label-active">P</span></td>
+                        <td>
+							<div  data-original-title="high" class="progress progress-small progress-striped">
+                                <div class="bar bar-warning" style="width: 66%;"></div>
+                            </div>
+						</td>
                         <td>
 							<div class="btn-group">
-								<a class="btn btn-small"><i class="icon-edit"></i></a>
-								<a href="projects_overview.php" class="btn btn-small"><i class="icon-file-alt"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-info-sign"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-thumbs-up"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-edit"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-calendar"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-time"></i></a>
 							</div>
 						</td>
                     </tr>
+					<tr>
+                        <td><input type="checkbox"></td>
+                        <td><a href=#>Class</a></td>
+                        <td>17-03-2013 22:24</td>
+                        <td>18-03-2013 22:24</td>
+                        <td><a href=#>Willem</a></td>
+                        <td><a href=#>Praesent</a></td>
+                        <td>osdn</td>
+                        <td><span  data-original-title="active" class="label label-active label-success">A</span></td>
+                        <td>
+							<div  data-original-title="high" class="progress progress-small progress-striped">
+                                <div class="bar bar-success" style="width: 33%;"></div>
+                            </div>
+						</td>
+                        <td>
+							<div class="btn-group">
+								<a href="#" class="btn btn-small"><i class="icon-info-sign"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-thumbs-up"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-edit"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-calendar"></i></a>
+								<a href="#" class="btn btn-small"><i class="icon-time"></i></a>
+							</div>
+						</td>
+                    </tr>
+                    
                 </tbody>
             </table>
 
