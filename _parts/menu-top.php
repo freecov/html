@@ -97,7 +97,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="dropdown hover-menu <?=$activeMenuItem == 'files' ? 'active' : ''; ?>">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <a class="dropdown-toggle" href="file_managment.php">
                     <i class="icon-folder-open"></i>
                     File Managment
                     <b class="caret"></b>

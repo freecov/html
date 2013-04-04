@@ -46,7 +46,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="<?=$activeMenuItem == 'files' ? 'active' : ''; ?>">
-                <a href="#">
+                <a href="file_managment.php">
                     <i class="icon-folder-open"></i>
                     File Managment
                 </a>
