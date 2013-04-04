@@ -73,11 +73,11 @@
                         <td>
 							<div class="btn-group">
 								<a href="#" class="btn btn-small"><i class="icon-phone"></i></a>
-								<a href="#" class="btn btn-small"><i class="icon-folder-open"></i></a>
+								<a class="btn btn-small" data-toggle="modal" href="_modals/campaign_overview_modal.php" data-target="#campaign_overviewModal" ><i class="icon-folder-open"></i></a>
 								<a href="#" class="btn btn-small"><i class="icon-refresh"></i></a>
-								<a href="#" class="btn btn-small"><i class="icon-edit"></i></a>
+								<a class="btn btn-small" data-toggle="modal" href="_modals/campaign_edit_modal.php" data-target="#campaign_editModal"><i class="icon-edit"></i></a>
 								<a href="#" class="btn btn-small"><i class="icon-search"></i></a>
-								<a href="#" class="btn btn-small"><i class="icon-plus-sign"></i></a>
+								<a class="btn btn-small" data-toggle="modal" href="_modals/campaign_add_classification_modal.php" data-target="#campaign_add_classModal"><i class="icon-plus-sign"></i></a>
 							</div>
 						</td>
                     </tr>
@@ -90,9 +90,9 @@
                         <td>0</td>
                         <td>
 							<div class="btn-group">
-								<a href="#" class="btn btn-small"><i class="icon-folder-open"></i></a>
-								<a href="#" class="btn btn-small"><i class="icon-edit"></i></a>
-								<a href="#" class="btn btn-small"><i class="icon-plus-sign"></i></a>
+								<a class="btn btn-small" data-toggle="modal" href="_modals/campaign_overview_modal.php" data-target="#campaign_overviewModal"><i class="icon-folder-open"></i></a>
+								<a class="btn btn-small" data-toggle="modal" href="_modals/campaign_edit_modal.php" data-target="#campaign_editModal"><i class="icon-edit"></i></a>
+								<a class="btn btn-small" data-toggle="modal" href="_modals/campaign_add_classification_modal.php" data-target="#campaign_add_classModal"><i class="icon-plus-sign"></i></a>
 							</div>
 						</td>
                     </tr>
@@ -105,9 +105,8 @@
                         <td>0</td>
                         <td>
 							<div class="btn-group">
-								<a href="#" class="btn btn-small"><i class="icon-envelope-alt"></i></a>
 								<a href="#" class="btn btn-small"><i class="icon-search"></i></a>
-								<a href="#" class="btn btn-small"><i class="icon-edit"></i></a>
+								<a class="btn btn-small" data-toggle="modal" href="_modals/campaign_edit_modal.php" data-target="#campaign_editModal"><i class="icon-edit"></i></a>
 							</div>
 						</td>
                     </tr>
@@ -115,7 +114,63 @@
                     
                 </tbody>
             </table>
+			
+			<!-- Start Campaigns overview Modal -->
+			<div id="campaign_overviewModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="campaign_overviewModalLabel" aria-hidden="true">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+					<h4 id="campaign_overviewModalLabel"><i class="icon-list-alt"></i> Campaign overview</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<div class="btn-group pull-left">
+						<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+							Export
+							<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu text-left">
+							<li><a href=#>Export as XML</a></li>
+							<li><a href=#>Export as CSV</a></li>
+						</ul>
+					</div>
+					<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+				</div>
+			</div>
+			<!-- End Campaigns overview Modal -->
+			
+			
+			<!-- Start Campaigns Edit Modal -->
+			<div id="campaign_editModal" class="modal add-calssification-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="campaign_editModalLabel" aria-hidden="true">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+					<h4 id="campaign_editModalLabel"><i class="icon-list-alt"></i> Campaign edit</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					<button class="btn btn-warning"><i class="icon-save"></i> Save</button>
+				</div>
+			</div>
+			<!-- End Campaigns overview Modal -->
 
+			
+			<!-- Start Add class Modal -->
+			<div id="campaign_add_classModal" class="modal add-calssification-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="campaign_add_classModalLabel" aria-hidden="true">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+					<h4 id="campaign_add_classModalLabel"><i class="icon-exchange"></i> Add new classification</h4>
+				</div>
+				<div class="modal-body"></div>
+				<div class="modal-footer">
+					<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+					<button class="btn btn-warning"><i class="icon-save"></i> Save</button>
+				</div>
+			</div>
+			<!-- End Add class Modal -->
+
+			
+			
+			
             <div class="pagination pagination-right no-margin">
 				<select class="span1" title="Items per page">
 					<option>5</option>
