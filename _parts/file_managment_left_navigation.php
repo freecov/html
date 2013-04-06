@@ -56,19 +56,13 @@
 		<hr>
 		<div class="well well-covide well-covide-menu">
 			<ul class="nav nav-tabs nav-stacked nav-covide">
-				<li>
-                    <a data-toggle="collapse" data-target="#submenu1" href="#"><i class="fcicon-file_extension_doc"></i> Relations</a>
-					<div id="submenu1" class="collapse in">
-						<ul class="nav nav-tabs nav-stacked nav-covide">
-							<li><a href="#"><i class="icon-folder-close-alt"></i> Customers</a></li>
-							<li><a href="#"><i class="icon-folder-close-alt"></i> Suppliers</a></li>
-							<li><a href="#"><i class="icon-folder-close-alt"></i> CMS forms</a></li>
-						</ul>
-					</div>
-				</li>
-				<li><a href="#"><i class="icon-group"></i> Employees</a></li>
-				<li><a href="#"><i class="icon-credit-card"></i> Businesscards</a></li>
-        		<li><a href="#"><i class="icon-ban-circle"></i> Inactive relations</a></li>
-				<li><a href="#"><i class="icon-warning-sign"></i> Duplicate relations</a></li>
+				<li><a href="#"><i class="silkicon-folder_brick"></i> CMS and public files</a></li>
+				<li><a href="#"><i class="silkicon-google"></i> Google docs</a></li>
+				<li><a href="#"><i class="silkicon-folder_user"></i> My documents</a></li>
+        		<li><a href="#"><i class="silkicon-folder_user"></i> My files</a></li>
+				<li><a href="#"><i class="silkicon-folder_lightbulb"></i> HRM files</a></li>
+				<li><a href="#"><i class="silkicon-folder_key"></i> Public files</a></li>
+				<li><a href="#"><i class="silkicon-folder_table"></i> Project files</a></li>
+				<li><a href="#"><i class="silkicon-folder_link"></i> Contact files</a></li>
 			</ul>
 		</div>
