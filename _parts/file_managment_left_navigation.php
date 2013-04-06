@@ -58,10 +58,10 @@
 			<ul class="nav nav-tabs nav-stacked nav-covide">
 				<li><a href="#"><i class="silkicon-folder_brick"></i> CMS and public files</a></li>
 				<li><a href="#"><i class="silkicon-google"></i> Google docs</a></li>
-				<li><a href="#"><i class="silkicon-folder_user"></i> My documents</a></li>
-        		<li><a href="#"><i class="silkicon-folder_user"></i> My files</a></li>
+				<li><a href="#"><i class="silkicon-folder_page"></i> My documents</a></li>
+        		<li><a href="#"><i class="silkicon-folder_picture"></i> My files</a></li>
 				<li><a href="#"><i class="silkicon-folder_lightbulb"></i> HRM files</a></li>
-				<li><a href="#"><i class="silkicon-folder_key"></i> Public files</a></li>
+				<li><a href="#"><i class="silkicon-folder_user"></i> Public files</a></li>
 				<li><a href="#"><i class="silkicon-folder_table"></i> Project files</a></li>
 				<li><a href="#"><i class="silkicon-folder_link"></i> Contact files</a></li>
 			</ul>
