@@ -57,7 +57,7 @@
 		<div class="well well-covide well-covide-menu">
 			<ul class="nav nav-tabs nav-stacked nav-covide">
 				<li>
-                    <a data-toggle="collapse" data-target="#submenu1" href="#"><i class="icon-sitemap"></i> Relations</a>
+                    <a data-toggle="collapse" data-target="#submenu1" href="#"><i class="fcicon-file_extension_doc"></i> Relations</a>
 					<div id="submenu1" class="collapse in">
 						<ul class="nav nav-tabs nav-stacked nav-covide">
 							<li><a href="#"><i class="icon-folder-close-alt"></i> Customers</a></li>
