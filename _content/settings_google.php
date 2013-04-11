@@ -21,7 +21,8 @@
 <!--Breadcrumb-->
 <div class="breadcrumb-covide">
     <a href="index.php"><i class="icon-home"></i> Home</a>
-    <a class="current" href="settings.php">Settings</a>
+    <a href="settings.php">Settings</a>
+    <a class="current" href="settings.php?page=google">Google</a>
 </div>
 
 <!--Address Content-->
@@ -35,11 +36,39 @@
         <div class="well well-covide">
            
 		   <div class="well-title">
-                <span class="title">Relations</span>
+                <span class="title">Google</span>
             </div>
-            <div class="well well-small well-covide-g">
+			
+            <div class="well well-small well-covide-g fieldset-group">
                 
+				<form>
+					<div class="row-fluid">
+						<div class="span6">
+							<fieldset>
+								<legend>Google apps</legend>
+								<div class="controls controls-row">
+									<label>Username:</label>
+									<input class="span12" type="text" placeholder="Username" >
+									<label>Password:</label>
+									<input class="span12" type="text" placeholder="Password" >
+								</div>
+							</fieldset>
+						</div>
+						<div class="span6">
+							<fieldset>
+								<legend>Google map</legend>
+								<div class="controls controls-row">
+									<label>Default starting point:</label>
+									<input class="span12" type="text" placeholder="Default starting point" >
+								</div>
+							</fieldset>
+						</div>
+
+					</div>
+				</form>
+				
             </div>
+			<button class="btn btn-warning" type="button"><i class="icon-save"></i> Save</button>
 
 
         </div>

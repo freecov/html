@@ -21,7 +21,8 @@
 <!--Breadcrumb-->
 <div class="breadcrumb-covide">
     <a href="index.php"><i class="icon-home"></i> Home</a>
-    <a class="current" href="settings.php">Settings</a>
+    <a href="settings.php">Settings</a>
+    <a class="current" href="settings.php?page=themes">Themes</a>
 </div>
 
 <!--Address Content-->
@@ -35,12 +36,40 @@
         <div class="well well-covide">
            
 		   <div class="well-title">
-                <span class="title">Relations</span>
+                <span class="title">Themes</span>
             </div>
-            <div class="well well-small well-covide-g">
-                
-            </div>
+            <div class="well well-small well-covide-g fieldset-group">
+				<form>
+					<div class="row-fluid">
+						<div class="span4">
+							<img src="img/theme1.jpg" class="img-polaroid">
+						</div>
+						<div class="span8">
+						
+							<div class="controls controls-row">
+								<label class="radio">
+									<input type="radio" name="optionsRadiosTHEMES" id="optionsRadios1" value="option1" checked>
+									Covide IX	
+								</label>
+								<label class="radio">
+									<input type="radio" name="optionsRadiosTHEMES" id="optionsRadios2" value="option2">
+									Covide white	
+								</label>
+								<label class="radio">
+									<input type="radio" name="optionsRadiosTHEMES" id="optionsRadios1" value="option3">
+									SilverLightning		
+								</label>
+								<label class="radio">
+									<input type="radio" name="optionsRadiosTHEMES" id="optionsRadios2" value="option4">
+									SunSet
+								</label>
+							</div>
 
+						</div>	
+					</div>							
+				</form>
+            </div>
+			<button class="btn btn-warning" type="button"><i class="icon-save"></i> Save</button>
 
         </div>
 	</div>

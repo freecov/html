@@ -40,8 +40,8 @@
             </div>
 			
             
-			<form>
-				<div class="well well-small well-covide-g fieldset-group">
+			<div class="well well-small well-covide-g fieldset-group">
+				<form>
 					<div class="row-fluid">
 						<div class="span6">
 							<fieldset>
@@ -50,44 +50,46 @@
 									<select class="span12"><option value="1" selected="selected">daily view</option><option value="2">monthly calendar</option><option value="3">weekly view</option><option value="4">daily view with weekview</option></select>
 								</div>
 							</fieldset>
-						</div>
-						<div class="span3">
+						
 							<fieldset>
 								<legend>Default calendar interval</legend>
 								<div class="controls controls-row">
 									<select class="span12"><option value="5">5</option><option value="6">6</option><option value="15" selected="selected">15</option><option value="30">30</option><option value="60">60</option></select>
 								</div>
 							</fieldset>
-						</div>
-						<div class="span3">
+						
 							<fieldset>
 								<legend>Default calendar slot interval</legend>
 								<div class="controls controls-row">
 									<select class="span12"><option value="5" selected="selected">5</option><option value="6">6</option><option value="15">15</option><option value="30">30</option><option value="60">60</option></select>
 								</div>
 							</fieldset>
-						</div>
-					</div>
-					<div class="row-fluid">
-						<div class="span3">
+							
 							<fieldset>
 								<legend>Default calendar timeformat</legend>
-								<div class="controls controls-row">
-									<select class="span12"><option value="0" selected="selected">24 hour</option><option value="1">12 hour</option></select>
-								</div>
+									<div class="controls controls-row">
+										<label class="radio inline">
+											<input type="radio" name="optionsRadiostimeformat" id="optionsRadios1" value="option1" checked>
+											12 hour
+										</label>
+										<label class="radio inline">
+											<input type="radio" name="optionsRadiostimeformat" id="optionsRadios2" value="option2">
+											24 hour
+										</label>
+									</div>
 							</fieldset>
+
 						</div>
-						<div class="span3">
+						<div class="span6">
 							<fieldset>
 								<legend>Calendar start hour</legend>
 								<div class="controls controls-row">
 									<select class="span12"><option value="0" selected="selected">24 hour</option><option value="1">12 hour</option></select>
 								</div>
 							</fieldset>
-						</div>
-						<div class="span6">
+							
 							<fieldset>
-								<legend><i class="icon-group"></i> Users</legend>
+								<legend>Default calendar selection</legend>
 								<div class="controls controls-row">
 									<input class="span8" type="text" placeholder="Type search user">
 									<button class="btn span4" type="button" data-toggle="modal" href="_modals/add_users_classification_modal.php" data-target="#addusersModal" ><i class="icon-plus"></i> Add</button>
@@ -99,9 +101,9 @@
 							</fieldset>
 						</div>
 					</div>
-				</div>
+			</div>
 				<button class="btn btn-warning" type="button"><i class="icon-save"></i> Save</button>
-			</form>
+
 			
 			<!-- Start Users Modal -->
                 <div id="addusersModal" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addusersModalLabel" aria-hidden="true">
