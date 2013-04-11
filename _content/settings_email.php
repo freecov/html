@@ -40,83 +40,37 @@
             </div>
 			
             
-			<form>
+		
 				<div class="well well-small well-covide-g fieldset-group">
-					<div class="row-fluid">
-						<div class="span6">
-							<fieldset>
-								<legend>Default multi-user calendar view</legend>
-								<div class="controls controls-row">
-									<select class="span12"><option value="1" selected="selected">daily view</option><option value="2">monthly calendar</option><option value="3">weekly view</option><option value="4">daily view with weekview</option></select>
-								</div>
-							</fieldset>
-						</div>
-						<div class="span3">
-							<fieldset>
-								<legend>Default calendar interval</legend>
-								<div class="controls controls-row">
-									<select class="span12"><option value="5">5</option><option value="6">6</option><option value="15" selected="selected">15</option><option value="30">30</option><option value="60">60</option></select>
-								</div>
-							</fieldset>
-						</div>
-						<div class="span3">
-							<fieldset>
-								<legend>Default calendar slot interval</legend>
-								<div class="controls controls-row">
-									<select class="span12"><option value="5" selected="selected">5</option><option value="6">6</option><option value="15">15</option><option value="30">30</option><option value="60">60</option></select>
-								</div>
-							</fieldset>
-						</div>
-					</div>
-					<div class="row-fluid">
-						<div class="span3">
-							<fieldset>
-								<legend>Default calendar timeformat</legend>
-								<div class="controls controls-row">
-									<select class="span12"><option value="0" selected="selected">24 hour</option><option value="1">12 hour</option></select>
-								</div>
-							</fieldset>
-						</div>
-						<div class="span3">
-							<fieldset>
-								<legend>Calendar start hour</legend>
-								<div class="controls controls-row">
-									<select class="span12"><option value="0" selected="selected">24 hour</option><option value="1">12 hour</option></select>
-								</div>
-							</fieldset>
-						</div>
-						<div class="span6">
-							<fieldset>
-								<legend><i class="icon-group"></i> Users</legend>
-								<div class="controls controls-row">
-									<input class="span8" type="text" placeholder="Type search user">
-									<button class="btn span4" type="button" data-toggle="modal" href="_modals/add_users_classification_modal.php" data-target="#addusersModal" ><i class="icon-plus"></i> Add</button>
-								</div>
-								<ul class="list-striped linked-ul inline">
-									<li class="odd form-inline controls-row">Robbert <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-									<li class="form-inline controls-row">Marijke <button type="button" class="close close-extra-field" ><i class="icon-remove-sign"></i></button></li>
-								</ul>	
-							</fieldset>
-						</div>
-					</div>
+					
+					<form>
+						<div class="row-fluid">
+							<div class="span6">
+								<fieldset>
+									<legend>Email</legend>
+									<label>Label name</label>
+									<input type="text" placeholder="Type something...">
+									<span class="help-block">Example block-level help text here.</span>
+								</fieldset>
+							</div>
+							<div class="span6">
+								<fieldset>
+									<legend>E-mail (alternatief)</legend>
+									<label>Label name</label>
+									<input type="text" placeholder="Type something...">
+									<span class="help-block">Example block-level help text here.</span>
+								</fieldset>
+							</div>	
+						</div>							
+						<br>
+						<button class="btn btn-warning" type="button"><i class="icon-save"></i> Save</button>
+					</form>
+					
 				</div>
-				<button class="btn btn-warning" type="button"><i class="icon-save"></i> Save</button>
-			</form>
+				
+
 			
-			<!-- Start Users Modal -->
-                <div id="addusersModal" class="modal add-classification-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addusersModalLabel" aria-hidden="true">
-					<div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-							<h4 id="addusersModalLabel"><i class="icon-user"></i> Add users</h4>
-                    </div>
-                    <div class="modal-body">
-					</div>
-                    <div class="modal-footer">
-						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-						<button class="btn btn-warning">Add Users</button>
-					</div>
-				</div>
-			<!-- End Users Modal -->
+
 				
 				
         </div>
