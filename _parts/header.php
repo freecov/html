@@ -26,7 +26,7 @@
                         </button>
                         <ul class="dropdown-menu">
                             <li><a href="#"><i class="icon-group"></i> Online users</a></li>
-                            <li><a href="#"><i class="icon-wrench"></i> User settings</a></li>
+                            <li><a href="settings.php"><i class="icon-wrench"></i> User settings</a></li>
                             <li class="divider"></li>
                             <li><a href="#"><i class="icon-signout"></i> Logout</a></li>
                         </ul>
