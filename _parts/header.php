@@ -25,12 +25,27 @@
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                            <li><a href="#"><i class="icon-group"></i> Online users</a></li>
+                            <li><a data-toggle="modal" href="_modals/list_users_modal.php" data-target="#listusers_header_Modal"><i class="icon-group"></i> Online users</a></li>
                             <li><a href="settings.php"><i class="icon-wrench"></i> User settings</a></li>
                             <li class="divider"></li>
                             <li><a href="#"><i class="icon-signout"></i> Logout</a></li>
                         </ul>
                     </div>
+					
+					<!-- Start Users Modal -->
+					<div id="listusers_header_Modal" class="modal add-classification-big-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="listusers_header_ModalLabel" aria-hidden="true">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+							<h4 id="listusers_header_ModalLabel"><i class="icon-group"></i> List  users</h4>
+						</div>
+						<div class="modal-body">
+						</div>
+						<div class="modal-footer">
+							<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+						</div>
+					</div>
+					<!-- End Users Modal -->
+					
                     <div class="btn-group">
 
                         <button class="btn dropdown-toggle" data-toggle="dropdown">
