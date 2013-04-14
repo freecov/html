@@ -6,9 +6,20 @@
 <div class="row-fluid">
 	<div class="well well-covide">
 			<div class="input-append span12">
-				<input class="span9" id="appendedInputButton" type="text">
+				<input class="span7" id="appendedInputButton" type="text">
 				<button class="btn" type="button"><i class="icon-search"></i> Search</button>
 				<button class="btn" type="button" data-toggle="button"><i class="icon-group"></i>  Show all users</button>
+				<div class="btn-group">
+					<a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+						Change my status
+						<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+					 <li><a href="">Online</a></li>
+					 <li><a href="">Away</a></li>
+					 <li><a href="">Busy</a></li>
+					</ul>
+				</div>
 			</div>
             <table class="table table-condensed table-striped table-hover">
                 <colgroup>

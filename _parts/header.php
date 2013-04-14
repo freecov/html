@@ -20,8 +20,8 @@
             <div class="span4 buttons-header pull-right">
                 <div class="buttons">
                     <div class="btn-group">
-                        <button class="btn"><i class="icon-user"></i> Konstantin</button>
                         <button class="btn dropdown-toggle" data-toggle="dropdown">
+							<i class="icon-user"></i> Konstantin                        
                             <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
