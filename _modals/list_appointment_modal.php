@@ -65,7 +65,7 @@
 				<div id="addapp_lam_Modal" class="modal add-relation-modal hide fade text-left" tabindex="-1" role="dialog" aria-labelledby="addapp_lam_ModalLabel" aria-hidden="true">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
-						<h4 id="addapp_lam_ModalLabel"><i class="icon-check"></i> New appointment</h4>
+						<h4 id="addapp_lam_ModalLabel"><i class="icon-calendar"></i> New appointment</h4>
 					</div>
 					<div class="modal-body">
 					</div>

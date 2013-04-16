@@ -70,8 +70,8 @@
                 <a href="campaign.php"><i class="icon-list-alt"></i> Campaign</a>
             </li>
             <li class="divider-vertical"></li>
-            <li class="<?=$activeMenuItem == 'socials' ? 'active' : ''; ?>">
-                <a href="#"><i class="icon-twitter"></i> Social</a>
+            <li class="<?=$activeMenuItem == 'social' ? 'active' : ''; ?>">
+                <a href="social.php"><i class="icon-twitter"></i> Social</a>
             </li>
             <li class="divider-vertical"></li>
         </ul>
@@ -86,7 +86,7 @@
                     <li><a href="sales.php"><i class="icon-bar-chart"></i> Sales</a></li>
                     <li><a href="customer_care.php"><i class="icon-bolt"></i> Customer Care</a></li>
                     <li><a href="campaign.php"><i class="icon-list-alt"></i> Campaign</a></li>
-                    <li><a href="#"><i class="icon-twitter"></i> Social</a></li>
+                    <li><a href="social.php"><i class="icon-twitter"></i> Social</a></li>
                 </ul>
             </li>
         </ul>

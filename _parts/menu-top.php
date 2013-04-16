@@ -188,7 +188,7 @@
             </li>
             <li class="divider-vertical"></li>
             <li class="dropdown hover-menu <?=$activeMenuItem == 'social' ? 'active' : ''; ?>">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <a class="dropdown-toggle" href="social.php">
                     <i class="icon-twitter"></i>
                     Social
                     <b class="caret"></b>
@@ -276,7 +276,7 @@
                         </ul>
                     </li>
                     <li class="dropdown-submenu">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <a class="dropdown-toggle" href="social.php">
                             <i class="icon-twitter"></i>
                             Social
                         </a>
