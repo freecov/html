@@ -10,7 +10,7 @@
                         <input title="Autocomplete search field" type="text"
                                data-source='["Alabama","Alaska","Arizona","Arkansas","California","Cherniak Konstantin, konstantin.cherniak@gmail.com","Colorado","Connecticut","Delaware","Florida","Georgia","Hawaii","Idaho","Illinois","Indiana","Iowa","Kansas","Kentucky","Konstantin, designer","Louisiana","Maine","Maryland","Massachusetts","Michigan","Minnesota","Mississippi","Missouri","Montana","Nebraska","Nevada","New Hampshire","New Jersey","New Mexico","New York","North Dakota","North Carolina","Ohio","Oklahoma","Oregon","Pennsylvania","Rhode Island","South Carolina","South Dakota","Tennessee","Texas","Utah","Vermont","Virginia","Voznyakovsky Ivan","Washington","West Virginia","Wisconsin","Wyoming"]'
                                data-items="4" data-provide="typeahead" style="margin: 0 auto;">
-                        <button class="btn" type="button"><i class="icon-search"></i></button>
+                        <a href="search.php" class="btn" type="button"><i class="icon-search"></i></a>
 
                     </div><br/>
                         <small class="muted">Example: Cherniak Konstantin</small>
