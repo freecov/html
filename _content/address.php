@@ -15,7 +15,7 @@
                 <li><a href="#"><i class="icon-angle-right"></i> Search classifications</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Manage classifications</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Advanced search</a></li>
-                <li><a href="#"><i class="icon-angle-right"></i> Export all relations</a></li>
+                <li><a href="_modals/export_all_relations_modal.php" data-toggle="modal" data-target="#export_all_aModal" ><i class="icon-angle-right"></i> Export all relations</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Import relations</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Import vCard</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Global metadata</a></li>
@@ -29,6 +29,20 @@
         </div>
     </div>
 </div>
+
+<!-- Start export all  Modal -->
+<div id="export_all_aModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="export_all_aModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+		<h4 id="export_all_aModalLabel"><i class="icon-share-alt"></i> Export relations</h4>
+	</div>
+	<div class="modal-body"></div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		<button class="btn btn-warning">Export</button>
+	</div>
+</div>
+<!-- End export all Modal -->
 
 <!--Breadcrumb-->
 <div class="breadcrumb-covide">
