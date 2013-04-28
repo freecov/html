@@ -16,10 +16,10 @@
                 <li><a href="#"><i class="icon-angle-right"></i> Manage classifications</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Advanced search</a></li>
                 <li><a href="_modals/export_all_relations_modal.php" data-toggle="modal" data-target="#export_all_aModal" ><i class="icon-angle-right"></i> Export all relations</a></li>
-                <li><a href="#"><i class="icon-angle-right"></i> Import relations</a></li>
-                <li><a href="#"><i class="icon-angle-right"></i> Import vCard</a></li>
+                <li><a href="_modals/import_relations_modal.php" data-toggle="modal" data-target="#import_rel_aModal"><i class="icon-angle-right"></i> Import relations</a></li>
+                <li><a href="_modals/import_vcard_modal.php" data-toggle="modal" data-target="#import_vcard_aModal"><i class="icon-angle-right"></i> Import vCard</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Global metadata</a></li>
-                <li><a href="#"><i class="icon-angle-right"></i> Manage headers</a></li>
+                <li><a href="_modals/manage_headers_modal.php" data-toggle="modal" data-target="#manage_headers_aModal"><i class="icon-angle-right"></i> Manage headers</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Letter templates</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Manage custom view</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> View restricted e-mail archives</a></li>
@@ -43,6 +43,50 @@
 	</div>
 </div>
 <!-- End export all Modal -->
+
+
+<!-- Start import addresses  Modal -->
+<div id="import_rel_aModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="import_rel_aModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+		<h4 id="import_rel_aModalLabel"><i class="icon-share-alt"></i> Import relations</h4>
+	</div>
+	<div class="modal-body"></div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		<button class="btn btn-warning">Import</button>
+	</div>
+</div>
+<!-- End import addresses Modal -->
+
+<!-- Start import vcard  Modal -->
+<div id="import_vcard_aModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="import_vcard_aModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+		<h4 id="import_vcard_aModalLabel"><i class="icon-share-alt"></i> Import vcard</h4>
+	</div>
+	<div class="modal-body"></div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		<button class="btn btn-warning">Import</button>
+	</div>
+</div>
+<!-- End import vcard Modal -->
+
+
+<!-- Start manage_headers_  Modal -->
+<div id="manage_headers_aModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="manage_headers_aModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+		<h4 id="manage_headers_aModalLabel">Manage headers</h4>
+	</div>
+	<div class="modal-body"></div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+	</div>
+</div>
+<!-- End  manage_headers_ Modal -->
+
 
 <!--Breadcrumb-->
 <div class="breadcrumb-covide">
