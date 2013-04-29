@@ -1,6 +1,8 @@
-<div class="input-append span12">
-	<input class="span10" id="appendedInputButton" type="text">
-	<button class="btn" type="button"><i class="icon-search"></i> Search</button>
+<div class="row-fluid controls">
+	<div class="input-append span12">
+		<input class="span10" id="appendedInputButton" type="text">
+		<button class="btn" type="button"><i class="icon-search"></i> Search</button>
+	</div>
 </div>
 
 	

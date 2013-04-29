@@ -23,7 +23,7 @@
                 <li><a href="#"><i class="icon-angle-right"></i> Letter templates</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Manage custom view</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> View restricted e-mail archives</a></li>
-                <li><a href="#"><i class="icon-angle-right"></i> View businesscard revisions</a></li>
+                <li><a href="_modals/businesscard_revisions_modal.php" data-toggle="modal" data-target="#businesscard_revisions_aModal"><i class="icon-angle-right"></i> View businesscard revisions</a></li>
                 <li><a href="#"><i class="icon-angle-right"></i> Connect to LinkedIn (LinkedIn connections)</a></li>
             </ul>
         </div>
@@ -86,6 +86,20 @@
 	</div>
 </div>
 <!-- End  manage_headers_ Modal -->
+
+
+<!-- Start businesscard_revisions_aModal  Modal -->
+<div id="businesscard_revisions_aModal" class="modal add-relation-modal hide fade" tabindex="-1" role="dialog" aria-labelledby="businesscard_revisions_aModalLabel" aria-hidden="true">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-remove-sign"></i></button>
+		<h4 id="businesscard_revisions_aModalLabel">Businesscard Revisions</h4>
+	</div>
+	<div class="modal-body"></div>
+	<div class="modal-footer">
+		<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+	</div>
+</div>
+<!-- End  businesscard_revisions_aModal Modal -->
 
 
 <!--Breadcrumb-->
